@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(-225deg, #FA846E 6%, #FDAB3D 100%);
+	background: linear-gradient(-225deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%);
 	font-family: 'Px', sans-serif;
 	font-weight: 800;
 }
@@ -113,7 +113,7 @@ text-align: right;
 
 .icon img{
 	vertical-align: middle;
-	max-height: 25px;
+	max-height: 30px;
 }
 
 #footer{
