@@ -36,7 +36,7 @@ HTML{
 #logo{
 	display: inline-block;
 	vertical-align: middle;
-	padding: 50px 0 0 0;
+	padding: 35px 0 0 0;
 }
 
 #logo_image{
@@ -49,9 +49,7 @@ HTML{
 
 #tagline{
 	font-size: 28px;
-	margin: 0 0 0 0;
 	font-weight: 100;
-	line-height: 0px;
 }
 
 .icon{
