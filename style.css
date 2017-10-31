@@ -64,17 +64,6 @@ HTML{
 	max-height: 35px;
 }
 
-@media (min-width: 1920px) {
-
-
-}
-
-
-@media (max-width: 1080px){
-
-
-}
-
 
 @media (max-width: 1000px){
 
@@ -136,7 +125,6 @@ HTML{
 
 }
 
-
 @media (max-width: 425px){
 
 	.icon img{
@@ -152,7 +140,6 @@ HTML{
 	}
 
 }
-
 
 	@media (max-width: 390px){
 
