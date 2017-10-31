@@ -1,13 +1,13 @@
 body{
 	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%);
-	font-family: 'Px', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
 }
 
 p{
 	color: #FFFFFF;
 	letter-spacing: -0.2px;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 HTML{
@@ -24,11 +24,20 @@ HTML{
 	padding-top: 40px;
 }
 
+#contact{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 0px;
+	margin-top: 40px;
+	text-align: right;
+}
+
 #logo{
 	width: 50%;
 	display: inline-block;
-	vertical-align: top;
-	padding: 10px 0 0 0;
+	vertical-align: middle;
+	padding: 140px 0 0 0;
 }
 
 #logo_image{
@@ -36,18 +45,9 @@ HTML{
 }
 
 #tagline{
-	font-size: 34px;
-	margin: 10px 0 0 0;
-	font-weight: 400;
-}
-
-#contact{
-	width: 49%;
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 0px;
-	margin-top: 60px;
-	text-align: right;
+	font-size: 28px;
+	margin: 0 0 0 0;
+	font-weight: 200;
 }
 
 .icon{
