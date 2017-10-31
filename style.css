@@ -80,7 +80,7 @@ HTML{
 	}
 
 	#logo_image{
-		max-width: 400px;
+		max-width: 500px;
 	}
 
 	#tagline{
@@ -112,7 +112,7 @@ HTML{
 	}
 
 	#logo_image{
-		max-width: 350px;
+		max-width: 400px;
 	}
 
 	.wrapper{
@@ -121,6 +121,14 @@ HTML{
 
 	#header{
 		padding-top: 0px;
+	}
+
+}
+
+@media (max-width: 500px){
+
+	#logo_image{
+		max-width: 350px;
 	}
 
 }
