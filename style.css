@@ -6,8 +6,7 @@ body{
 
 p{
 	color: #FFFFFF;
-	letter-spacing: -0.2px;
-	line-height: 30px;
+	letter-spacing: +0.3px;
 }
 
 HTML{
@@ -20,34 +19,39 @@ HTML{
 	padding: 0 40px;
 }
 
-#header{
-	padding-top: 40px;
-}
-
-#contact{
-	width: 49%;
+#social{
+	width: 100%;
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 0px;
-	margin-top: 40px;
+	padding-top: 20px;
+	margin-top: 20px;
 	text-align: right;
 }
 
+#header{
+	padding-top: 20px;
+	text-align: center;
+}
+
 #logo{
-	width: 50%;
 	display: inline-block;
 	vertical-align: middle;
-	padding: 140px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 #logo_image{
 	max-width: 600px;
+	vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #tagline{
 	font-size: 28px;
 	margin: 0 0 0 0;
-	font-weight: 200;
+	font-weight: 100;
+	line-height: 0px;
 }
 
 .icon{
@@ -57,16 +61,7 @@ HTML{
 
 .icon img{
 	vertical-align: middle;
-	max-height: 30px;
-}
-
-#footer{
-	height: 300px;
-	width: 100%;
-	bottom: 0;
-	position:fixed;
-	overflow: visible;
-	z-index: -1;
+	max-height: 35px;
 }
 
 @media (min-width: 1920px) {
@@ -91,6 +86,18 @@ HTML{
 
 @media (max-width: 767px){
 
+	.icon img{
+		max-height: 30px;
+	}
+
+	#logo_image{
+		max-width: 400px;
+	}
+
+	#tagline{
+		font-size: 22px;
+	}
+
 	.wrapper{
 		margin: auto;
 	}
@@ -99,36 +106,62 @@ HTML{
 		padding-top: 0px;
 	}
 
-	#companies{
-		margin: 35px 0 0 0;
-		width: 100%;
+}
+
+@media (max-width: 600px){
+
+	#header{
+		padding-top: 10px;
+	}
+
+	#tagline{
+		font-size: 18px;
+	}
+
+	.icon img{
+		max-height: 28px;
+	}
+
+	#logo_image{
+		max-width: 350px;
+	}
+
+	.wrapper{
+		margin: auto;
+	}
+
+	#header{
+		padding-top: 0px;
 	}
 
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 425px){
+
+	.icon img{
+		max-height: 24px;
+	}
 
 	#logo_image{
 		max-width: 300px;
 	}
 
-	.wrapper{
-		padding: 0 25px;
-	}
-
-	#contact{
-		display: block;
-		margin-top: 50px;
+	#tagline{
+		font-size: 16px;
 	}
 
 }
 
 
-	@media (max-width: 320px){
+	@media (max-width: 390px){
 
 		#logo_image{
-			max-width: 200px;
+			max-width: 230px;
+		}
+
+		#tagline{
+			font-size: 13px;
 		}
 
 }
