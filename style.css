@@ -122,6 +122,10 @@ HTML{
 	max-width: 100px;
 }
 
+.reset{
+	max-width: 80px;
+}
+
 #speechplayer{
 	width: 39%;
 	display: inline-block;
