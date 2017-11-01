@@ -113,7 +113,7 @@ HTML{
 }
 
 #playbutton{
-	width: 19%;
+	width: 20%;
 	display: inline-block;
 	text-align: center;
 }
@@ -125,6 +125,15 @@ HTML{
 #speechplayer{
 	width: 39%;
 	display: inline-block;
+}
+
+#share{
+	padding-top: 60px;
+	text-align: center;
+}
+
+.sharebutton{
+	max-width: 120px;
 }
 
 
