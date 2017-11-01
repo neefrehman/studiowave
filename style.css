@@ -110,6 +110,33 @@ HTML{
 #songplayer{
 	width: 39%;
 	display: inline-block;
+	text-align: center;
+}
+
+#speechplayer{
+	width: 39%;
+	display: inline-block;
+	text-align: center;
+}
+
+#songreset{
+	width: 49%;
+	display: inline-block;
+}
+
+#songvolume{
+	width: 49%;
+	display: inline-block;
+}
+
+#speechreset{
+	width: 49%;
+	display: inline-block;
+}
+
+#speechvolume{
+	width: 49%;
+	display: inline-block;
 }
 
 #playbutton{
@@ -124,11 +151,6 @@ HTML{
 
 .reset{
 	max-width: 80px;
-}
-
-#speechplayer{
-	width: 39%;
-	display: inline-block;
 }
 
 #share{
