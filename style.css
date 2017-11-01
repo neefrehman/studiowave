@@ -135,6 +135,8 @@ HTML{
 
 	.icon img{
 		max-height: 24px;
+		padding-left: 3px;
+		padding-right: 3px;
 	}
 
 	#logo_image{
@@ -143,6 +145,10 @@ HTML{
 
 	#tagline{
 		font-size: 16px;
+	}
+
+	#social{
+		text-align: center;
 	}
 
 }
