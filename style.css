@@ -97,6 +97,15 @@ HTML{
 
 @media (max-width: 600px){
 
+	#social{
+		text-align: center;
+	}
+
+	.icon img{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
 	#header{
 		padding-top: 10px;
 	}
@@ -133,21 +142,12 @@ HTML{
 
 @media (max-width: 425px){
 
-	.icon img{
-		padding-left: 3px;
-		padding-right: 3px;
-	}
-
 	#logo_image{
 		max-width: 300px;
 	}
 
 	#tagline{
 		font-size: 16px;
-	}
-
-	#social{
-		text-align: center;
 	}
 
 }
