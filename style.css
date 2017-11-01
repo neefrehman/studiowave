@@ -66,12 +66,6 @@ HTML{
 	max-height: 35px;
 }
 
-#info{
-	position: absolute;
-	bottom: -90px;
-	right: 20px;
-}
-
 #media{
 	padding-top: 30px;
 	font-size: 40px;
@@ -154,12 +148,18 @@ HTML{
 }
 
 #share{
-	padding-top: 60px;
+	padding-top: 100px;
 	text-align: center;
 }
 
 .sharebutton{
 	max-width: 120px;
+}
+
+#info{
+	position: absolute;
+	bottom: -50px;
+	right: 20px;
 }
 
 
