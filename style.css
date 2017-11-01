@@ -103,6 +103,30 @@ HTML{
 	color: #FFE180;
 }
 
+#player{
+	padding-top: 30px;
+}
+
+#songplayer{
+	width: 39%;
+	display: inline-block;
+}
+
+#playbutton{
+	width: 19%;
+	display: inline-block;
+	text-align: center;
+}
+
+.playpause{
+	max-width: 100px;
+}
+
+#speechplayer{
+	width: 39%;
+	display: inline-block;
+}
+
 
 @media (max-width: 1000px){
 
