@@ -2,6 +2,7 @@ body{
 	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
 }
 
 p{
