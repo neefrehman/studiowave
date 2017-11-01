@@ -134,7 +134,6 @@ HTML{
 @media (max-width: 425px){
 
 	.icon img{
-		max-height: 24px;
 		padding-left: 3px;
 		padding-right: 3px;
 	}
