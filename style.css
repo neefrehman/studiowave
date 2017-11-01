@@ -1,12 +1,13 @@
 body{
 	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%);
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 800;
+	font-weight: 500;
 }
 
 p{
 	color: #FFFFFF;
-	letter-spacing: +0.3px;
+	letter-spacing: +1px;
+	margin-top: 0;
 }
 
 HTML{
@@ -17,6 +18,7 @@ HTML{
 	max-width: 1100px;
 	margin: auto;
 	padding: 0 40px;
+	position: relative;
 }
 
 #social{
@@ -36,7 +38,7 @@ HTML{
 #logo{
 	display: inline-block;
 	vertical-align: middle;
-	padding: 35px 0 0 0;
+	padding: 20px 0 0 0;
 }
 
 #logo_image{
@@ -50,6 +52,7 @@ HTML{
 #tagline{
 	font-size: 26px;
 	font-weight: 100;
+	margin-top: 10px;
 }
 
 .icon{
@@ -60,6 +63,43 @@ HTML{
 .icon img{
 	vertical-align: middle;
 	max-height: 35px;
+}
+
+#info{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#media{
+	padding-top: 30px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+#song{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	text-align: center;
+}
+
+#speech{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	text-align: center;
+}
+
+.type{
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+.title{
+	font-weight: 500;
+	font-size: 20px;
+	color: #FFE180;
 }
 
 
