@@ -176,15 +176,6 @@ HTML{
 	max-width: 120px;
 }
 
-#footer{
-	padding-top: 10px;
-}
-
-#endline{
-	text-align: center;
-	opacity: 0.5;
-}
-
 studiologo a{
 	display: inline-block;
 }
@@ -193,23 +184,27 @@ studiologo a{
 	display: inline-block;
 	width: 19%;
 	vertical-align: top;
+	text-align: center;
 }
 
 #endline{
 	display: inline-block;
 	width: 60%;
-	padding-top: 40px;
+	padding-top: 30px;
+	text-align: center;
+	opacity: 0.5;
 }
 
 #SSlogo{
 	display: inline-block;
-	text-align: right;
+	text-align: center;
 	width: 19%;
 	vertical-align: top;
 }
 
 .studiologo img{
-	max-height: 60px;
+	max-height: 50px;
+	padding-top: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 	opacity: 0.75;
@@ -230,6 +225,10 @@ studiologo a{
 		font-size: 16px;
 	}
 
+	#logo{
+		padding-top: 20px;
+	}
+
 }
 
 @media (max-width: 767px){
@@ -242,6 +241,10 @@ studiologo a{
 		max-width: 500px;
 	}
 
+	#logo{
+		padding-top: 40px;
+	}
+
 	#tagline{
 		font-size: 22px;
 	}
@@ -252,6 +255,14 @@ studiologo a{
 
 	#header{
 		padding-top: 0px;
+	}
+
+	.playpause{
+		max-width: 80px;
+	}
+
+	.reset{
+		max-width: 60px;
 	}
 
 }
