@@ -39,7 +39,7 @@ HTML{
 #logo{
 	display: inline-block;
 	vertical-align: middle;
-	padding: 20px 0 0 0;
+	padding: 10px 0 0 0;
 }
 
 #logo_image{
@@ -72,6 +72,10 @@ HTML{
 	font-weight: 900;
 }
 
+#titles{
+	padding-bottom: 10px;
+}
+
 #song{
 	display: inline-block;
 	width: 49%;
@@ -93,24 +97,29 @@ HTML{
 
 .title{
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 18px;
 	color: #FFE180;
 }
 
 #player{
-	padding-top: 10px;
+	display: flex;
+	align-items: center;
 }
 
 #songplayer{
 	width: 39%;
 	display: inline-block;
 	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
 #speechplayer{
 	width: 39%;
 	display: inline-block;
 	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
 #songreset{
@@ -120,7 +129,12 @@ HTML{
 
 #songvolume{
 	width: 49%;
-	display: inline-block;
+	display: flex;
+  justify-content: center;
+}
+
+#songvolume input {
+	display: block;
 }
 
 #speechreset{
@@ -130,13 +144,19 @@ HTML{
 
 #speechvolume{
 	width: 49%;
-	display: inline-block;
+	display: flex;
+  justify-content: center;
+}
+
+#speechvolume input {
+	display: block;
 }
 
 #playbutton{
 	width: 20%;
 	display: inline-block;
 	text-align: center;
+	line-height: 0;
 }
 
 .playpause{
@@ -156,10 +176,15 @@ HTML{
 	max-width: 120px;
 }
 
-#info{
-	position: absolute;
-	bottom: -30px;
-	right: 20px;
+#footer{
+	padding-top: 50px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+#footer a{
+	color: #FFFFFF;
+	font-size: 14px;
 }
 
 
