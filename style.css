@@ -168,12 +168,16 @@ HTML{
 }
 
 #share{
-	padding-top: 90px;
+	padding-top: 80px;
 	text-align: center;
 }
 
 .sharebutton{
 	max-width: 120px;
+}
+
+#footer{
+	padding-top: 15px;
 }
 
 studiologo a{
@@ -189,7 +193,7 @@ studiologo a{
 
 #endline{
 	display: inline-block;
-	width: 61%;
+	width: 60%;
 	padding-top: 30px;
 	text-align: center;
 	opacity: 0.5;
@@ -207,15 +211,11 @@ studiologo a{
 	padding-top: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 
 @media (max-width: 1000px){
-
-	.icon{
-		padding: 0 10px 0 0;
-	}
 
 	#media{
 		font-size: 30px;
@@ -263,6 +263,18 @@ studiologo a{
 
 	.reset{
 		max-width: 60px;
+	}
+
+	.studiologo img{
+		max-height: 45px;
+	}
+
+	#endline{
+		font-size: 14px;
+	}
+
+	#footer{
+		padding-top: 30px;
 	}
 
 }
