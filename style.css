@@ -169,6 +169,14 @@ HTML{
 		padding: 0 10px 0 0;
 	}
 
+	#media{
+		font-size: 30px;
+	}
+
+	.title{
+		font-size: 16px;
+	}
+
 }
 
 @media (max-width: 767px){
