@@ -436,10 +436,10 @@ studiologo a{
 
 }
 
-	@media (max-width: 390px){
+	@media (max-width: 370px){
 
 		#logo_image{
-			max-width: 240px;
+			max-width: 230px;
 		}
 
 }
