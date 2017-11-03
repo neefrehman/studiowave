@@ -89,7 +89,7 @@
             max="100"                  // default 100
             step="1"                   // default 1
             value="100"                 // default min + (max-min)/2
-            data-orientation="vertical" // default horizontal
+            data-orientation="horizontal" // default horizontal
           >
         </div>
       </div>
@@ -106,7 +106,7 @@
             max="100"                  // default 100
             step="1"                   // default 1
             value="100"                 // default min + (max-min)/2
-            data-orientation="vertical" // default horizontal
+            data-orientation="horizontal" // default horizontal
           >
         </div>
         <div id="speechreset">
@@ -148,18 +148,20 @@
   <script src="javascript/jquery.min.js"></script>
   <script src="javascript/rangeslider.js-develop/dist/rangeslider.min.js"></script>
   <script>
+      $(document).ready(function(){
       // Initialize a new plugin instance for all
       // e.g. $('input[type="range"]') elements.
-      $('input[type="range"]').rangeslider();
+      $('input[type="range"]').rangeslider({polyfill: false});
 
       // Destroy all plugin instances created from the
       // e.g. $('input[type="range"]') elements.
-      $('input[type="range"]').rangeslider('destroy');
+      // $('input[type="range"]').rangeslider('destroy');
 
       // Update all rangeslider instances for all
       // e.g. $('input[type="range"]') elements.
       // Usefull if you changed some attributes e.g. `min` or `max` etc.
       $('input[type="range"]').rangeslider('update', true);
+      })
   </script>
 </body>
 </html>
