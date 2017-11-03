@@ -52,7 +52,16 @@
 
   </div>
 
-  <div id="media">
+  <div>
+    <p class="mobile small_screen">
+      This webapp isn't optimised for screens this tight. Broaden your horizons :)
+    </p>
+    <p class="mobile mobile_device">
+      This webapp is incompatible with media players on mobile devices. It's great on desktop, though. Promise!
+    </p>
+  </div>
+
+  <div id="media" class="desktop">
 
     <div id="titles">
 
@@ -118,7 +127,7 @@
 
   </div>
 
-  <div id="share">
+  <div id="share" class="desktop">
     <img src="images/share.png" class="sharebutton"/>
   </div>
 
@@ -129,7 +138,7 @@
     </div>
 
     <div id="endline">
-      <p>
+      <p class="desktop">
         made for studios by studios
       </p>
     </div>
@@ -147,21 +156,7 @@
 
   <script src="javascript/jquery.min.js"></script>
   <script src="javascript/rangeslider.js-develop/dist/rangeslider.min.js"></script>
-  <script>
-      $(document).ready(function(){
-      // Initialize a new plugin instance for all
-      // e.g. $('input[type="range"]') elements.
-      $('input[type="range"]').rangeslider({polyfill: false});
+  <script src="javascript/main.js"></script>
 
-      // Destroy all plugin instances created from the
-      // e.g. $('input[type="range"]') elements.
-      // $('input[type="range"]').rangeslider('destroy');
-
-      // Update all rangeslider instances for all
-      // e.g. $('input[type="range"]') elements.
-      // Usefull if you changed some attributes e.g. `min` or `max` etc.
-      $('input[type="range"]').rangeslider('update', true);
-      })
-  </script>
 </body>
 </html>

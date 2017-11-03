@@ -67,6 +67,14 @@ HTML{
 	max-height: 35px;
 }
 
+.mobile{
+	display: none;
+}
+
+.mobile.mobile_device {
+	display: none;
+}
+
 #media{
 	padding-top: 40px;
 	font-size: 40px;
@@ -101,7 +109,7 @@ HTML{
 #player{
 	display: flex;
 	align-items: center;
-	 justify-content: center;
+	justify-content: center;
 }
 
 #beatplayer{
@@ -309,6 +317,13 @@ studiologo a{
 		font-size: 25px;
 	}
 
+	#player{
+		padding-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.playpause{
 		max-width: 70px;
 	}
@@ -359,7 +374,7 @@ studiologo a{
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 450px){
 
 	#logo_image{
 		max-width: 320px;
@@ -369,16 +384,53 @@ studiologo a{
 		font-size: 16px;
 	}
 
+	.mobile.small_screen{
+		display: block;
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	#footer{
+		text-align: inherit;
+	}
+
+	#ADVlogo{
+		width: 40%;
+	}
+
+	#endline{
+		width: 10%;
+	}
+
+	#SSlogo{
+		width: 40%;
+	}
+
 }
 
-	@media (max-width: 390px){
+@media (max-width: 390px){
 
-		#logo_image{
-			max-width: 250px;
-		}
+	#logo_image{
+		max-width: 280px;
+	}
 
-		#tagline{
-			font-size: 13px;
-		}
+	#tagline{
+		font-size: 13px;
+	}
+
+@media (max-width: 390px){
+
+	.icon img{
+		max-height: 30px;
+	}
+
+	#logo_image{
+		max-width: 230px;
+	}
 
 }
