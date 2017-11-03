@@ -76,7 +76,7 @@ HTML{
 	padding-bottom: 10px;
 }
 
-#song{
+#beat{
 	display: inline-block;
 	width: 49%;
 	vertical-align: top;
@@ -106,7 +106,7 @@ HTML{
 	align-items: center;
 }
 
-#songplayer{
+#beatplayer{
 	width: 39%;
 	display: inline-block;
 	text-align: center;
@@ -122,18 +122,18 @@ HTML{
 	align-items: center;
 }
 
-#songreset{
+#beatreset{
 	width: 49%;
 	display: inline-block;
 }
 
-#songvolume{
+#beatvolume{
 	width: 49%;
 	display: flex;
   justify-content: center;
 }
 
-#songvolume input {
+#beatvolume input {
 	display: block;
 }
 
@@ -186,14 +186,14 @@ studiologo a{
 
 #ADVlogo{
 	display: inline-block;
-	width: 19%;
+	width: 24%;
 	vertical-align: top;
 	text-align: center;
 }
 
 #endline{
 	display: inline-block;
-	width: 60%;
+	width: 50%;
 	padding-top: 30px;
 	text-align: center;
 	opacity: 0.5;
@@ -202,7 +202,7 @@ studiologo a{
 #SSlogo{
 	display: inline-block;
 	text-align: center;
-	width: 19%;
+	width: 24%;
 	vertical-align: top;
 }
 

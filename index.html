@@ -55,7 +55,7 @@
 
     <div id="titles">
 
-      <div id=song>
+      <div id=beat>
         <p class="type">
           BEAT
         </p>
@@ -64,7 +64,7 @@
         </p>
       </div>
 
-      <div id=speech>
+      <div id="speech">
         <p class="type">
           SPEECH
         </p>
@@ -77,17 +77,17 @@
 
     <div id="player">
 
-      <div id="songplayer">
-        <div id="songreset">
+      <div id="beatplayer">
+        <div id="beatreset">
           <img src="images/reset.png" class="reset"/>
         </div>
-        <div id="songvolume">
+        <div id="beatvolume">
           <input
             type="range"
-            min="10"                    // default 0
-            max="1000"                  // default 100
-            step="10"                   // default 1
-            value="300"                 // default min + (max-min)/2
+            min="0"                    // default 0
+            max="100"                  // default 100
+            step="1"                   // default 1
+            value="100"                 // default min + (max-min)/2
             data-orientation="vertical" // default horizontal
           >
         </div>
@@ -101,10 +101,10 @@
         <div id="speechvolume">
           <input
             type="range"
-            min="10"                    // default 0
-            max="1000"                  // default 100
-            step="10"                   // default 1
-            value="300"                 // default min + (max-min)/2
+            min="0"                    // default 0
+            max="100"                  // default 100
+            step="1"                   // default 1
+            value="100"                 // default min + (max-min)/2
             data-orientation="vertical" // default horizontal
           >
         </div>
