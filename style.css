@@ -430,14 +430,16 @@ studiologo a{
 		font-size: 13px;
 	}
 
-@media (max-width: 390px){
-
 	.icon img{
 		max-height: 30px;
 	}
 
-	#logo_image{
-		max-width: 230px;
-	}
+}
+
+	@media (max-width: 390px){
+
+		#logo_image{
+			max-width: 240px;
+		}
 
 }
