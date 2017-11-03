@@ -73,10 +73,6 @@ HTML{
 	font-weight: 900;
 }
 
-#titles{
-	padding-bottom: 10px;
-}
-
 #beat{
 	display: inline-block;
 	width: 49%;
@@ -179,7 +175,7 @@ HTML{
 }
 
 #footer{
-	padding-top: 15px;
+	padding-top: 20px;
 	text-align: center;
 }
 
@@ -260,6 +256,10 @@ studiologo a{
 		padding-top: 0px;
 	}
 
+	#titles{
+		padding-bottom: 10px;
+	}
+
 	.playpause{
 		max-width: 80px;
 	}
@@ -337,6 +337,10 @@ studiologo a{
 		padding-top: 20px;
 	}
 
+	.title{
+		font-size: 14px;
+	}
+
 }
 
 @media (max-width: 500px){
@@ -347,6 +351,10 @@ studiologo a{
 
 	.studiologo img{
 		max-height: 35px;
+	}
+
+	#media{
+		font-size: 23px;
 	}
 
 }
