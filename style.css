@@ -354,7 +354,7 @@ studiologo a{
 @media (max-width: 425px){
 
 	#logo_image{
-		max-width: 300px;
+		max-width: 320px;
 	}
 
 	#tagline{
@@ -366,7 +366,7 @@ studiologo a{
 	@media (max-width: 390px){
 
 		#logo_image{
-			max-width: 230px;
+			max-width: 250px;
 		}
 
 		#tagline{
