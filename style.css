@@ -236,10 +236,6 @@ studiologo a{
 
 @media (max-width: 767px){
 
-	.icon img{
-		max-height: 30px;
-	}
-
 	#logo_image{
 		max-width: 500px;
 	}
@@ -299,10 +295,6 @@ studiologo a{
 
 	#tagline{
 		font-size: 18px;
-	}
-
-	.icon img{
-		max-height: 28px;
 	}
 
 	#logo_image{
