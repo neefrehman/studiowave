@@ -222,7 +222,7 @@ studiologo a{
 }
 
 .mobile.mobile_device{
-	display: block;
+	display: none;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 10px;
