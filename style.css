@@ -306,6 +306,10 @@ studiologo a{
 		max-width: 400px;
 	}
 
+	#media{
+		font-size: 25px;
+	}
+
 	.wrapper{
 		margin: auto;
 	}
