@@ -1,5 +1,6 @@
 body{
-	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%);
+	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%) no-repeat;
+	background-attachment: fixed;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
@@ -104,6 +105,7 @@ HTML{
 #player{
 	display: flex;
 	align-items: center;
+	 justify-content: center;
 }
 
 #beatplayer{
@@ -178,6 +180,7 @@ HTML{
 
 #footer{
 	padding-top: 15px;
+	text-align: center;
 }
 
 studiologo a{
@@ -193,7 +196,7 @@ studiologo a{
 
 #endline{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	padding-top: 30px;
 	text-align: center;
 	opacity: 0.5;
@@ -310,6 +313,18 @@ studiologo a{
 		font-size: 25px;
 	}
 
+	.playpause{
+		max-width: 70px;
+	}
+
+	.reset{
+		max-width: 50px;
+	}
+
+	.sharebutton{
+		max-width: 100px;
+	}
+
 	.wrapper{
 		margin: auto;
 	}
@@ -318,12 +333,24 @@ studiologo a{
 		padding-top: 0px;
 	}
 
+	.studiologo img{
+		max-height: 42px;
+	}
+
+	#endline{
+		padding-top: 20px;
+	}
+
 }
 
 @media (max-width: 500px){
 
 	#logo_image{
 		max-width: 350px;
+	}
+
+	.studiologo img{
+		max-height: 35px;
 	}
 
 }
