@@ -221,6 +221,13 @@ studiologo a{
 	opacity: 0.5;
 }
 
+.mobile.mobile_device{
+	display: block;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
 
 @media (max-width: 1000px){
 
