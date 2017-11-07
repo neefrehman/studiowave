@@ -157,7 +157,7 @@ const speechesArray = [
   },
 ];
 
-// jQuery
+// RangeSlider
 
 $(document).ready(function(){
   // Initialize a new plugin instance for all
@@ -174,7 +174,7 @@ $(document).ready(function(){
   $('input[type="range"]').rangeslider('update', true);
 
 
-// YouTube Wrapper Shit
+// YouTube Volume
 
 $('#beatslider').on('change', function () {
     beatPlayer.setVolume($(this).val());
@@ -183,7 +183,6 @@ $('#beatslider').on('change', function () {
 $('#speechslider').on('change', function () {
     speechPlayer.setVolume($(this).val());
 });
-
 
 
 // Play & Pause
@@ -219,6 +218,17 @@ $('#playpausebutton').on('click', function () {
 });
 
 
+// Next
+
+$('#beatreset').on('click', function () {
+    beatvideo.nextVideo()
+});
+
+$('#speechreset').on('click', function () {
+    speechvideo.nextVideo()
+});
+
+
 // if it is a agent detected mobile hideClass small_screen and show mobile_device
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -243,18 +253,16 @@ return speechesArray[Math.floor(Math.random() * speechesArray.length)];
 }
 
 
+// Generate YouTube Players
+
 function onYouTubeIframeAPIReady() {
-
-    // Obtain a speech model -> URL from it
-
-    // Obtain a beat model -> URL from it
 
     const speechURL = getRandomSpeech().url;
     console.log(speechURL)
     const beatURL = getRandomBeat().url;
     console.log(beatURL)
 
-    beatPlayer = new YT.Player('beat-video', {
+    beatPlayer = new YT.Player('beatvideo', {
         width: 60,
         height: 40,
         videoId: beatURL,
@@ -266,7 +274,7 @@ function onYouTubeIframeAPIReady() {
             onReady: beatInitialized
         }
     });
-    speechPlayer = new YT.Player('speech-video', {
+    speechPlayer = new YT.Player('speechvideo', {
         width: 60,
         height: 40,
         videoId: speechURL,

@@ -165,14 +165,14 @@ HTML{
 	line-height: 0;
 }
 
-#speech-video{
+#speechvideo{
 	display: block;
 	position: absolute;
 	visibility: hidden;
 	z-index: 0;
 }
 
-#beat-video{
+#beatvideo{
 	display: block;
 	position: absolute;
 	visibility: hidden;
