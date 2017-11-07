@@ -258,7 +258,7 @@ function onYouTubeIframeAPIReady() {
         videoId: beatURL,
         playerVars: {
             color: 'white',
-            playlist: 'taJ60kskkns,FG0fTKAqZ5g'
+            playlist: 'prHFVUaL_bU,6rReMbO42uE'
         },
         events: {
             onReady: beatInitialized
@@ -270,7 +270,7 @@ function onYouTubeIframeAPIReady() {
         videoId: speechURL,
         playerVars: {
             color: 'white',
-            playlist: 'taJ60kskkns,FG0fTKAqZ5g'
+            playlist: 'A26MnVnL8K4,3j3_iPskjxk'
         },
         events: {
             onReady: speechInitialized
@@ -280,36 +280,10 @@ function onYouTubeIframeAPIReady() {
 
 function speechInitialized() {
 
-  // speechPlayer.playVideo();
-
 }
 
 function beatInitialized() {
 
-    // beatPlayer.playVideo();
-
 }
-
-function initialize(){
-
-
-
-    // Update the controls on load
-    // updateTimerDisplay();
-    // updateProgressBar();
-
-    // // Clear any old interval.
-    // clearInterval(time_update_interval);
-
-    // Start interval to update elapsed time display and
-    // the elapsed part of the progress bar every second.
-    // time_update_interval = setInterval(function () {
-    //     updateTimerDisplay();
-    //     updateProgressBar();
-    // }, 1000);
-
-  };
-
-
 
 // Volume Sliders
