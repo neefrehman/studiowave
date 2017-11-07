@@ -168,12 +168,14 @@ HTML{
 #speech-video{
 	display: block;
 	position: absolute;
+	visibility: hidden;
 	z-index: 0;
 }
 
 #beat-video{
 	display: block;
 	position: absolute;
+	visibility: hidden;
 	z-index: 0;
 }
 

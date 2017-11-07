@@ -1,14 +1,14 @@
-var player,
+var beat,
     time_update_interval = 0;
 
-var player2,
+var speech,
     time_update_interval = 0;
 
 function onYouTubeIframeAPIReady() {
-    player = new YT.Player('beat-video', {
+    beat = new YT.Player('beat-video', {
         width: 60,
         height: 40,
-        videoId: 'Xa0Q0J5tOP0',
+        videoId: 'ezvTXN6vXRM',
         playerVars: {
             color: 'white',
             playlist: 'taJ60kskkns,FG0fTKAqZ5g'
@@ -17,10 +17,10 @@ function onYouTubeIframeAPIReady() {
             onReady: initialize
         }
     });
-    player2 = new YT.Player('speech-video', {
+    speech = new YT.Player('speech-video', {
         width: 60,
         height: 40,
-        videoId: 'Xa0Q0J5tOP0',
+        videoId: 'Ga8tQrG4ZSw',
         playerVars: {
             color: 'white',
             playlist: 'taJ60kskkns,FG0fTKAqZ5g'
@@ -48,13 +48,32 @@ function initialize(){
     }, 1000);
 
 
+
+// Volume Sliders
+
     $('#volume-input').val(Math.round(player.getVolume()));
 }
 
 $('#beatslider').on('change', function () {
-    player.setVolume($(this).val());
+    beat.setVolume($(this).val());
 });
 
 $('#speechslider').on('change', function () {
-    player2.setVolume($(this).val());
+    speech.setVolume($(this).val());
+});
+
+
+
+// Play & Pause
+
+$('#playbutton').on('click', function () {
+
+    beat.playVideo();
+
+});
+
+$('#playbutton').on('click', function () {
+
+    speech.playVideo();
+
 });
