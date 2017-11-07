@@ -250,7 +250,9 @@ function onYouTubeIframeAPIReady() {
     // Obtain a beat model -> URL from it
 
     const speechURL = getRandomSpeech().url;
+    console.log(speechURL)
     const beatURL = getRandomBeat().url;
+    console.log(beatURL)
 
     beatPlayer = new YT.Player('beat-video', {
         width: 60,
