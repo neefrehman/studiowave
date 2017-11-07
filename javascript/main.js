@@ -213,10 +213,18 @@ $('#playpausebutton').on('click', function () {
 
 $('#beatreset').on('click', function () {
     beatPlayer.nextVideo()
+    if (!isPlaying) {
+      beatPlayer.pauseVideo();
+      speechPlayer.pauseVideo();
+    }
 });
 
 $('#speechreset').on('click', function () {
     speechPlayer.nextVideo()
+    if (!isPlaying) {
+      beatPlayer.pauseVideo();
+      speechPlayer.pauseVideo();
+    }
 });
 
 
