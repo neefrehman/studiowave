@@ -8,7 +8,7 @@ function onYouTubeIframeAPIReady() {
     beat = new YT.Player('beat-video', {
         width: 60,
         height: 40,
-        videoId: 'ezvTXN6vXRM',
+        videoId: 'nT6NWc3J0-o',
         playerVars: {
             color: 'white',
             playlist: 'taJ60kskkns,FG0fTKAqZ5g'

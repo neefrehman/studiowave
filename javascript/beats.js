@@ -68,3 +68,17 @@ function shuffleBeatArray() {
   return a;
 
 }
+
+function createListElementsFromArray(a) {
+
+  return a.map(function (el) {
+
+    return "<li class='beat_item'><a href='"+ el.url + "' target='_blank'>" + el.name + "</a></li>"
+
+  });
+
+}
+
+
+const listElements = createListElementsFromArray(shuffleBeatArray());
+$('ul#beats').html(listElements);
