@@ -157,20 +157,11 @@ const speechesArray = [
   },
 ];
 
+
 // RangeSlider
 
 $(document).ready(function(){
-  // Initialize a new plugin instance for all
-  // e.g. $('input[type="range"]') elements.
   $('input[type="range"]').rangeslider({polyfill: false});
-
-  // Destroy all plugin instances created from the
-  // e.g. $('input[type="range"]') elements.
-  // $('input[type="range"]').rangeslider('destroy');
-
-  // Update all rangeslider instances for all
-  // e.g. $('input[type="range"]') elements.
-  // Usefull if you changed some attributes e.g. `min` or `max` etc.
   $('input[type="range"]').rangeslider('update', true);
 
 
@@ -218,14 +209,14 @@ $('#playpausebutton').on('click', function () {
 });
 
 
-// Next
+// Next video
 
 $('#beatreset').on('click', function () {
-    beatvideo.nextVideo()
+    beatPlayer.nextVideo()
 });
 
 $('#speechreset').on('click', function () {
-    speechvideo.nextVideo()
+    speechPlayer.nextVideo()
 });
 
 
