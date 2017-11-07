@@ -51,7 +51,7 @@ function initialize(){
 
 // Volume Sliders
 
-    $('#volume-input').val(Math.round(player.getVolume()));
+$('#volume-input').val(Math.round(player.getVolume()));
 }
 
 $('#beatslider').on('change', function () {
@@ -66,14 +66,17 @@ $('#speechslider').on('change', function () {
 
 // Play & Pause
 
-$('#playbutton').on('click', function () {
-
-    beat.playVideo();
-
-});
-
-$('#playbutton').on('click', function () {
-
-    speech.playVideo();
+$('#playpausebutton').on('click', function () {
+    var state = beat.getPlayerState();
+    var button = document.getElementById("buttonicon");
+    if(state==1){
+      beat.pauseVideo();
+      speech.pauseVideo();
+      button.src = "images/play.png"
+    } else {
+      beat.playVideo();
+      speech.playVideo();
+      button.src = "images/pause.png";
+    };
 
 });
