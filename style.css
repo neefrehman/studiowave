@@ -165,6 +165,18 @@ HTML{
 	line-height: 0;
 }
 
+#speech-video{
+	display: block;
+	position: absolute;
+	z-index: 0;
+}
+
+#beat-video{
+	display: block;
+	position: absolute;
+	z-index: 0;
+}
+
 .playpause{
 	max-width: 100px;
 }

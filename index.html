@@ -97,8 +97,9 @@
         <div id="beatreset">
           <img src="images/reset.png" class="reset"/>
         </div>
+        <div id="beat-video"></div>
         <div id="beatvolume">
-          <input
+          <input id="beatslider"
             type="range"
             min="0"                    // default 0
             max="100"                  // default 100
@@ -114,8 +115,9 @@
       </div>
 
       <div id="speechplayer">
+        <div id="speech-video"></div>
         <div id="speechvolume">
-          <input
+          <input id="speechslider"
             type="range"
             min="0"                    // default 0
             max="100"                  // default 100
@@ -163,6 +165,10 @@
   <script src="javascript/jquery.min.js"></script>
   <script src="javascript/rangeslider.js-develop/dist/rangeslider.min.js"></script>
   <script src="javascript/main.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="javascript/YTPlayer.js"></script>
+  <script src="javascript/beats.js"></script>
+  <script src="javascript/speeches.js"></script>
 
 </body>
 </html>

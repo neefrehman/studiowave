@@ -1,6 +1,6 @@
 // Collect all the beats into an array
 
-const beatArray = [
+const BeatArray = [
   {
     "title": "Lifted (Chillwave - Retrowave - Synthwave Mix)",
     "url": "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
@@ -53,9 +53,9 @@ const beatArray = [
   },
 ];
 
-function shufflePortfolioArray() {
+function shuffleBeatArray() {
 
-  const a = portfolioArray;
+  const a = beatArray;
 
   var j, x, i;
   for (i = a.length; i; i--) {

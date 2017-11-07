@@ -1,6 +1,6 @@
 // Collect all the beats into an array
 
-const speechArray = [
+const SpeechArray = [
   {
     "title": "Charlie Chaplin - The Great Dictator Speech",
     "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
@@ -98,9 +98,9 @@ const speechArray = [
   },
 ];
 
-function shufflePortfolioArray() {
+function shuffleSpeechArray() {
 
-  const a = portfolioArray;
+  const a = speechArray;
 
   var j, x, i;
   for (i = a.length; i; i--) {
