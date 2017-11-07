@@ -1,6 +1,4 @@
-// Collect all the beats into an array
-
-const BeatArray = [
+[
   {
     "title": "Lifted (Chillwave - Retrowave - Synthwave Mix)",
     "url": "3ZdSDUyxFmc",
@@ -50,35 +48,5 @@ const BeatArray = [
     "title": "Vessels - Dilate",
     "url": "nT6NWc3J0-o",
     "id": "10"
-  },
-];
-
-function shuffleBeatArray() {
-
-  const a = beatArray;
-
-  var j, x, i;
-  for (i = a.length; i; i--) {
-    j = Math.floor(Math.random() * i);
-    x = a[i - 1];
-    a[i - 1] = a[j];
-    a[j] = x;
   }
-
-  return a;
-
-}
-
-function createListElementsFromArray(a) {
-
-  return a.map(function (el) {
-
-    return "<li class='beat_item'><a href='"+ el.url + "' target='_blank'>" + el.name + "</a></li>"
-
-  });
-
-}
-
-
-const listElements = createListElementsFromArray(shuffleBeatArray());
-$('ul#beats').html(listElements);
+]
