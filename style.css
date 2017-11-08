@@ -48,6 +48,7 @@ HTML{
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0 0 0 0;
+	transform-style: preserve-3d;
 }
 
 #logo_image{
@@ -57,6 +58,23 @@ HTML{
   margin-right: auto;
   display: block;
 	overflow: visible;
+}
+
+.yellow{
+	transform-style: preserve-3d;
+	transform: translateZ(80px);
+	position: absolute;
+}
+
+.black{
+	transform-style: preserve-3d;
+	transform: translateZ(40px);
+	position: absolute;
+}
+
+.black{
+	transform-style: preserve-3d;
+	position: absolute;
 }
 
 #tagline{
@@ -122,7 +140,7 @@ HTML{
 }
 
 #player{
-	padding-top: 35px;
+	padding-top: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -183,7 +201,7 @@ HTML{
 
 #playpausebutton img:active{
 	position: relative;
-					 top: 1px;
+					 top: 2px;
 }
 
 #buttonicon{
@@ -245,7 +263,7 @@ HTML{
 
 #share img:active{
 	position: relative;
-					 top: 1px;
+					 top: 2px;
 }
 
 .sharebutton{
