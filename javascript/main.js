@@ -85,7 +85,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
   },
   'TuYhfCkRxyE': {
-    "title": "scent of a woman",
+    "title": "Scent of a woman speech",
     "id": "TuYhfCkRxyE",
     "url": "https://www.youtube.com/watch?v=TuYhfCkRxyE"
   },
