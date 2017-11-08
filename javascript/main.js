@@ -215,7 +215,11 @@ $('#playpausebutton').on('click', function () {
 // Next video
 
 $('#beatreset').on('click', function () {
+  if (beatOrder[beatOrder.length - 1] === currentBeatId) {
+    beatPlayer.playVideoAt(0)
+  } else {
     beatPlayer.nextVideo()
+  }
     if (!isPlaying) {
       beatPlayer.pauseVideo();
       speechPlayer.pauseVideo();
@@ -223,12 +227,19 @@ $('#beatreset').on('click', function () {
 });
 
 $('#speechreset').on('click', function () {
-    speechPlayer.nextVideo()
+    if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
+      speechPlayer.playVideoAt(0)
+    } else {
+      speechPlayer.nextVideo()
+    }
     if (!isPlaying) {
       beatPlayer.pauseVideo();
       speechPlayer.pauseVideo();
     }
 });
+
+
+// Share
 
 $('#share').on('click', function () {
   console.log(window.location.pathname + '?beat=' + currentBeatId + '&speech=' + currentSpeechId)
@@ -316,6 +327,9 @@ function onYouTubeIframeAPIReady() {
             onStateChange: onSpeechStateChange
         }
     });
+
+    beatPlayer.setLoop(true);
+    speechPlayer.setLoop(true);
 }
 
 function speechInitialized() {
