@@ -117,7 +117,7 @@ HTML{
 
 .title:hover {
 	position: relative;
-						 top: -2px;
+						 top: -1px;
 }
 
 #player{
@@ -180,6 +180,11 @@ HTML{
 	line-height: 0;
 }
 
+#playpausebutton img:active{
+	position: relative;
+					 top: 1px;
+}
+
 #buttonicon{
 	cursor: pointer;
 	border-radius: 50%;
@@ -188,6 +193,11 @@ HTML{
 .reset{
 	cursor: pointer;
 	border-radius: 50%;
+}
+
+.reset:active{
+	position: relative;
+					 top: 1px;
 }
 
 #speechvideo{
@@ -215,6 +225,10 @@ HTML{
 #share{
 	padding-top: 80px;
 	text-align: center;
+}
+
+#share img{
+	cursor: pointer;
 }
 
 .sharebutton{

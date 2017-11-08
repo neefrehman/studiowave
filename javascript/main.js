@@ -182,7 +182,7 @@ $('#speechslider').on('change', function () {
 
 // Play & Pause
 
-$('#playpausebutton').on('click', function () {
+$('#playpausebutton img').on('click', function () {
     var beatPlayerState = beatPlayer.getPlayerState();
     var speechPlayerState = speechPlayer.getPlayerState();
     var button = document.getElementById("buttonicon");
@@ -214,7 +214,7 @@ $('#playpausebutton').on('click', function () {
 
 // Next video
 
-$('#beatreset').on('click', function () {
+$('#beatreset img').on('click', function () {
   if (beatOrder[beatOrder.length - 1] === currentBeatId) {
     beatPlayer.playVideoAt(0)
   } else {
@@ -226,7 +226,7 @@ $('#beatreset').on('click', function () {
     }
 });
 
-$('#speechreset').on('click', function () {
+$('#speechreset img').on('click', function () {
     if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
       speechPlayer.playVideoAt(0)
     } else {
