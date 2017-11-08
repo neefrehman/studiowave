@@ -180,6 +180,16 @@ HTML{
 	line-height: 0;
 }
 
+#buttonicon{
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.reset{
+	cursor: pointer;
+	border-radius: 50%;
+}
+
 #speechvideo{
 	display: block;
 	position: absolute;
