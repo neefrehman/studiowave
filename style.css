@@ -116,11 +116,12 @@ HTML{
 }
 
 .title:hover {
-    text-decoration: underline;
+	position: relative;
+						 top: -2px;
 }
 
 #player{
-	padding-top: 45px;
+	padding-top: 35px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
