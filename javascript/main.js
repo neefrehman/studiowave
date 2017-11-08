@@ -34,7 +34,6 @@ $('.sharebutton').on('click', function () {
     var $this = $('#tooltip').toggleClass("override");
     setTimeout(function () {
         $this.toggleClass("override");
-    }, 0800)
     }, 1000)
   });
 
