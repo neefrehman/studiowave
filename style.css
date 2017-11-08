@@ -231,6 +231,11 @@ HTML{
 	cursor: pointer;
 }
 
+#share img:active{
+	position: relative;
+					 top: 1px;
+}
+
 .sharebutton{
 	max-width: 120px;
 }
