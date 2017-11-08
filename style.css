@@ -240,6 +240,10 @@ HTML{
 	max-width: 120px;
 }
 
+#tooltip{
+	z-index: 1;
+}
+
 #footer{
 	padding-top: 20px;
 	padding-bottom: 20px;

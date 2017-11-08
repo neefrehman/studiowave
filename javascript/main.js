@@ -8,6 +8,26 @@ var beatOrder;
 var currentSpeechId;
 var currentBeatId;
 
+
+// Share Clipboard
+
+$(document).ready(function(){
+  new Clipboard('.sharebutton');
+})
+
+function linkBuilder() {
+  var link = window.location.pathname + '?beat=' + currentBeatId + '&speech=' + currentSpeechId;
+  $('.sharebutton').attr('data-clipboard-text', link);
+}
+
+var clipboard = new Clipboard('.sharebutton');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+  })
+
 // MODEL
 
 const beatArray = {
@@ -239,13 +259,6 @@ $('#speechreset img').on('click', function () {
 });
 
 
-// Share
-
-$('#share').on('click', function () {
-  console.log(window.location.pathname + '?beat=' + currentBeatId + '&speech=' + currentSpeechId)
-});
-
-
 // if it is a agent detected mobile hideClass small_screen and show mobile_device
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -284,6 +297,7 @@ function onBeatStateChange() {
   var BeatTitle = document.getElementById("BeatTitle");
   BeatTitle.innerHTML = object.title;
   BeatTitle.href = object.url;
+  linkBuilder()
 }
 
 function onSpeechStateChange() {
@@ -294,6 +308,7 @@ function onSpeechStateChange() {
   var SpeechTitle = document.getElementById("SpeechTitle");
   SpeechTitle.innerHTML = object.title;
   SpeechTitle.href = object.url;
+  linkBuilder()
 }
 
 // Generate YouTube Players
@@ -328,8 +343,6 @@ function onYouTubeIframeAPIReady() {
         }
     });
 
-    beatPlayer.setLoop(true);
-    speechPlayer.setLoop(true);
 }
 
 function speechInitialized() {
