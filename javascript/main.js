@@ -21,12 +21,22 @@ function linkBuilder() {
 }
 
 var clipboard = new Clipboard('.sharebutton');
-
 clipboard.on('success', function(e) {
     console.info('Action:', e.action);
     console.info('Text:', e.text);
     console.info('Trigger:', e.trigger);
   })
+
+
+// Tooltip
+
+$('.sharebutton').on('click', function () {
+    var $this = $('#tooltip').toggleClass("override");
+    setTimeout(function () {
+        $this.toggleClass("override");
+    }, 0800)
+  });
+
 
 // MODEL
 

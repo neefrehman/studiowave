@@ -121,7 +121,7 @@ HTML{
 }
 
 #player{
-	padding-top: 35px;
+	padding-top: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -222,8 +222,19 @@ HTML{
 	max-width: 80px;
 }
 
+#tooltip{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	visibility: hidden;
+}
+
+#tooltip.override{
+	visibility: visible;
+}
+
 #share{
-	padding-top: 80px;
+	padding-top: 45px;
 	text-align: center;
 }
 
