@@ -233,8 +233,8 @@ $('#speechreset').on('click', function () {
       speechPlayer.nextVideo()
     }
     if (!isPlaying) {
-      beatPlayer.pauseVideo();
       speechPlayer.pauseVideo();
+      beatPlayer.pauseVideo();
     }
 });
 
