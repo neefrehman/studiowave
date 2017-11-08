@@ -42,7 +42,7 @@ $('.sharebutton').on('click', function () {
 
 const beatArray = {
   "3ZdSDUyxFmc": {
-    "title": "Lifted (Chillwave - Retrowave Mix)",
+    "title": "Lifted (Chillwave/Retrowave Mix)",
     "id": "3ZdSDUyxFmc",
     "url": "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
   },
@@ -52,7 +52,7 @@ const beatArray = {
     "url": "https://www.youtube.com/watch?v=ezvTXN6vXRM"
   },
   "6rReMbO42uE": {
-    "title": "24/7 lofi hip hop radio",
+    "title": "24/7 lofi hip hop",
     "id": "6rReMbO42uE",
     "url": "https://www.youtube.com/watch?v=6rReMbO42uE"
   },
@@ -72,7 +72,7 @@ const beatArray = {
     "url": "https://www.youtube.com/watch?v=prHFVUaL_bU"
   },
   "AQBh9soLSkI": {
-    "title": "Lofi Hip Hop Radio 24/7",
+    "title": "Lofi HipHop Radio 24/7",
     "id": "AQBh9soLSkI",
     "url": "https://www.youtube.com/watch?v=AQBh9soLSkI"
   },
@@ -175,7 +175,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=9OCOn3yKmwQ"
   },
   'VnNBbR-JeDQ': {
-    "title": "Steve Jobs - THE MAJOR THINKERS",
+    "title": "Steve Jobs - The Major Thinkers",
     "id": "VnNBbR-JeDQ",
     "url": "https://www.youtube.com/watch?v=VnNBbR-JeDQ"
   },
