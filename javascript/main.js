@@ -35,6 +35,7 @@ $('.sharebutton').on('click', function () {
     setTimeout(function () {
         $this.toggleClass("override");
     }, 0800)
+    }, 1000)
   });
 
 
