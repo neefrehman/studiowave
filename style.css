@@ -108,6 +108,7 @@ HTML{
 }
 
 .title{
+	padding-top: 5px;
 	display: block;
 	font-weight: 500;
 	font-size: 18px;
@@ -119,7 +120,7 @@ HTML{
 }
 
 #player{
-	padding-top: 40px;
+	padding-top: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

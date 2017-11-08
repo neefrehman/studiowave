@@ -12,7 +12,7 @@ var currentBeatId;
 
 const beatArray = {
   "3ZdSDUyxFmc": {
-    "title": "Lifted (Chillwave - Retrowave - Synthwave Mix)",
+    "title": "Lifted (Chillwave - Retrowave Mix)",
     "id": "3ZdSDUyxFmc",
     "url": "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
   },
@@ -32,7 +32,7 @@ const beatArray = {
     "url": "https://www.youtube.com/watch?v=Z6ih1aKeETk"
   },
   "fQ5cb7A1mjA": {
-    "title": "Turquoise Memories - Glowing Dreams Mix",
+    "title": "Turquoise Memories - Glowing Dreams",
     "id": "fQ5cb7A1mjA",
     "url": "https://www.youtube.com/watch?v=fQ5cb7A1mjA"
   },
@@ -65,7 +65,7 @@ const beatArray = {
 
 const speechArray = {
   'J7GY1Xg6X20': {
-    "title": "Charlie Chaplin - The Great Dictator Speech",
+    "title": "Charlie Chaplin - The Great Dictator",
     "id": "J7GY1Xg6X20",
     "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
   },
@@ -80,7 +80,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=y8HTr-F-FVM"
   },
   'UF8uR6Z6KLc': {
-    "title": "Steve Jobs' 2005 Stanford Commencement Address",
+    "title": "Steve Jobs' 2005 Stanford Address",
     "id": "UF8uR6Z6KLc",
     "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
   },
@@ -100,7 +100,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=-pvxKdvuwIw"
   },
   'pxBQLFLei70': {
-    "title": "University of Texas Address - Admiral McRaven",
+    "title": "Admiral McRaven University of Texas Address",
     "id": "pxBQLFLei70",
     "url": "https://www.youtube.com/watch?v=pxBQLFLei70"
   },
@@ -115,7 +115,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=sPVWmmVKVk0"
   },
   'MkTw3_PmKtc': {
-    "title": "Winston S Churchill: We Shall Fight on the Beaches",
+    "title": "Winston S Churchill: Fight on the Beaches",
     "id": "MkTw3_PmKtc",
     "url": "https://www.youtube.com/watch?v=MkTw3_PmKtc"
   },
@@ -125,12 +125,12 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=_SakitCoNYc"
   },
   'A26MnVnL8K4': {
-    "title": "Leonard Nimoy: College of Fine Arts Convocation Address",
+    "title": "Leonard Nimoy College of Fine Arts Address",
     "id": "A26MnVnL8K4",
     "url": "https://www.youtube.com/watch?v=A26MnVnL8K4"
   },
   'aazxRl5b7Ms': {
-    "title": "The Lord of the Rings Audiobook Part 1",
+    "title": "The Lord of the Rings Audiobook",
     "id": "aazxRl5b7Ms",
     "url": "https://www.youtube.com/watch?v=aazxRl5b7Ms"
   },
@@ -140,7 +140,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=5ZBuWVvQMn8"
   },
   '9OCOn3yKmwQ': {
-    "title": "Frost/Nixon: The Watergate Interviews",
+    "title": "The Watergate Interviews",
     "id": "9OCOn3yKmwQ",
     "url": "https://www.youtube.com/watch?v=9OCOn3yKmwQ"
   },
@@ -155,7 +155,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=_fMNIofUw2I"
   },
   'Bp8aP6pJB1Y': {
-    "title": "Earl Nightingale The Dean of Personal Development",
+    "title": "The Dean of Personal Development",
     "id": "Bp8aP6pJB1Y",
     "url": "https://www.youtube.com/watch?v=Bp8aP6pJB1Y"
   }
