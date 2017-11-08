@@ -71,7 +71,7 @@ HTML{
 
 .icon img{
 	vertical-align: middle;
-	max-height: 35px;
+	max-height: 30px;
 }
 
 .mobile{
@@ -83,7 +83,7 @@ HTML{
 }
 
 #media{
-	padding-top: 40px;
+	padding-top: 35px;
 	font-size: 40px;
 	font-weight: 900;
 }
@@ -121,7 +121,7 @@ HTML{
 }
 
 #player{
-	padding-top: 30px;
+	padding-top: 35px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -314,7 +314,7 @@ studiologo a{
 	}
 
 	#logo{
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 }
