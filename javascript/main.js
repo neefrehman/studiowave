@@ -7,12 +7,27 @@ var speechOrder;
 var beatOrder;
 var currentSpeechId;
 var currentBeatId;
+var speechKey;
+var beatKey;
+
+
+// URL jump to shared pair
+
+$.urlParam = function(name) {
+  var results = new RegExp('[/?&]' + name + '=([^&#]*)')
+                  .exec(window.location.href);
+  console.log(name);
+  console.log(results);
+  return results[1] || 0;
+}
 
 
 // Share Clipboard
 
 $(document).ready(function(){
   new Clipboard('.sharebutton');
+  speechKey = $.urlParam('speech');
+  beatKey = $.urlParam('beat');
 })
 
 function linkBuilder() {
@@ -22,9 +37,7 @@ function linkBuilder() {
 
 var clipboard = new Clipboard('.sharebutton');
 clipboard.on('success', function(e) {
-    console.info('Action:', e.action);
     console.info('Text:', e.text);
-    console.info('Trigger:', e.trigger);
   })
 
 
@@ -381,12 +394,26 @@ function onSpeechStateChange() {
   linkBuilder()
 }
 
-// Generate YouTube Players
+// Generate YouTube Players and jump to shared pair logic
 
 function onYouTubeIframeAPIReady() {
 
-    beatOrder = shuffle(Object.keys(beatArray));
-    speechOrder = shuffle(Object.keys(speechArray));
+    if (beatKey && beatArray[beatKey]) {
+      let beatArrayCopy = Object.assign({}, beatArray);
+      delete beatArrayCopy[beatKey];
+      beatOrder = [beatKey].concat(shuffle(Object.keys(beatArrayCopy)));
+    }
+    else {
+      beatOrder = shuffle(Object.keys(beatArray));
+    }
+    if (speechKey && speechArray[speechKey]) {
+      let speechArrayCopy = Object.assign({}, speechArray);
+      delete speechArrayCopy[speechKey];
+      speechOrder = [speechKey].concat(shuffle(Object.keys(speechArrayCopy)));
+    }
+    else {
+      speechOrder = shuffle(Object.keys(speechArray));
+    }
 
     beatPlayer = new YT.Player('beatvideo', {
         width: 60,

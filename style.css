@@ -1,11 +1,10 @@
 body{
 	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%) no-repeat;
 	background-attachment: fixed;
-
-	background-size: 350% 350%;
-	-webkit-animation: Gradient 7s ease infinite;
-	-moz-animation: Gradient 7s ease infinite;
-	animation: Gradient 7s ease infinite;
+	background-size: 180% 180%;
+	-webkit-animation: Gradient 6s ease infinite;
+	-moz-animation: Gradient 6s ease infinite;
+	animation: Gradient 6s ease infinite;
 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
@@ -126,7 +125,7 @@ HTML{
 #tagline{
 	font-size: 26px;
 	font-weight: 100;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .icon{
@@ -443,8 +442,8 @@ studiologo a{
 	}
 
 	.icon img{
-		padding-left: 3px;
-		padding-right: 3px;
+		padding-left: 2px;
+		padding-right: 2px;
 	}
 
 	#header{
