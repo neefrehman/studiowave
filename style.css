@@ -12,41 +12,41 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
+	@-webkit-keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 100% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
 	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
+	@-moz-keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 100% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
 	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
+	@keyframes Gradient {
+		0% {
+			background-position: 0% 50%
+		}
+		50% {
+			background-position: 100% 50%
+		}
+		100% {
+			background-position: 0% 50%
+		}
 	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
 a {
 	text-decoration: none;
@@ -108,13 +108,13 @@ HTML{
 
 .yellow{
 	transform-style: preserve-3d;
-	transform: translateZ(90px);
+	transform: translateZ(80px);
 	position: absolute;
 }
 
 .black{
 	transform-style: preserve-3d;
-	transform: translateZ(45px);
+	transform: translateZ(40px);
 	position: absolute;
 }
 

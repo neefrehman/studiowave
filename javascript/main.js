@@ -189,6 +189,66 @@ const speechArray = {
     "id": "Bp8aP6pJB1Y",
     "url": "https://www.youtube.com/watch?v=Bp8aP6pJB1Y"
   }
+  'MOqIotJrFVM': {
+    "title": "Malala Yousafzai Nobel Peace Prize Speech",
+    "id": "MOqIotJrFVM",
+    "url": "https://www.youtube.com/watch?v=MOqIotJrFVM"
+  }
+  'oJJGuIZVfLM': {
+    "title": "Severn Cullis-Suzuki at Rio Summit",
+    "id": "oJJGuIZVfLM",
+    "url": "https://www.youtube.com/watch?v=oJJGuIZVfLM"
+  }
+  'Fg0mu32h5IY': {
+    "title": "Maya Angelou - On the Pulse of Morning",
+    "id": "Fg0mu32h5IY",
+    "url": "https://www.youtube.com/watch?v=Fg0mu32h5IY"
+  }
+  'ov4iyFoKcIs': {
+    "title": "Dr Maya Angelou Love Liberates",
+    "id": "ov4iyFoKcIs",
+    "url": "https://www.youtube.com/watch?v=ov4iyFoKcIs"
+  }
+  'keCwRdbwNQY': {
+    "title": "Steve Jobs - Think different",
+    "id": "keCwRdbwNQY",
+    "url": "https://www.youtube.com/watch?v=keCwRdbwNQY"
+  }
+  'UWzNsxRyvew': {
+    "title": "Warren Buffett - How to Stay Out of Debt",
+    "id": "UWzNsxRyvew",
+    "url": "https://www.youtube.com/watch?v=UWzNsxRyvew"
+  }
+  '5897dMWJiSM': {
+    "title": "Marcus Aurelius - Lecture on Stoicism",
+    "id": "5897dMWJiSM",
+    "url": "https://www.youtube.com/watch?v=5897dMWJiSM"
+  }
+  'UpiBUXXE8oU': {
+    "title": "Earl Nightingale - Why do you go to work?",
+    "id": "UpiBUXXE8oU",
+    "url": "https://www.youtube.com/watch?v=UpiBUXXE8oU"
+  }
+  '4IdEjAbH-LA': {
+    "title": "Earl Nightingale - Imagination Is Everything",
+    "id": "4IdEjAbH-LA",
+    "url": "https://www.youtube.com/watch?v=4IdEjAbH-LA"
+  }
+  '8PaAl51TV1o': {
+    "title": "30 day Challenge - Earl Nightingale",
+    "id": "8PaAl51TV1o",
+    "url": "https://www.youtube.com/watch?v=8PaAl51TV1o"
+  }
+  '_vmBQvYX8ig': {
+    "title": "The Key to Happiness - Earl Nightingale",
+    "id": "_vmBQvYX8ig",
+    "url": "https://www.youtube.com/watch?v=_vmBQvYX8ig"
+  }
+  'dFRpjk7seF8': {
+    "title": "Sadhguru at TED",
+    "id": "dFRpjk7seF8",
+    "url": "https://www.youtube.com/watch?v=dFRpjk7seF8"
+  }
 };
 
 
