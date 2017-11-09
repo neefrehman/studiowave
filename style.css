@@ -3,9 +3,9 @@ body{
 	background-attachment: fixed;
 
 	background-size: 350% 350%;
-	-webkit-animation: Gradient 8s ease infinite;
-	-moz-animation: Gradient 8s ease infinite;
-	animation: Gradient 8s ease infinite;
+	-webkit-animation: Gradient 7s ease infinite;
+	-moz-animation: Gradient 7s ease infinite;
+	animation: Gradient 7s ease infinite;
 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
