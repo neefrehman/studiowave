@@ -18,7 +18,7 @@ $.urlParam = function(name) {
                   .exec(window.location.href);
   console.log(name);
   console.log(results);
-  return results[1] || 0;
+  return results [1] || 0;
 }
 
 
