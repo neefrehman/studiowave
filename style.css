@@ -60,15 +60,19 @@ HTML{
 	overflow: visible;
 }
 
+#logo_image.purple{
+	max-width: 604px;
+}
+
 .yellow{
 	transform-style: preserve-3d;
-	transform: translateZ(80px);
+	transform: translateZ(90px);
 	position: absolute;
 }
 
 .black{
 	transform-style: preserve-3d;
-	transform: translateZ(40px);
+	transform: translateZ(45px);
 	position: absolute;
 }
 
@@ -80,7 +84,7 @@ HTML{
 #tagline{
 	font-size: 26px;
 	font-weight: 100;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .icon{
@@ -344,6 +348,10 @@ studiologo a{
 		max-width: 500px;
 	}
 
+	#logo_image.purple{
+		max-width: 503px;
+	}
+
 	#logo{
 		padding-top: 40px;
 	}
@@ -409,6 +417,10 @@ studiologo a{
 		max-width: 400px;
 	}
 
+	#logo_image.purple{
+		max-width: 402px;
+	}
+
 	#media{
 		font-size: 25px;
 	}
@@ -460,6 +472,10 @@ studiologo a{
 		max-width: 350px;
 	}
 
+	#logo_image.purple{
+		max-width: 352px;
+	}
+
 	.studiologo img{
 		max-height: 35px;
 	}
@@ -474,6 +490,10 @@ studiologo a{
 
 	#logo_image{
 		max-width: 320px;
+	}
+
+	#logo_image.purple{
+		max-width: 322px;
 	}
 
 	#tagline{
@@ -515,6 +535,10 @@ studiologo a{
 		max-width: 280px;
 	}
 
+	#logo_image.purple{
+		max-width: 281px;
+	}
+
 	#tagline{
 		font-size: 13px;
 	}
@@ -529,6 +553,10 @@ studiologo a{
 
 		#logo_image{
 			max-width: 230px;
+		}
+
+		#logo_image.purple{
+			max-width: 231px;
 		}
 
 }
