@@ -441,7 +441,7 @@ function onYouTubeIframeAPIReady() {
         }
     });
 
-    history.pushState(stateObj, "");
+    history.pushState(stateObj, "index.html");
 
 }
 
