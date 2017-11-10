@@ -243,9 +243,16 @@ HTML{
 	line-height: 0;
 }
 
+.btn{
+	transition: all 0.3s ease;
+}
+
+#playpausebutton img:hover{
+	transform: scale(1.1) perspective(1px);
+}
+
 #playpausebutton img:active{
-	position: relative;
-					 top: 2px;
+	transform: scale(1) perspective(1px);
 }
 
 #buttonicon{
@@ -258,9 +265,20 @@ HTML{
 	border-radius: 50%;
 }
 
-.reset:active{
-	position: relative;
-					 top: 1px;
+#beatreset img:hover{
+	transform: scale(1.1) perspective(1px);
+}
+
+#speechreset img:hover{
+	transform: scale(1.1) perspective(1px);
+}
+
+#beatreset img:active{
+	transform: scale(1) perspective(1px);
+}
+
+#speechreset img:active{
+	transform: scale(1) perspective(1px);
 }
 
 #speechvideo{
@@ -305,9 +323,12 @@ HTML{
 	cursor: pointer;
 }
 
+#share img:hover{
+	transform: scale(1.1) perspective(1px);
+}
+
 #share img:active{
-	position: relative;
-					 top: 2px;
+	transform: scale(1) perspective(1px);
 }
 
 .sharebutton{
