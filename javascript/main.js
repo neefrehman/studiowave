@@ -416,8 +416,8 @@ function onYouTubeIframeAPIReady() {
     }
 
     beatPlayer = new YT.Player('beatvideo', {
-        width: 60,
-        height: 40,
+        width: 30,
+        height: 20,
         playerVars: {
             color: 'white',
             playlist: beatOrder.join(',')
@@ -428,8 +428,8 @@ function onYouTubeIframeAPIReady() {
         }
     });
     speechPlayer = new YT.Player('speechvideo', {
-        width: 60,
-        height: 40,
+        width: 30,
+        height: 20,
         playerVars: {
             color: 'white',
             playlist: speechOrder.join(',')
