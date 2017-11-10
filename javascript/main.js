@@ -516,7 +516,7 @@ const speechArray = {
     "title": "George the Poet - My City",
     "id": "b2mMX6vFc4s",
     "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
-  },
+  }
 };
 
 
