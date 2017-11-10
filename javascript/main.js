@@ -331,7 +331,192 @@ const speechArray = {
     "title": "Sadhguru at TED",
     "id": "dFRpjk7seF8",
     "url": "https://www.youtube.com/watch?v=dFRpjk7seF8"
-  }
+  },
+  'BkvEpoqFx6c': {
+    "title": "Henry Rollins: The One Decision",
+    "id": "BkvEpoqFx6c",
+    "url": "https://www.youtube.com/watch?v=BkvEpoqFx6c"
+  },
+  'fajfkO_X0l0': {
+    "title": "Sam Harris: The Self is an Illusion",
+    "id": "fajfkO_X0l0",
+    "url": "https://www.youtube.com/watch?v=fajfkO_X0l0"
+  },
+  'evM1NX3ebFE': {
+    "title": "Conquer Life's Challenges - Cornel West",
+    "id": "evM1NX3ebFE",
+    "url": "https://www.youtube.com/watch?v=evM1NX3ebFE"
+  },
+  'kn2Rp51Vpiw': {
+    "title": "Bryan Cranston's Career Advice",
+    "id": "kn2Rp51Vpiw",
+    "url": "https://www.youtube.com/watch?v=kn2Rp51Vpiw"
+  },
+  'gHbYJfwFgOU': {
+    "title": "Bill Nye: Creationism Isn't Appropriate For Children",
+    "id": "gHbYJfwFgOU",
+    "url": "https://www.youtube.com/watch?v=gHbYJfwFgOU"
+  },
+  'tfWll1Eb_dY': {
+    "title": "David Bowie talks about pain/happiness/life",
+    "id": "tfWll1Eb_dY",
+    "url": "https://www.youtube.com/watch?v=tfWll1Eb_dY"
+  },
+  '-ZRLe6jYu0s': {
+    "title": "“Happiness isn't about what the world gives you",
+    "id": "-ZRLe6jYu0s",
+    "url": "https://www.youtube.com/watch?v=-ZRLe6jYu0s"
+  },
+  'Tc24RCmvlTU': {
+    "title": "The Truth About Happiness",
+    "id": "Tc24RCmvlTU",
+    "url": "https://www.youtube.com/watch?v=Tc24RCmvlTU"
+  },
+  'zWjuZ0OvtNU': {
+    "title": "How To Train Your Brain To Stay Focused",
+    "id": "zWjuZ0OvtNU",
+    "url": "https://www.youtube.com/watch?v=zWjuZ0OvtNU"
+  },
+  'CzSMC5rWvos': {
+    "title": "Neil deGrasse Tyson: Atheist or Agnostic",
+    "id": "CzSMC5rWvos",
+    "url": "https://www.youtube.com/watch?v=CzSMC5rWvos"
+  },
+  'ouRbkBAOGEw': {
+    "title": "JFK - We choose to go to the Moon",
+    "id": "ouRbkBAOGEw",
+    "url": "https://www.youtube.com/watch?v=ouRbkBAOGEw"
+  },
+  'IyArUh8eqJ0': {
+    "title": "JFK/Eisenhower during Cuban Missile Crisis",
+    "id": "IyArUh8eqJ0",
+    "url": "https://www.youtube.com/watch?v=IyArUh8eqJ0"
+  },
+  '0sV3miSCTG0': {
+    "title": "Amelia Earhart On Women In Flying",
+    "id": "0sV3miSCTG0",
+    "url": "https://www.youtube.com/watch?v=0sV3miSCTG0"
+  },
+  'aaiPkEhB0lY': {
+    "title": "Audrey Tatou interview",
+    "id": "aaiPkEhB0lY",
+    "url": "https://www.youtube.com/watch?v=aaiPkEhB0lY"
+  },
+  'J7GY1Xg6X20': {
+    "title": "Charlie Chaplin - The Great Dictator",
+    "id": "J7GY1Xg6X20",
+    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
+  },
+  'bHOHi5ueo0A': {
+    "title": "The laughing heart",
+    "id": "bHOHi5ueo0A",
+    "url": "https://www.youtube.com/watch?v=bHOHi5ueo0A"
+  },
+  'MTPxWkBgW6U': {
+    "title": "Charles Bukowski on dying and how to write",
+    "id": "MTPxWkBgW6U",
+    "url": "https://www.youtube.com/watch?v=MTPxWkBgW6U"
+  },
+  'P5hhqvNDak8': {
+    "title": "Charlie Chaplin - The Great Dictator",
+    "id": "P5hhqvNDak8",
+    "url": "https://www.youtube.com/watch?v=P5hhqvNDak8"
+  },
+  'J7GY1Xg6X20': {
+    "title": "Charles Bukowski - The Secret of My Endurance",
+    "id": "J7GY1Xg6X20",
+    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
+  },
+  'JqOqo50LSZ0': {
+    "title": "Maya Angelou - And Still I Rise",
+    "id": "JqOqo50LSZ0",
+    "url": "https://www.youtube.com/watch?v=JqOqo50LSZ0"
+  },
+  'CN9DN_PImy8': {
+    "title": "Maya Angelou - The Mask",
+    "id": "CN9DN_PImy8",
+    "url": "https://www.youtube.com/watch?v=CN9DN_PImy8"
+  },
+  'AlVQ7QffzjM': {
+    "title": "Dougal Wilson on making music videos",
+    "id": "AlVQ7QffzjM",
+    "url": "https://www.youtube.com/watch?v=AlVQ7QffzjM"
+  },
+  '5K_UAowTszU': {
+    "title": "Richard Linklater on being self-taught ",
+    "id": "5K_UAowTszU",
+    "url": "https://www.youtube.com/watch?v=5K_UAowTszU"
+  },
+  'T74EBhm5IFU': {
+    "title": "Charlie Chaplin - The Great Dictator",
+    "id": "T74EBhm5IFU",
+    "url": "https://www.youtube.com/watch?v=T74EBhm5IFU"
+  },
+  'J7GY1Xg6X20': {
+    "title": "Ellen Hovde/Muffie Myer/Susan Froemke on documentaries",
+    "id": "J7GY1Xg6X20",
+    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
+  },
+  '91uiHjHmEZc': {
+    "title": "Ridley Scott on filmmaking",
+    "id": "91uiHjHmEZc",
+    "url": "https://www.youtube.com/watch?v=91uiHjHmEZc"
+  },
+  'g9lBlD04sDs': {
+    "title": "Aaron Draplin on Working with Free Vectors",
+    "id": "g9lBlD04sDs",
+    "url": "https://www.youtube.com/watch?v=g9lBlD04sDs"
+  },
+  'v3vJ5Pvfbzk': {
+    "title": "Draw Blindfolded - Shantell Martin",
+    "id": "v3vJ5Pvfbzk",
+    "url": "https://www.youtube.com/watch?v=v3vJ5Pvfbzk"
+  },
+  'e80BbX05D7Y': {
+    "title": "How To Begin Your Presentation - Simon Sinek",
+    "id": "e80BbX05D7Y",
+    "url": "https://www.youtube.com/watch?v=e80BbX05D7Y"
+  },
+  'Ry94tFG4CIM': {
+    "title": "Do Not Think Too Much - Alan Watts",
+    "id": "Ry94tFG4CIM",
+    "url": "https://www.youtube.com/watch?v=Ry94tFG4CIM"
+  },
+  'kB5UCVW5zj4': {
+    "title": "Alan Watts - Stop Negative Thoughts",
+    "id": "kB5UCVW5zj4",
+    "url": "https://www.youtube.com/watch?v=kB5UCVW5zj4"
+  },
+  'kiSoxFHyjGY': {
+    "title": "Dan Rather's account of JFK assasination",
+    "id": "kiSoxFHyjGY",
+    "url": "https://www.youtube.com/watch?v=kiSoxFHyjGY"
+  },
+  '8-lLC4c_Mso': {
+    "title": "Dan Rather Final Goodbye",
+    "id": "8-lLC4c_Mso",
+    "url": "https://www.youtube.com/watch?v=8-lLC4c_Mso"
+  },
+  'PDv32Oo8PmE': {
+    "title": "Justin Trudeau speech at Edinburgh University",
+    "id": "PDv32Oo8PmE",
+    "url": "https://www.youtube.com/watch?v=PDv32Oo8PmE"
+  },
+  'xKCuDxpccYM': {
+    "title": "Elon Musk's Break Down on Climate Change",
+    "id": "xKCuDxpccYM",
+    "url": "https://www.youtube.com/watch?v=xKCuDxpccYM"
+  },
+  'MfXEnPO4R_s': {
+    "title": "Ludacris Breaks Down His Favorite Rap Lyrics",
+    "id": "MfXEnPO4R_s",
+    "url": "https://www.youtube.com/watch?v=MfXEnPO4R_s"
+  },
+  'b2mMX6vFc4s': {
+    "title": "George the Poet - My City",
+    "id": "b2mMX6vFc4s",
+    "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
+  },
 };
 
 
