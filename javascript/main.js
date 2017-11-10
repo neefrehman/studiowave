@@ -31,7 +31,7 @@ $(document).ready(function(){
 })
 
 function linkBuilder() {
-  var link = window.location.pathname + '?beat=' + currentBeatId + '&speech=' + currentSpeechId;
+  var link = 'www.studiowave.fm/' + '?beat=' + currentBeatId + '&speech=' + currentSpeechId;
   $('.sharebutton').attr('data-clipboard-text', link);
 }
 
