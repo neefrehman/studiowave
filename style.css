@@ -172,7 +172,7 @@ HTML{
 }
 
 .title{
-	padding-top: 2px;
+	padding-top: 0px;
 	display: block;
 	font-weight: 500;
 	font-size: 18px;
@@ -180,8 +180,7 @@ HTML{
 }
 
 .title:hover {
-	position: relative;
-						 top: -1px;
+	text-decoration: underline;
 }
 
 #player{
