@@ -9,7 +9,6 @@ var currentSpeechId;
 var currentBeatId;
 var speechKey;
 var beatKey;
-var stateObj = { foo: "" };
 
 
 // URL jump to shared pair
@@ -440,8 +439,6 @@ function onYouTubeIframeAPIReady() {
             onStateChange: onSpeechStateChange
         }
     });
-
-    history.pushState(stateObj, "index.html");
 
 }
 
