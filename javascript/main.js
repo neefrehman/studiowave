@@ -103,6 +103,76 @@ const beatArray = {
     "title": "Vessels - Dilate",
     "id": "nT6NWc3J0-o",
     "url": "https://www.youtube.com/watch?v=nT6NWc3J0-o"
+  },
+  "3ZdSDUyxFmc": {
+    "title": "Lifted (Chillwave/Retrowave Mix)",
+    "id": "3ZdSDUyxFmc",
+    "url": "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
+  },
+  "QGpgAz__uXs": {
+    "title": "Lounge Instrumental Chillout music",
+    "id": "QGpgAz__uXs",
+    "url": "https://www.youtube.com/watch?v=QGpgAz__uXs"
+  },
+  "kPChs1S6s1E": {
+    "title": "Lifted (Weekend Relaxation)",
+    "id": "kPChs1S6s1E",
+    "url": "https://www.youtube.com/watch?v=kPChs1S6s1E"
+  },
+  "JSyOjpiL2AY": {
+    "title": "Voyage (Chillwave/Retrowave/Synthwave Mix)",
+    "id": "JSyOjpiL2AY",
+    "url": "https://www.youtube.com/watch?v=JSyOjpiL2AY"
+  },
+  "jLFd6k1BHDk": {
+    "title": "Lifted (Mogwai - Auto Rock)",
+    "id": "jLFd6k1BHDk",
+    "url": "https://www.youtube.com/watch?v=jLFd6k1BHDk"
+  },
+  "JzIK5FaC38w": {
+    "title": "Lifted (Explosions In The Sky - Your Hand In Mine)",
+    "id": "JzIK5FaC38w",
+    "url": "https://www.youtube.com/watch?v=JzIK5FaC38w"
+  },
+  "sQKdl_0cpJc": {
+    "title": "Indecence - Next In Life",
+    "id": "sQKdl_0cpJc",
+    "url": "https://www.youtube.com/watch?v=sQKdl_0cpJc"
+  },
+  "u5IR7nBU3C4": {
+    "title": "Vessels - 4AM",
+    "id": "u5IR7nBU3C4",
+    "url": "https://www.youtube.com/watch?v=u5IR7nBU3C4"
+  },
+  "wPjN5GNpCTI": {
+    "title": "Vessels - Elliptic",
+    "id": "wPjN5GNpCTI",
+    "url": "https://www.youtube.com/watch?v=wPjN5GNpCTI"
+  },
+  "J8fk96dAKZE": {
+    "title": "24/7 ＣＨＩＬＬ ｉｎ ＪＡＰＡＮ",
+    "id": "J8fk96dAKZE",
+    "url": "https://www.youtube.com/watch?v=J8fk96dAKZE"
+  },
+  "mGBK8-u5h20": {
+    "title": "Ulrich Schnauss - Far away trains passing by",
+    "id": "mGBK8-u5h20",
+    "url": "https://www.youtube.com/watch?v=mGBK8-u5h20"
+  },
+  "F9L4q-0Pi4E": {
+    "title": "２８１４ - 新しい日の誕生/Birth of a New Day",
+    "id": "F9L4q-0Pi4E",
+    "url": "https://www.youtube.com/watch?v=F9L4q-0Pi4E"
+  },
+  "kFafKvgpIRo": {
+    "title": "Lazerhawk - Visitors",
+    "id": "kFafKvgpIRo",
+    "url": "https://www.youtube.com/watch?v=kFafKvgpIRo"
+  },
+  "kg9gjQnSCAw": {
+    "title": "Tycho - Epoch",
+    "id": "kg9gjQnSCAw",
+    "url": "https://www.youtube.com/watch?v=kg9gjQnSCAw"
   }
 };
 
