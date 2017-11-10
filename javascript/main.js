@@ -440,6 +440,8 @@ function onYouTubeIframeAPIReady() {
         }
     });
 
+    history.replaceState( {} , 'Studiowave', '/' );
+
 }
 
 function speechInitialized() {
@@ -449,5 +451,3 @@ function speechInitialized() {
 function beatInitialized() {
 
 }
-
-// Volume Sliders
