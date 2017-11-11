@@ -173,6 +173,21 @@ const beatArray = {
     "title": "Tycho - Epoch",
     "id": "kg9gjQnSCAw",
     "url": "https://www.youtube.com/watch?v=kg9gjQnSCAw"
+  },
+  "39MvD2DK-nY": {
+    "title": "Chillhop Cafe 24/7",
+    "id": "39MvD2DK-nY",
+    "url": "https://www.youtube.com/watch?v=39MvD2DK-nY"
+  },
+  "xrw_6brs9tI": {
+    "title": "Lofi Hip Hop Radio 24/7",
+    "id": "xrw_6brs9tI",
+    "url": "https://www.youtube.com/watch?v=xrw_6brs9tI"
+  },
+  "NHo7fSJ9ItE": {
+    "title": "ＣＨＩＬＬ　ＲＡＤＩＯ　 ２４／７",
+    "id": "NHo7fSJ9ItE",
+    "url": "https://www.youtube.com/watch?v=NHo7fSJ9ItE"
   }
 };
 
