@@ -629,7 +629,7 @@ function shuffle(array) {
 
 function onBeatStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
-      event.target.setPlaybackQuality('small');
+      event.target.setPlaybackQuality('hd720');
   }
   const index = beatPlayer.getPlaylistIndex();
   const key = beatOrder[index];
@@ -643,7 +643,7 @@ function onBeatStateChange() {
 
 function onSpeechStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
-      event.target.setPlaybackQuality('small');
+      event.target.setPlaybackQuality('hd720');
   }
   const index = speechPlayer.getPlaylistIndex();
   const key = speechOrder[index];
@@ -706,9 +706,9 @@ function onYouTubeIframeAPIReady() {
 }
 
 function speechInitialized(event) {
-  event.target.setPlaybackQuality('small');
+  event.target.setPlaybackQuality('hd720');
 }
 
 function beatInitialized(event) {
-  event.target.setPlaybackQuality('small');
+  event.target.setPlaybackQuality('hd720');
 }
