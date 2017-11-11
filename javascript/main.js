@@ -558,7 +558,7 @@ $('#playpausebutton img').on('click', function () {
 
     }
 
-    if(speechPlayerState == 1){
+    if(speechPlayerState || beatPlayerState == 1){
       beatPlayer.pauseVideo();
       speechPlayer.pauseVideo();
     } else {
