@@ -4,24 +4,36 @@
 <head>
   <meta charset="utf-8">
 
-  <title>ustwo Adventure</title><!-- A title tag will show up on the browsers tab page -->
+  <title>Studiowave</title><!-- A title tag will show up on the browsers tab page -->
 
   <!-- META TAGS -->
-  <!--
-  Meta tags are used for crawlers to gain information about your website. Google, facebook, twitter etc all use this information
-  to display your website as best as it can.
--->
-<meta name="description" content="Building new companies, investing in early stage startups, and creating a utopia for the most exciting teams.">
+  <!-- Meta tags are used for crawlers to gain information about your website. Google, facebook, twitter etc all use this information
+       to display your website as best as it can. -->
+<meta name="description" content="Chillout tunes and inspiration.">
 <meta name="author" content="Neef Rehman">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Links to your stylesheets -->
-<link rel="stylesheet" href="fonts/px/stylesheet.css">
-<script src="https://use.typekit.net/hoo6hst.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="style.css">
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@s0methingsays">
+<meta name="twitter:title" content="studiowave.fm">
+<meta name="twitter:description" content="Chillout tunes and inspiration.">
+<meta name="twitter:creator" content="@neefstweets">
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta name="twitter:image" content="https://studiowave.fm/images/meta_social.jpg">
 
+<!-- Open Graph data -->
+<meta property="og:title" content="studiowave.fm" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.studiowave.fm/" />
+<meta property="og:image" content="https://studiowave.fm/images/meta_social.jpg" />
+<meta property="og:description" content="Chillout tunes and inspiration." />
+<meta property="og:site_name" content="Studiowave" />
+
+<!-- Links to your stylesheets -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="javascript/rangeslider.js-develop/dist/rangeslider.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,900,900i" rel="stylesheet">
 <link rel="icon" href="images/Favicon.png" type="image/x-icon">
 
 <!--[if lt IE 9]>
@@ -33,50 +45,148 @@
 
   <!-- This is where you'll build the website -->
 
-  <div id="header">
-    <div class="wrapper">
-      <div id="logo">
-        <a href="http://adv.ustwo.com"><img src="images/logo_LeftAligned.png" id="logo_image"/></a>
-      </div>
-      <div class="contact top">
-        <p>
-          <a href="mailto:adventure@ustwo.com" target="_blank">adventure@ustwo.com</a>
-        </p>
-        <a href="http://instagram.com/ustwoadventure" target="_blank" class="icon"><img src="images/icon_instagram.png" /></a>
-        <a href="http://twitter.com/ustwoadventure" target="_blank" class="icon"><img src="images/icon_twitter.png" /></a>
-      </div>
-        <div id="tagline">
-          <p>
-            Welcome to the fampany.
-          </p>
-        </div>
-      </div>
-    </div>
+<div class="wrapper">
+
+  <div id="social">
+      <a href="https://twitter.com/s0methingsays" target="_blank" class="icon"><img src="images/icon_twitter.png" /></a>
+      <a href="https://www.facebook.com/wearestudiosomething/" target="_blank" class="icon"><img src="images/icon_facebook.png" /></a>
+      <a href="https://www.instagram.com/somethinggram/" target="_blank" class="icon"><img src="images/icon_instagram.png" /></a>
   </div>
 
-  <div class="wrapper">
-    <p id="fourohfour">
-    404 - PAGE NOT FOUND
-    </p>
+  <div id="header">
 
-    <div class="contact bottom">
-      <p>
-        <a href="mailto:adventure@ustwo.com" target="_blank">adventure@ustwo.com</a>
-      </p>
-      <a href="http://instagram.com/ustwoadventure" target="_blank" class="icon"><img src="images/icon_instagram.png" /></a>
-      <a href="http://twitter.com/ustwoadventure" target="_blank" class="icon"><img src="images/icon_twitter.png" /></a>
-      <p>
+    <div id="logo" data-tilt data-tilt-scale="1.1" data-tilt-speed="2000">
+      <img src="images/logo_yellow.svg" id="logo_image" class="yellow"/>
+      <img src="images/logo_black.svg" id="logo_image" class="black"/>
+      <img src="images/logo_purple.svg" id="logo_image" class="purple"/>
     </div>
+
+    <div id="tagline">
+      <p>
+        chillout tunes and inspiration
+      </p>
+    </div>
+
+  </div>
+
+  <div>
+    <p class="mobile small_screen">
+      This webapp isn't optimised for screens this tight.
+    </p>
+    <p class="mobile small_screen">
+      Broaden your horizons :)
+    </p>
+    <p class="mobile mobile_device">
+      This webapp is incompatible with media players on mobile devices.
+    </p>
+    <p class="mobile mobile_device">
+      It's great on desktop, though. Promise!
+    </p>
+  </div>
+
+  <div id="media" class="desktop">
+
+    <div id="titles">
+
+      <div id=beat>
+        <p class="type">
+          BEAT
+        </p>
+        <a class="title" id="BeatTitle" href="" target="_blank">
+          loading...
+        </a>
+      </div>
+
+      <div id="speech">
+        <p class="type">
+          SPEECH
+        </p>
+        <a class="title" id="SpeechTitle" href="" target="_blank">
+          loading...
+        </a>
+      </div>
+
+    </div>
+
+    <div id="player">
+
+      <div id="beatplayer">
+        <div id="beatreset">
+          <img src="images/reset.png" class="reset btn"/>
+        </div>
+        <div id="beatvideo"></div>
+        <div id="beatvolume">
+          <input id="beatslider"
+            type="range"
+            min="0"                    // default 0
+            max="100"                  // default 100
+            step="1"                   // default 1
+            value="40"                 // default min + (max-min)/2
+            data-orientation="horizontal" // default horizontal
+          >
+        </div>
+      </div>
+
+      <div id="playpausebutton">
+        <img src="images/play.png" id="buttonicon" class="playpause btn"/>
+      </div>
+
+      <div id="speechplayer">
+        <div id="speechvideo"></div>
+        <div id="speechvolume">
+          <input id="speechslider"
+            type="range"
+            min="0"                    // default 0
+            max="100"                  // default 100
+            step="1"                   // default 1
+            value="70"                 // default min + (max-min)/2
+            data-orientation="horizontal" // default horizontal
+          >
+        </div>
+        <div id="speechreset">
+          <img src="images/reset.png" class="reset btn"/>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="share" class="desktop">
+    <p id="tooltip">COPIED 😎</p>
+    <img src="images/share.png" class="sharebutton btn" data-clipboard-text="studiowave.fm"/>
   </div>
 
   <div id="footer">
 
+    <div id="ADVlogo">
+      <a href="http://adventure.ustwo.com" target="_blank" class="studiologo"><img src="images/ADVENTURE_logo.png" /></a>
+    </div>
+
+    <div id="endline">
+      <p class="desktop">
+        made for studios by studios
+      </p>
+    </div>
+
+    <div id="SSlogo">
+        <a href="https://studiosomething.co" target="_blank" class="studiologo"><img src="images/SS_logo.png" /></a>
+    </div>
+
   </div>
 
+
+</div>
 
   <!-- Scripts are placed at the end for loading -->
 
   <script src="javascript/jquery.min.js"></script>
+  <script src="javascript/rangeslider.js-develop/dist/rangeslider.min.js"></script>
+  <script src="javascript/clipboard.js-master/dist/clipboard.min.js"></script>
+  <script src="javascript/clipboard.js-master/dist/clipboard.min.js"></script>
+  <script src="javascript/vanilla-tilt.js-master/dist/vanilla-tilt.min.js"></script>
   <script src="javascript/main.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+
 </body>
 </html>
