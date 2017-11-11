@@ -579,7 +579,8 @@ $('#beatreset img').on('click', function () {
     beatPlayer.nextVideo()
   }
     if (!isPlaying) {
-
+      beatPlayer.pauseVideo();
+      speechPlayer.pauseVideo();
     }
 });
 
@@ -590,7 +591,8 @@ $('#speechreset img').on('click', function () {
       speechPlayer.nextVideo()
     }
     if (!isPlaying) {
-      
+      speechPlayer.pauseVideo();
+      beatPlayer.pauseVideo();
     }
 });
 
@@ -624,6 +626,8 @@ function shuffle(array) {
   return array;
 }
 
+
+// titles and links
 
 function onBeatStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
