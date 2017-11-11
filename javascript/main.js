@@ -700,9 +700,21 @@ function onYouTubeIframeAPIReady() {
 }
 
 function speechInitialized() {
-
+  event.target.setPlaybackQuality('hd720');
 }
 
 function beatInitialized() {
+  event.target.setPlaybackQuality('hd720');
+}
 
+function onSpeechStateChange(event) {
+    if (event.data == YT.PlayerState.BUFFERING) {
+        event.target.setPlaybackQuality('hd720');
+    }
+}
+
+function onBeatStateChange(event) {
+    if (event.data == YT.PlayerState.BUFFERING) {
+        event.target.setPlaybackQuality('hd720');
+    }
 }
