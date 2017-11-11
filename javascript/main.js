@@ -579,8 +579,7 @@ $('#beatreset img').on('click', function () {
     beatPlayer.nextVideo()
   }
     if (!isPlaying) {
-      beatPlayer.pauseVideo();
-      speechPlayer.pauseVideo();
+
     }
 });
 
@@ -591,8 +590,7 @@ $('#speechreset img').on('click', function () {
       speechPlayer.nextVideo()
     }
     if (!isPlaying) {
-      speechPlayer.pauseVideo();
-      beatPlayer.pauseVideo();
+      
     }
 });
 
