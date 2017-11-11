@@ -628,6 +628,9 @@ function shuffle(array) {
 
 
 function onBeatStateChange() {
+  if (event.data == YT.PlayerState.BUFFERING) {
+      event.target.setPlaybackQuality('hd720');
+  }
   const index = beatPlayer.getPlaylistIndex();
   const key = beatOrder[index];
   const object = beatArray[key];
@@ -639,6 +642,9 @@ function onBeatStateChange() {
 }
 
 function onSpeechStateChange() {
+  if (event.data == YT.PlayerState.BUFFERING) {
+      event.target.setPlaybackQuality('hd720');
+  }
   const index = speechPlayer.getPlaylistIndex();
   const key = speechOrder[index];
   const object = speechArray[key];
@@ -705,16 +711,4 @@ function speechInitialized() {
 
 function beatInitialized() {
   event.target.setPlaybackQuality('hd720');
-}
-
-function onSpeechStateChange(event) {
-    if (event.data == YT.PlayerState.BUFFERING) {
-        event.target.setPlaybackQuality('hd720');
-    }
-}
-
-function onBeatStateChange(event) {
-    if (event.data == YT.PlayerState.BUFFERING) {
-        event.target.setPlaybackQuality('hd720');
-    }
 }
