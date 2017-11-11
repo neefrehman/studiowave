@@ -706,9 +706,9 @@ function onYouTubeIframeAPIReady() {
 }
 
 function speechInitialized() {
-  event.target.setPlaybackQuality('hd720');
+  event.speechPlayer.setPlaybackQuality('hd720');
 }
 
 function beatInitialized() {
-  event.target.setPlaybackQuality('hd720');
+  event.beatPlayer.setPlaybackQuality('hd720');
 }
