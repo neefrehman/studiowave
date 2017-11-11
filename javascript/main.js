@@ -626,14 +626,6 @@ function shuffle(array) {
   return array;
 }
 
-function speechInitialized() {
-  event.speechPlayer.setPlaybackQuality('hd720');
-}
-
-function beatInitialized() {
-  event.beatPlayer.setPlaybackQuality('hd720');
-}
-
 
 function onBeatStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
@@ -711,4 +703,12 @@ function onYouTubeIframeAPIReady() {
 
     history.replaceState( {} , 'Studiowave', '/' );
 
+}
+
+function speechInitialized(event) {
+  event.speechPlayer.setPlaybackQuality('hd720');
+}
+
+function beatInitialized(event) {
+  event.beatPlayer.setPlaybackQuality('hd720');
 }
