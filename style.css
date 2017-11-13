@@ -173,7 +173,8 @@ HTML{
 
 .title{
 	padding-top: 0px;
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	font-weight: 500;
 	font-size: 18px;
 	color: #FFE180;
