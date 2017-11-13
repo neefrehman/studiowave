@@ -149,11 +149,6 @@ const beatArray = {
     "id": "wPjN5GNpCTI",
     "url": "https://www.youtube.com/watch?v=wPjN5GNpCTI"
   },
-  "J8fk96dAKZE": {
-    "title": "24/7 ＣＨＩＬＬ ｉｎ ＪＡＰＡＮ",
-    "id": "J8fk96dAKZE",
-    "url": "https://www.youtube.com/watch?v=J8fk96dAKZE"
-  },
   "mGBK8-u5h20": {
     "title": "Ulrich Schnauss - Far away trains passing by",
     "id": "mGBK8-u5h20",
