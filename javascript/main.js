@@ -207,11 +207,6 @@ const speechArray = {
     "id": "UF8uR6Z6KLc",
     "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
   },
-  'TuYhfCkRxyE': {
-    "title": "Scent of a woman speech",
-    "id": "TuYhfCkRxyE",
-    "url": "https://www.youtube.com/watch?v=TuYhfCkRxyE"
-  },
   '3j3_iPskjxk': {
     "title": "Full Metal Jacket Opening",
     "id": "3j3_iPskjxk",
