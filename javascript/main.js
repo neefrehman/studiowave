@@ -352,6 +352,16 @@ const speechArray = {
     "id": "evM1NX3ebFE",
     "url": "https://www.youtube.com/watch?v=evM1NX3ebFE"
   },
+  '48wgDP9pc2E': {
+    "title": "Oprah Winfrey - Power of Belief",
+    "id": "48wgDP9pc2E",
+    "url": "https://www.youtube.com/watch?v=48wgDP9pc2E"
+  },
+  'GMWFieBGR7c': {
+    "title": "Oprah Winfrey Harvard Commencement",
+    "id": "GMWFieBGR7c",
+    "url": "https://www.youtube.com/watch?v=GMWFieBGR7c"
+  },
   'kn2Rp51Vpiw': {
     "title": "Bryan Cranston's Career Advice",
     "id": "kn2Rp51Vpiw",
