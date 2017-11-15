@@ -179,6 +179,21 @@ const beatArray = {
     "id": "xrw_6brs9tI",
     "url": "https://www.youtube.com/watch?v=xrw_6brs9tI"
   },
+  "bR9-2As-XMk": {
+    "title": "Kiasmos - Burn",
+    "id": "bR9-2As-XMk",
+    "url": "https://www.youtube.com/watch?v=bR9-2As-XMk"
+  },
+  "cr4bsdoZKxQ": {
+    "title": "Kiasmos - Thrown",
+    "id": "cr4bsdoZKxQ",
+    "url": "https://www.youtube.com/watch?v=cr4bsdoZKxQ"
+  },
+  "3ycP6FvxYFo": {
+    "title": "Kiasmos - Looped",
+    "id": "3ycP6FvxYFo",
+    "url": "https://www.youtube.com/watch?v=3ycP6FvxYFo"
+  },
   "NHo7fSJ9ItE": {
     "title": "ＣＨＩＬＬ　ＲＡＤＩＯ　 ２４／７",
     "id": "NHo7fSJ9ItE",
@@ -356,6 +371,16 @@ const speechArray = {
     "title": "Oprah Winfrey - Power of Belief",
     "id": "48wgDP9pc2E",
     "url": "https://www.youtube.com/watch?v=48wgDP9pc2E"
+  },
+  '7t_Uyi9bNS4': {
+    "title": "Sam Harris on the Illusion of Free Will",
+    "id": "7t_Uyi9bNS4",
+    "url": "https://www.youtube.com/watch?v=7t_Uyi9bNS4"
+  },
+  'ADeoLT0Dz2w': {
+    "title": "Pat Mullins - The Problem With Rolling",
+    "id": "ADeoLT0Dz2w",
+    "url": "https://www.youtube.com/watch?v=ADeoLT0Dz2w"
   },
   'GMWFieBGR7c': {
     "title": "Oprah Winfrey - Harvard Commencement",
