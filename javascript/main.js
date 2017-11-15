@@ -358,7 +358,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=48wgDP9pc2E"
   },
   'GMWFieBGR7c': {
-    "title": "Oprah Winfrey Harvard Commencement",
+    "title": "Oprah Winfrey - Harvard Commencement",
     "id": "GMWFieBGR7c",
     "url": "https://www.youtube.com/watch?v=GMWFieBGR7c"
   },
