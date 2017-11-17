@@ -237,6 +237,11 @@ const speechArray = {
     "id": "pxBQLFLei70",
     "url": "https://www.youtube.com/watch?v=pxBQLFLei70"
   },
+  'NrUv0yNzp5g': {
+    "title": "Sir David Attenborough - 'Beauty in Nature'",
+    "id": "NrUv0yNzp5g",
+    "url": "https://www.youtube.com/watch?v=NrUv0yNzp5g"
+  },
   'WJtzOD3KbLM': {
     "title": "Richard Burton - Under Milk Wood",
     "id": "WJtzOD3KbLM",
