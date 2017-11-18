@@ -194,6 +194,51 @@ const beatArray = {
     "id": "3ycP6FvxYFo",
     "url": "https://www.youtube.com/watch?v=3ycP6FvxYFo"
   },
+  "WfYOMuX-tH8": {
+    "title": "Stranger Things Soundtrack",
+    "id": "WfYOMuX-tH8",
+    "url": "https://www.youtube.com/watch?v=WfYOMuX-tH8"
+  },
+  "ZPfNgIj2eNU": {
+    "title": "Best of Tycho",
+    "id": "ZPfNgIj2eNU",
+    "url": "https://www.youtube.com/watch?v=ZPfNgIj2eNU"
+  },
+  "u9TJ1L9VpZU": {
+    "title": "Vessels - Attica",
+    "id": "u9TJ1L9VpZU",
+    "url": "https://www.youtube.com/watch?v=u9TJ1L9VpZU"
+  },
+  "fi0KOScfBys": {
+    "title": "Tycho - Sunrise Projector",
+    "id": "fi0KOScfBys",
+    "url": "https://www.youtube.com/watch?v=fi0KOScfBys"
+  },
+  "Kr-xTnrxMq8": {
+    "title": "Bing & Ruth - Tomorrow Was the Golden Age",
+    "id": "Kr-xTnrxMq8",
+    "url": "https://www.youtube.com/watch?v=Kr-xTnrxMq8"
+  },
+  "vNwYtllyt3Q": {
+    "title": "Brian Eno - Ambient 1: Music for Airports",
+    "id": "vNwYtllyt3Q",
+    "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q"
+  },
+  "7Cc-0beyRXE": {
+    "title": "Huerco S. - Those Of You Who Have Never",
+    "id": "7Cc-0beyRXE",
+    "url": "https://www.youtube.com/watch?v=7Cc-0beyRXE"
+  },
+  "_JxiJ9GX1yA": {
+    "title": "Vessels - Mobilise",
+    "id": "_JxiJ9GX1yA",
+    "url": "https://www.youtube.com/watch?v=_JxiJ9GX1yA"
+  },
+  "ggLh9P9x24Q": {
+    "title": "Vessels - The Sky Was Pink",
+    "id": "ggLh9P9x24Q",
+    "url": "https://www.youtube.com/watch?v=ggLh9P9x24Q"
+  },
   "NHo7fSJ9ItE": {
     "title": "ＣＨＩＬＬ　ＲＡＤＩＯ　 ２４／７",
     "id": "NHo7fSJ9ItE",
@@ -222,6 +267,11 @@ const speechArray = {
     "id": "UF8uR6Z6KLc",
     "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
   },
+  '9KvDvRUNw9k': {
+    "title": "Simon Sinek - How to Find Fulfillment",
+    "id": "9KvDvRUNw9k",
+    "url": "https://www.youtube.com/watch?v=9KvDvRUNw9k"
+  },
   '3j3_iPskjxk': {
     "title": "Full Metal Jacket Opening",
     "id": "3j3_iPskjxk",
@@ -237,10 +287,75 @@ const speechArray = {
     "id": "pxBQLFLei70",
     "url": "https://www.youtube.com/watch?v=pxBQLFLei70"
   },
-  'NrUv0yNzp5g': {
-    "title": "Sir David Attenborough - 'Beauty in Nature'",
-    "id": "NrUv0yNzp5g",
-    "url": "https://www.youtube.com/watch?v=NrUv0yNzp5g"
+  'tY5It0jnD6M': {
+    "title": "Black Mirror - 15 Million Merits",
+    "id": "tY5It0jnD6M",
+    "url": "https://www.youtube.com/watch?v=tY5It0jnD6M"
+  },
+  'DLLihqJ22Vo': {
+    "title": "Adaptation: Intro",
+    "id": "DLLihqJ22Vo",
+    "url": "https://www.youtube.com/watch?v=DLLihqJ22Vo"
+  },
+  'xAhSc6akNPo': {
+    "title": "A Lesson by Robert McKee on dialogue",
+    "id": "xAhSc6akNPo",
+    "url": "https://www.youtube.com/watch?v=xAhSc6akNPo"
+  },
+  'PgU71nWCNeY': {
+    "title": "Fight Club Speech",
+    "id": "PgU71nWCNeY",
+    "url": "https://www.youtube.com/watch?v=PgU71nWCNeY"
+  },
+  'bivrs6stgHo': {
+    "title": "'More Was Never Enough'",
+    "id": "bivrs6stgHo",
+    "url": "https://www.youtube.com/watch?v=bivrs6stgHo"
+  },
+  'Nb9yu6dljAU': {
+    "title": "There Will Be Blood - Milkshake",
+    "id": "Nb9yu6dljAU",
+    "url": "https://www.youtube.com/watch?v=Nb9yu6dljAU"
+  },
+  'FkJLTGweKl0': {
+    "title": "Rocky Balboa's speech to his son",
+    "id": "FkJLTGweKl0",
+    "url": "https://www.youtube.com/watch?v=FkJLTGweKl0"
+  },
+  'WINDtlPXmmE': {
+    "title": "Network - Mad as Hell",
+    "id": "WINDtlPXmmE",
+    "url": "https://www.youtube.com/watch?v=WINDtlPXmmE"
+  },
+  'hopNAI8Pefg': {
+    "title": "A Few Good Men",
+    "id": "hopNAI8Pefg",
+    "url": "https://www.youtube.com/watch?v=hopNAI8Pefg"
+  },
+  'r0pOE8JlJbI': {
+    "title": "Richard Dawkins - We are going to Die",
+    "id": "r0pOE8JlJbI",
+    "url": "https://www.youtube.com/watch?v=r0pOE8JlJbI"
+  },
+  '0R3yJA7TnSk': {
+    "title": "Sam Harris - Reality of your life is Now",
+    "id": "0R3yJA7TnSk",
+    "url": "https://www.youtube.com/watch?v=0R3yJA7TnSk"
+  },
+  'cWXnT6Bwit4': {
+    "title": "What If? - Jon Jorgenson",
+    "id": "cWXnT6Bwit4",
+    "url": "https://www.youtube.com/watch?v=cWXnT6Bwit4"
+  },
+  'rOX1ETA0eUo': {
+    "title": "No choices without chances - George the Poet",
+    "id": "rOX1ETA0eUo",
+    "url": "https://www.youtube.com/watch?v=rOX1ETA0eUo"
+  },
+  'NZ4IoOXJiwQ': {
+    "title": "The Most Astounding Fact - Neil deGrasse Tyson",
+    "id": "NZ4IoOXJiwQ",
+    "url": "https://www.youtube.com/watch?v=NZ4IoOXJiwQ"
   },
   'WJtzOD3KbLM': {
     "title": "Richard Burton - Under Milk Wood",
