@@ -359,6 +359,7 @@ studiologo a{
 	width: 49%;
 	padding-top: 30px;
 	text-align: center;
+	vertical-align: middle;
 	opacity: 0.3;
 }
 
