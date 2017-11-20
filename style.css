@@ -346,11 +346,12 @@ studiologo a{
 	display: inline-block;
 }
 
-#ADVlogo{
+#USTWOlogo{
 	display: inline-block;
 	width: 24%;
-	vertical-align: top;
+	vertical-align: middle;
 	text-align: center;
+	opacity: 0.8;
 }
 
 #endline{
@@ -365,15 +366,15 @@ studiologo a{
 	display: inline-block;
 	text-align: center;
 	width: 24%;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .studiologo img{
-	max-height: 50px;
+	max-width: 120px;
 	padding-top: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	opacity: 0.35;
+	opacity: 0.3;
 }
 
 .mobile.mobile_device{
@@ -443,7 +444,7 @@ studiologo a{
 	}
 
 	.studiologo img{
-		max-height: 45px;
+		max-width: 110px;
 	}
 
 	#endline{
@@ -515,7 +516,7 @@ studiologo a{
 	}
 
 	.studiologo img{
-		max-height: 42px;
+		max-width: 100px;
 	}
 
 	#endline{
@@ -539,7 +540,7 @@ studiologo a{
 	}
 
 	.studiologo img{
-		max-height: 35px;
+		max-width: 70px;
 	}
 
 	#media{
