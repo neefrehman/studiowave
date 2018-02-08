@@ -576,19 +576,22 @@ studiologo a{
 	}
 
 	#footer{
-		text-align: inherit;
+		text-align: center;
+		padding-top: 40px;
 	}
 
 	#ADVlogo{
-		width: 40%;
+		width: 49%;
+		padding-right: 40px;
 	}
 
 	#endline{
-		width: 10%;
+		display: none;
 	}
 
 	#SSlogo{
-		width: 40%;
+		width: 49%;
+		padding-left: 40px;
 	}
 
 }
