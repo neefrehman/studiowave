@@ -381,7 +381,7 @@ studiologo a{
 .mobile.mobile_device{
 	display: none;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 0px;
 }
 
@@ -571,7 +571,7 @@ studiologo a{
 	.mobile.small_screen{
 		display: block;
 		text-align: center;
-		padding-top: 40px;
+		padding-top: 30px;
 		padding-bottom: 0px;
 	}
 
