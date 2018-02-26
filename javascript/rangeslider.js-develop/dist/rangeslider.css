@@ -5,7 +5,7 @@
 }
 
 .rangeslider {
-  background: #FCBF9A;
+  background: #ffffff40;
   position: relative;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .rangeslider__fill {
-  background: #FCBF9A;
+  background: #ffffff40;
   opacity: 0.5;
   position: absolute;
 }
