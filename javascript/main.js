@@ -247,170 +247,10 @@ const beatArray = {
 };
 
 const speechArray = {
-  'J7GY1Xg6X20': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
-  'Ga8tQrG4ZSw': {
-    "title": "T S Eliot reads his Four Quartets",
-    "id": "Ga8tQrG4ZSw",
-    "url": "https://www.youtube.com/watch?v=Ga8tQrG4ZSw"
-  },
-  'y8HTr-F-FVM': {
-    "title": "JFK - The Speech That Killed Him",
-    "id": "y8HTr-F-FVM",
-    "url": "https://www.youtube.com/watch?v=y8HTr-F-FVM"
-  },
-  'UF8uR6Z6KLc': {
-    "title": "Steve Jobs' 2005 Stanford Address",
-    "id": "UF8uR6Z6KLc",
-    "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
-  },
-  '9KvDvRUNw9k': {
-    "title": "Simon Sinek - How to Find Fulfillment",
-    "id": "9KvDvRUNw9k",
-    "url": "https://www.youtube.com/watch?v=9KvDvRUNw9k"
-  },
-  '3j3_iPskjxk': {
-    "title": "Full Metal Jacket Opening",
-    "id": "3j3_iPskjxk",
-    "url": "https://www.youtube.com/watch?v=3j3_iPskjxk"
-  },
-  '-pvxKdvuwIw': {
-    "title": "Pale Blue Dot",
-    "id": "-pvxKdvuwIw",
-    "url": "https://www.youtube.com/watch?v=-pvxKdvuwIw"
-  },
-  'pxBQLFLei70': {
-    "title": "Admiral McRaven University of Texas Address",
-    "id": "pxBQLFLei70",
-    "url": "https://www.youtube.com/watch?v=pxBQLFLei70"
-  },
-  'tY5It0jnD6M': {
-    "title": "Black Mirror - 15 Million Merits",
-    "id": "tY5It0jnD6M",
-    "url": "https://www.youtube.com/watch?v=tY5It0jnD6M"
-  },
-  'DLLihqJ22Vo': {
-    "title": "Adaptation: Intro",
-    "id": "DLLihqJ22Vo",
-    "url": "https://www.youtube.com/watch?v=DLLihqJ22Vo"
-  },
-  'xAhSc6akNPo': {
-    "title": "A Lesson by Robert McKee on dialogue",
-    "id": "xAhSc6akNPo",
-    "url": "https://www.youtube.com/watch?v=xAhSc6akNPo"
-  },
-  'PgU71nWCNeY': {
-    "title": "Fight Club Speech",
-    "id": "PgU71nWCNeY",
-    "url": "https://www.youtube.com/watch?v=PgU71nWCNeY"
-  },
-  'bivrs6stgHo': {
-    "title": "'More Was Never Enough'",
-    "id": "bivrs6stgHo",
-    "url": "https://www.youtube.com/watch?v=bivrs6stgHo"
-  },
-  'Nb9yu6dljAU': {
-    "title": "There Will Be Blood - Milkshake",
-    "id": "Nb9yu6dljAU",
-    "url": "https://www.youtube.com/watch?v=Nb9yu6dljAU"
-  },
-  'FkJLTGweKl0': {
-    "title": "Rocky Balboa's speech to his son",
-    "id": "FkJLTGweKl0",
-    "url": "https://www.youtube.com/watch?v=FkJLTGweKl0"
-  },
-  'WINDtlPXmmE': {
-    "title": "Network - Mad as Hell",
-    "id": "WINDtlPXmmE",
-    "url": "https://www.youtube.com/watch?v=WINDtlPXmmE"
-  },
-  'hopNAI8Pefg': {
-    "title": "A Few Good Men",
-    "id": "hopNAI8Pefg",
-    "url": "https://www.youtube.com/watch?v=hopNAI8Pefg"
-  },
-  'r0pOE8JlJbI': {
-    "title": "Richard Dawkins - We are going to Die",
-    "id": "r0pOE8JlJbI",
-    "url": "https://www.youtube.com/watch?v=r0pOE8JlJbI"
-  },
-  '0R3yJA7TnSk': {
-    "title": "Sam Harris - Reality of your life is Now",
-    "id": "0R3yJA7TnSk",
-    "url": "https://www.youtube.com/watch?v=0R3yJA7TnSk"
-  },
-  'cWXnT6Bwit4': {
-    "title": "What If? - Jon Jorgenson",
-    "id": "cWXnT6Bwit4",
-    "url": "https://www.youtube.com/watch?v=cWXnT6Bwit4"
-  },
-  'rOX1ETA0eUo': {
-    "title": "No choices without chances - George the Poet",
-    "id": "rOX1ETA0eUo",
-    "url": "https://www.youtube.com/watch?v=rOX1ETA0eUo"
-  },
-  'NZ4IoOXJiwQ': {
-    "title": "The Most Astounding Fact - Neil deGrasse Tyson",
-    "id": "NZ4IoOXJiwQ",
-    "url": "https://www.youtube.com/watch?v=NZ4IoOXJiwQ"
-  },
-  'WJtzOD3KbLM': {
-    "title": "Richard Burton - Under Milk Wood",
-    "id": "WJtzOD3KbLM",
-    "url": "https://www.youtube.com/watch?v=WJtzOD3KbLM"
-  },
   'sPVWmmVKVk0': {
     "title": "Eleanor Roosevelt Speech Human Rights",
     "id": "sPVWmmVKVk0",
     "url": "https://www.youtube.com/watch?v=sPVWmmVKVk0"
-  },
-  'MkTw3_PmKtc': {
-    "title": "Winston S Churchill: Fight on the Beaches",
-    "id": "MkTw3_PmKtc",
-    "url": "https://www.youtube.com/watch?v=MkTw3_PmKtc"
-  },
-  '_SakitCoNYc': {
-    "title": "Mahatma Gandhi Speech",
-    "id": "_SakitCoNYc",
-    "url": "https://www.youtube.com/watch?v=_SakitCoNYc"
-  },
-  'A26MnVnL8K4': {
-    "title": "Leonard Nimoy College of Fine Arts Address",
-    "id": "A26MnVnL8K4",
-    "url": "https://www.youtube.com/watch?v=A26MnVnL8K4"
-  },
-  'aazxRl5b7Ms': {
-    "title": "The Lord of the Rings Audiobook",
-    "id": "aazxRl5b7Ms",
-    "url": "https://www.youtube.com/watch?v=aazxRl5b7Ms"
-  },
-  '5ZBuWVvQMn8': {
-    "title": "Jim Rohn Learn To Master These Skills",
-    "id": "5ZBuWVvQMn8",
-    "url": "https://www.youtube.com/watch?v=5ZBuWVvQMn8"
-  },
-  '9OCOn3yKmwQ': {
-    "title": "The Watergate Interviews",
-    "id": "9OCOn3yKmwQ",
-    "url": "https://www.youtube.com/watch?v=9OCOn3yKmwQ"
-  },
-  'VnNBbR-JeDQ': {
-    "title": "Steve Jobs - The Major Thinkers",
-    "id": "VnNBbR-JeDQ",
-    "url": "https://www.youtube.com/watch?v=VnNBbR-JeDQ"
-  },
-  '_fMNIofUw2I': {
-    "title": "2004 Barack Obama Keynote Speech",
-    "id": "_fMNIofUw2I",
-    "url": "https://www.youtube.com/watch?v=_fMNIofUw2I"
-  },
-  'Bp8aP6pJB1Y': {
-    "title": "The Dean of Personal Development",
-    "id": "Bp8aP6pJB1Y",
-    "url": "https://www.youtube.com/watch?v=Bp8aP6pJB1Y"
   },
   'MOqIotJrFVM': {
     "title": "Malala Yousafzai Nobel Peace Prize Speech",
@@ -432,125 +272,15 @@ const speechArray = {
     "id": "ov4iyFoKcIs",
     "url": "https://www.youtube.com/watch?v=ov4iyFoKcIs"
   },
-  'keCwRdbwNQY': {
-    "title": "Steve Jobs - Think different",
-    "id": "keCwRdbwNQY",
-    "url": "https://www.youtube.com/watch?v=keCwRdbwNQY"
-  },
-  'UWzNsxRyvew': {
-    "title": "Warren Buffett - How to Stay Out of Debt",
-    "id": "UWzNsxRyvew",
-    "url": "https://www.youtube.com/watch?v=UWzNsxRyvew"
-  },
-  '5897dMWJiSM': {
-    "title": "Marcus Aurelius - Lecture on Stoicism",
-    "id": "5897dMWJiSM",
-    "url": "https://www.youtube.com/watch?v=5897dMWJiSM"
-  },
-  'UpiBUXXE8oU': {
-    "title": "Earl Nightingale - Why do you go to work?",
-    "id": "UpiBUXXE8oU",
-    "url": "https://www.youtube.com/watch?v=UpiBUXXE8oU"
-  },
-  '4IdEjAbH-LA': {
-    "title": "Earl Nightingale - Imagination Is Everything",
-    "id": "4IdEjAbH-LA",
-    "url": "https://www.youtube.com/watch?v=4IdEjAbH-LA"
-  },
-  '8PaAl51TV1o': {
-    "title": "30 day Challenge - Earl Nightingale",
-    "id": "8PaAl51TV1o",
-    "url": "https://www.youtube.com/watch?v=8PaAl51TV1o"
-  },
-  '_vmBQvYX8ig': {
-    "title": "The Key to Happiness - Earl Nightingale",
-    "id": "_vmBQvYX8ig",
-    "url": "https://www.youtube.com/watch?v=_vmBQvYX8ig"
-  },
-  'dFRpjk7seF8': {
-    "title": "Sadhguru at TED",
-    "id": "dFRpjk7seF8",
-    "url": "https://www.youtube.com/watch?v=dFRpjk7seF8"
-  },
-  'BkvEpoqFx6c': {
-    "title": "Henry Rollins: The One Decision",
-    "id": "BkvEpoqFx6c",
-    "url": "https://www.youtube.com/watch?v=BkvEpoqFx6c"
-  },
-  'fajfkO_X0l0': {
-    "title": "Sam Harris: The Self is an Illusion",
-    "id": "fajfkO_X0l0",
-    "url": "https://www.youtube.com/watch?v=fajfkO_X0l0"
-  },
-  'evM1NX3ebFE': {
-    "title": "Conquer Life's Challenges - Cornel West",
-    "id": "evM1NX3ebFE",
-    "url": "https://www.youtube.com/watch?v=evM1NX3ebFE"
-  },
   '48wgDP9pc2E': {
     "title": "Oprah Winfrey - Power of Belief",
     "id": "48wgDP9pc2E",
     "url": "https://www.youtube.com/watch?v=48wgDP9pc2E"
   },
-  '7t_Uyi9bNS4': {
-    "title": "Sam Harris on the Illusion of Free Will",
-    "id": "7t_Uyi9bNS4",
-    "url": "https://www.youtube.com/watch?v=7t_Uyi9bNS4"
-  },
-  'ADeoLT0Dz2w': {
-    "title": "Pat Mullins - The Problem With Rolling",
-    "id": "ADeoLT0Dz2w",
-    "url": "https://www.youtube.com/watch?v=ADeoLT0Dz2w"
-  },
   'GMWFieBGR7c': {
     "title": "Oprah Winfrey - Harvard Commencement",
     "id": "GMWFieBGR7c",
     "url": "https://www.youtube.com/watch?v=GMWFieBGR7c"
-  },
-  'kn2Rp51Vpiw': {
-    "title": "Bryan Cranston's Career Advice",
-    "id": "kn2Rp51Vpiw",
-    "url": "https://www.youtube.com/watch?v=kn2Rp51Vpiw"
-  },
-  'gHbYJfwFgOU': {
-    "title": "Bill Nye: Creationism Isn't Appropriate For Children",
-    "id": "gHbYJfwFgOU",
-    "url": "https://www.youtube.com/watch?v=gHbYJfwFgOU"
-  },
-  'tfWll1Eb_dY': {
-    "title": "David Bowie talks about pain/happiness/life",
-    "id": "tfWll1Eb_dY",
-    "url": "https://www.youtube.com/watch?v=tfWll1Eb_dY"
-  },
-  '-ZRLe6jYu0s': {
-    "title": "'Happiness isn't about what the world gives you'",
-    "id": "-ZRLe6jYu0s",
-    "url": "https://www.youtube.com/watch?v=-ZRLe6jYu0s"
-  },
-  'Tc24RCmvlTU': {
-    "title": "The Truth About Happiness",
-    "id": "Tc24RCmvlTU",
-    "url": "https://www.youtube.com/watch?v=Tc24RCmvlTU"
-  },
-  'zWjuZ0OvtNU': {
-    "title": "How To Train Your Brain To Stay Focused",
-    "id": "zWjuZ0OvtNU",
-    "url": "https://www.youtube.com/watch?v=zWjuZ0OvtNU"
-  },
-  'CzSMC5rWvos': {
-    "title": "Neil deGrasse Tyson: Atheist or Agnostic",
-    "id": "CzSMC5rWvos",
-    "url": "https://www.youtube.com/watch?v=CzSMC5rWvos"
-  },
-  'ouRbkBAOGEw': {
-    "title": "JFK - We choose to go to the Moon",
-    "id": "ouRbkBAOGEw",
-    "url": "https://www.youtube.com/watch?v=ouRbkBAOGEw"
-  },
-  'IyArUh8eqJ0': {
-    "title": "JFK/Eisenhower during Cuban Missile Crisis",
-    "id": "IyArUh8eqJ0",
-    "url": "https://www.youtube.com/watch?v=IyArUh8eqJ0"
   },
   '0sV3miSCTG0': {
     "title": "Amelia Earhart On Women In Flying",
@@ -562,31 +292,6 @@ const speechArray = {
     "id": "aaiPkEhB0lY",
     "url": "https://www.youtube.com/watch?v=aaiPkEhB0lY"
   },
-  'J7GY1Xg6X20': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
-  'bHOHi5ueo0A': {
-    "title": "The laughing heart",
-    "id": "bHOHi5ueo0A",
-    "url": "https://www.youtube.com/watch?v=bHOHi5ueo0A"
-  },
-  'MTPxWkBgW6U': {
-    "title": "Charles Bukowski on dying and how to write",
-    "id": "MTPxWkBgW6U",
-    "url": "https://www.youtube.com/watch?v=MTPxWkBgW6U"
-  },
-  'P5hhqvNDak8': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "P5hhqvNDak8",
-    "url": "https://www.youtube.com/watch?v=P5hhqvNDak8"
-  },
-  'J7GY1Xg6X20': {
-    "title": "Charles Bukowski - The Secret of My Endurance",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
   'JqOqo50LSZ0': {
     "title": "Maya Angelou - And Still I Rise",
     "id": "JqOqo50LSZ0",
@@ -597,85 +302,10 @@ const speechArray = {
     "id": "CN9DN_PImy8",
     "url": "https://www.youtube.com/watch?v=CN9DN_PImy8"
   },
-  'AlVQ7QffzjM': {
-    "title": "Dougal Wilson on making music videos",
-    "id": "AlVQ7QffzjM",
-    "url": "https://www.youtube.com/watch?v=AlVQ7QffzjM"
-  },
-  '5K_UAowTszU': {
-    "title": "Richard Linklater on being self-taught ",
-    "id": "5K_UAowTszU",
-    "url": "https://www.youtube.com/watch?v=5K_UAowTszU"
-  },
-  'T74EBhm5IFU': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "T74EBhm5IFU",
-    "url": "https://www.youtube.com/watch?v=T74EBhm5IFU"
-  },
   'J7GY1Xg6X20': {
     "title": "Ellen Hovde/Muffie Myer/Susan Froemke on documentaries",
     "id": "J7GY1Xg6X20",
     "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
-  '91uiHjHmEZc': {
-    "title": "Ridley Scott on filmmaking",
-    "id": "91uiHjHmEZc",
-    "url": "https://www.youtube.com/watch?v=91uiHjHmEZc"
-  },
-  'g9lBlD04sDs': {
-    "title": "Aaron Draplin on Working with Free Vectors",
-    "id": "g9lBlD04sDs",
-    "url": "https://www.youtube.com/watch?v=g9lBlD04sDs"
-  },
-  'v3vJ5Pvfbzk': {
-    "title": "Draw Blindfolded - Shantell Martin",
-    "id": "v3vJ5Pvfbzk",
-    "url": "https://www.youtube.com/watch?v=v3vJ5Pvfbzk"
-  },
-  'e80BbX05D7Y': {
-    "title": "How To Begin Your Presentation - Simon Sinek",
-    "id": "e80BbX05D7Y",
-    "url": "https://www.youtube.com/watch?v=e80BbX05D7Y"
-  },
-  'Ry94tFG4CIM': {
-    "title": "Do Not Think Too Much - Alan Watts",
-    "id": "Ry94tFG4CIM",
-    "url": "https://www.youtube.com/watch?v=Ry94tFG4CIM"
-  },
-  'kB5UCVW5zj4': {
-    "title": "Alan Watts - Stop Negative Thoughts",
-    "id": "kB5UCVW5zj4",
-    "url": "https://www.youtube.com/watch?v=kB5UCVW5zj4"
-  },
-  'kiSoxFHyjGY': {
-    "title": "Dan Rather's account of JFK assasination",
-    "id": "kiSoxFHyjGY",
-    "url": "https://www.youtube.com/watch?v=kiSoxFHyjGY"
-  },
-  '8-lLC4c_Mso': {
-    "title": "Dan Rather Final Goodbye",
-    "id": "8-lLC4c_Mso",
-    "url": "https://www.youtube.com/watch?v=8-lLC4c_Mso"
-  },
-  'PDv32Oo8PmE': {
-    "title": "Justin Trudeau speech at Edinburgh University",
-    "id": "PDv32Oo8PmE",
-    "url": "https://www.youtube.com/watch?v=PDv32Oo8PmE"
-  },
-  'xKCuDxpccYM': {
-    "title": "Elon Musk's Break Down on Climate Change",
-    "id": "xKCuDxpccYM",
-    "url": "https://www.youtube.com/watch?v=xKCuDxpccYM"
-  },
-  'MfXEnPO4R_s': {
-    "title": "Ludacris Breaks Down His Favorite Rap Lyrics",
-    "id": "MfXEnPO4R_s",
-    "url": "https://www.youtube.com/watch?v=MfXEnPO4R_s"
-  },
-  'b2mMX6vFc4s': {
-    "title": "George the Poet - My City",
-    "id": "b2mMX6vFc4s",
-    "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
   }
 };
 
