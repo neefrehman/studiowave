@@ -323,7 +323,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=Nb9yu6dljAU"
   },
   'FkJLTGweKl0': {
-    "title": "Rocky Balboa's speech to his son",
+    "title": "Rocky Balboa - speech to his son",
     "id": "FkJLTGweKl0",
     "url": "https://www.youtube.com/watch?v=FkJLTGweKl0"
   },
