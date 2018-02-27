@@ -228,6 +228,26 @@ const beatArray = {
     "title": "Vessels - The Sky Was Pink",
     "id": "ggLh9P9x24Q",
     "url": "https://www.youtube.com/watch?v=ggLh9P9x24Q"
+  },
+  "wOMwO5T3yT4": {
+    "title": "ＳＰＡＣＥ ＴＲＩＰ - Retrowave Mix",
+    "id": "wOMwO5T3yT4",
+    "url": "https://www.youtube.com/watch?v=wOMwO5T3yT4"
+  },
+  "Jmv5pTyz--I": {
+    "title": "Stranger Things Theme Song (C418 REMIX)",
+    "id": "Jmv5pTyz--I",
+    "url": "https://www.youtube.com/watch?v=Jmv5pTyz--I"
+  },
+  "WI4-HUn8dFc": {
+    "title": "ＳＰＡＣＥ ＴＲＩＰ no. II - Retrowave Mix",
+    "id": "WI4-HUn8dFc",
+    "url": "https://www.youtube.com/watch?v=WI4-HUn8dFc"
+  },
+  "1LHNmGe8HWk": {
+    "title": "Perfect Day Legend Of Zelda Mix | Lo fi Hip Hop",
+    "id": "1LHNmGe8HWk",
+    "url": "https://www.youtube.com/watch?v=1LHNmGe8HWk"
   }
 };
 
