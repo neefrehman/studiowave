@@ -248,6 +248,11 @@ const beatArray = {
     "title": "Perfect Day Legend Of Zelda Mix | Lo fi Hip Hop",
     "id": "1LHNmGe8HWk",
     "url": "https://www.youtube.com/watch?v=1LHNmGe8HWk"
+  },
+  "YV9gP5xp7OE": {
+    "title": "Night on Mountain | lofi hip hop |",
+    "id": "YV9gP5xp7OE",
+    "url": "https://www.youtube.com/watch?v=YV9gP5xp7OE"
   }
 };
 
