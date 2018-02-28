@@ -253,6 +253,11 @@ const beatArray = {
     "title": "Night on Mountain | lofi hip hop |",
     "id": "YV9gP5xp7OE",
     "url": "https://www.youtube.com/watch?v=YV9gP5xp7OE"
+  },
+  "T0nodan87dM": {
+    "title": "Vaporwave~Hiphop~Vibes",
+    "id": "T0nodan87dM",
+    "url": "https://www.youtube.com/watch?v=T0nodan87dM"
   }
 };
 
