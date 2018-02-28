@@ -313,7 +313,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=CN9DN_PImy8"
   },
   'J7GY1Xg6X20': {
-    "title": "Ellen Hovde & co. on documentaries",
+    "title": "Ellen Hovde & Co. on documentaries",
     "id": "J7GY1Xg6X20",
     "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
   },
