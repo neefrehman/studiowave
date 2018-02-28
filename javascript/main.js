@@ -622,11 +622,6 @@ const speechArray = {
     "id": "T74EBhm5IFU",
     "url": "https://www.youtube.com/watch?v=T74EBhm5IFU"
   },
-  'J7GY1Xg6X20': {
-    "title": "Ellen Hovde/Muffie Myer/Susan Froemke on documentaries",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
   '91uiHjHmEZc': {
     "title": "Ridley Scott on filmmaking",
     "id": "91uiHjHmEZc",
@@ -686,6 +681,151 @@ const speechArray = {
     "title": "George the Poet - My City",
     "id": "b2mMX6vFc4s",
     "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
+  },
+  'J7GY1Xg6X20': {
+    "title": "Ellen Hovde & Co. on documentaries",
+    "id": "J7GY1Xg6X20",
+    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
+  },
+  'iqm-XEqpayc': {
+    "title": "Sheryl Sandberg Berkley Speech",
+    "id": "iqm-XEqpayc",
+    "url": "https://www.youtube.com/watch?v=iqm-XEqpayc"
+  },
+  '1hlCEIUATzg': {
+    "title": "Ellen Page - Time to Thrive Conference",
+    "id": "1hlCEIUATzg",
+    "url": "https://www.youtube.com/watch?v=1hlCEIUATzg"
+  },
+  'c9SUAcNlVQ4': {
+    "title": "Emma Watson UN address: I'm a Feminist",
+    "id": "c9SUAcNlVQ4",
+    "url": "https://www.youtube.com/watch?v=c9SUAcNlVQ4"
+  },
+  'a7_49EXuLoQ': {
+    "title": "Mindy Kalin on Growing Up",
+    "id": "a7_49EXuLoQ",
+    "url": "https://www.youtube.com/watch?v=a7_49EXuLoQ"
+  },
+  'YlQzmwBiHdk': {
+    "title": "Angelina Jolie Honors Agnes Varga",
+    "id": "YlQzmwBiHdk",
+    "url": "https://www.youtube.com/watch?v=YlQzmwBiHdk"
+  },
+  'DVCfFBlKpN8': {
+    "title": "Nora Ephron - Wellesley College Commencement",
+    "id": "DVCfFBlKpN8",
+    "url": "https://www.youtube.com/watch?v=DVCfFBlKpN8"
+  },
+  'ZPCkfARH2eE': {
+    "title": "Lupita Nyong'o on self-acceptance",
+    "id": "ZPCkfARH2eE",
+    "url": "https://www.youtube.com/watch?v=ZPCkfARH2eE"
+  },
+  'xHHzHu289Ws': {
+    "title": "Sarah Key: Private Parts",
+    "id": "xHHzHu289Ws",
+    "url": "https://www.youtube.com/watch?v=xHHzHu289Ws"
+  },
+  'sXfrVdhmilI': {
+    "title": "Amy Cuddy's Amazing Story",
+    "id": "sXfrVdhmilI",
+    "url": "https://www.youtube.com/watch?v=sXfrVdhmilI"
+  },
+  '1RhbOPFSetE': {
+    "title": "Dame Stephanie Shirley",
+    "id": "1RhbOPFSetE",
+    "url": "https://www.youtube.com/watch?v=1RhbOPFSetE"
+  },
+  'EZpPgwaNaWI': {
+    "title": "Billie Jean King: Coming Out",
+    "id": "EZpPgwaNaWI",
+    "url": "https://www.youtube.com/watch?v=EZpPgwaNaWI"
+  },
+  'Vyn_xLrtZaY': {
+    "title": "Margaret Heffernan",
+    "id": "Vyn_xLrtZaY",
+    "url": "https://www.youtube.com/watch?v=Vyn_xLrtZaY"
+  },
+  'wpv1qtiwdHQ': {
+    "title": "Mellody Hobson Commencement SC 2015",
+    "id": "wpv1qtiwdHQ",
+    "url": "https://www.youtube.com/watch?v=wpv1qtiwdHQ"
+  },
+  'FDreaW2cEUI': {
+    "title": "Emilia Earhart on Woman's place in science",
+    "id": "FDreaW2cEUI",
+    "url": "https://www.youtube.com/watch?v=FDreaW2cEUI"
+  },
+  'FIN1F0TyadM': {
+    "title": "Michelle Obama speech - International Women's Day",
+    "id": "FIN1F0TyadM",
+    "url": "https://www.youtube.com/watch?v=FIN1F0TyadM"
+  },
+  'TIzVOwIuWvQ': {
+    "title": "Gloria Steinem",
+    "id": "TIzVOwIuWvQ",
+    "url": "https://www.youtube.com/watch?v=TIzVOwIuWvQ"
+  },
+  'xXM4E23Efvk': {
+    "title": "Hillary Clinton - Womens Rights Are Human Rights",
+    "id": "xXM4E23Efvk",
+    "url": "https://www.youtube.com/watch?v=xXM4E23Efvk"
+  },
+  'IDH4RKX428Y': {
+    "title": "Aint I A Woman - Sojourner Truth",
+    "id": "IDH4RKX428Y",
+    "url": "https://www.youtube.com/watch?v=IDH4RKX428Y"
+  },
+  'zcbY04JrMaU': {
+    "title": "Virginia Woolf - Craftsmanship",
+    "id": "zcbY04JrMaU",
+    "url": "https://www.youtube.com/watch?v=zcbY04JrMaU"
+  },
+  '8qEEqAZgULU': {
+    "title": "Reni Eddo-Lodge: ...Talking to White People About Race",
+    "id": "8qEEqAZgULU",
+    "url": "https://www.youtube.com/watch?v=8qEEqAZgULU"
+  },
+  'D9Ihs241zeg': {
+    "title": "Chimamanda Ngozi Adichie - The danger of a single story",
+    "id": "D9Ihs241zeg",
+    "url": "https://www.youtube.com/watch?v=D9Ihs241zeg"
+  },
+  'cbecKv2xR14': {
+    "title": "Maya Angelou: Love Liberates",
+    "id": "cbecKv2xR14",
+    "url": "https://www.youtube.com/watch?v=cbecKv2xR14"
+  },
+  'JMxG0reODQY': {
+    "title": "Emma Gonzalez on guns and the NRA",
+    "id": "JMxG0reODQY",
+    "url": "https://www.youtube.com/watch?v=JMxG0reODQY"
+  },
+  'IdJbJMUFzZA': {
+    "title": "Deborah Frances-White",
+    "id": "IdJbJMUFzZA",
+    "url": "https://www.youtube.com/watch?v=IdJbJMUFzZA"
+  },
+  'xAgawjzimjc': {
+    "title": "Ashley Graham - Plus-size? More Like My Size",
+    "id": "xAgawjzimjc",
+    "url": "https://www.youtube.com/watch?v=xAgawjzimjc"
+  },
+  'iauet4reDn4': {
+    "title": "My name is Truth: the life of Sojourner Truth",
+    "id": "iauet4reDn4",
+    "url": "https://www.youtube.com/watch?v=iauet4reDn4"
+  },
+  'z-sNlQJTBYA': {
+    "title": "Janet Mock - Trans people are who they say they are",
+    "id": "z-sNlQJTBYA",
+    "url": "https://www.youtube.com/watch?v=z-sNlQJTBYA"
+  },
+  'mM5ONxQxQu8': {
+    "title": "Viola Davis speaks at Women's March",
+    "id": "mM5ONxQxQu8",
+    "url": "https://www.youtube.com/watch?v=mM5ONxQxQu8"
   }
 };
 
