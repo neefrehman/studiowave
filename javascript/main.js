@@ -164,11 +164,6 @@ const beatArray = {
     "id": "kg9gjQnSCAw",
     "url": "https://www.youtube.com/watch?v=kg9gjQnSCAw"
   },
-  "xrw_6brs9tI": {
-    "title": "Lofi Hip Hop Radio 24/7",
-    "id": "xrw_6brs9tI",
-    "url": "https://www.youtube.com/watch?v=xrw_6brs9tI"
-  },
   "bR9-2As-XMk": {
     "title": "Kiasmos - Burn",
     "id": "bR9-2As-XMk",
