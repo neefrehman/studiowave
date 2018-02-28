@@ -145,7 +145,7 @@ const beatArray = {
     "url": "https://www.youtube.com/watch?v=wPjN5GNpCTI"
   },
   "mGBK8-u5h20": {
-    "title": "Ulrich Schnauss - Far away trains passing by",
+    "title": "Far away trains passing by",
     "id": "mGBK8-u5h20",
     "url": "https://www.youtube.com/watch?v=mGBK8-u5h20"
   },
