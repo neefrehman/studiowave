@@ -253,6 +253,11 @@ const beatArray = {
     "title": "Vaporwave~Hiphop~Vibes",
     "id": "T0nodan87dM",
     "url": "https://www.youtube.com/watch?v=T0nodan87dM"
+  },
+  "wOMwO5T3yT4": {
+    "title": "ＳＰＡＣＥ　ＴＲＩＰ",
+    "id": "wOMwO5T3yT4",
+    "url": "https://www.youtube.com/watch?v=wOMwO5T3yT4"
   }
 };
 
@@ -392,10 +397,10 @@ const speechArray = {
     "id": "A26MnVnL8K4",
     "url": "https://www.youtube.com/watch?v=A26MnVnL8K4"
   },
-  'aazxRl5b7Ms': {
+  '0XeaN_j6tCc': {
     "title": "The Lord of the Rings Audiobook",
-    "id": "aazxRl5b7Ms",
-    "url": "https://www.youtube.com/watch?v=aazxRl5b7Ms"
+    "id": "0XeaN_j6tCc",
+    "url": "https://www.youtube.com/watch?v=0XeaN_j6tCc"
   },
   '5ZBuWVvQMn8': {
     "title": "Jim Rohn Learn To Master These Skills",
@@ -572,11 +577,6 @@ const speechArray = {
     "id": "aaiPkEhB0lY",
     "url": "https://www.youtube.com/watch?v=aaiPkEhB0lY"
   },
-  'J7GY1Xg6X20': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
-  },
   'bHOHi5ueo0A': {
     "title": "The laughing heart",
     "id": "bHOHi5ueo0A",
@@ -586,16 +586,6 @@ const speechArray = {
     "title": "Charles Bukowski on dying and how to write",
     "id": "MTPxWkBgW6U",
     "url": "https://www.youtube.com/watch?v=MTPxWkBgW6U"
-  },
-  'P5hhqvNDak8': {
-    "title": "Charlie Chaplin - The Great Dictator",
-    "id": "P5hhqvNDak8",
-    "url": "https://www.youtube.com/watch?v=P5hhqvNDak8"
-  },
-  'J7GY1Xg6X20': {
-    "title": "Charles Bukowski - The Secret of My Endurance",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
   },
   'JqOqo50LSZ0': {
     "title": "Maya Angelou - And Still I Rise",
@@ -618,7 +608,7 @@ const speechArray = {
     "url": "https://www.youtube.com/watch?v=5K_UAowTszU"
   },
   'T74EBhm5IFU': {
-    "title": "Charlie Chaplin - The Great Dictator",
+    "title": "Ellen Hovde & co. on documentaries",
     "id": "T74EBhm5IFU",
     "url": "https://www.youtube.com/watch?v=T74EBhm5IFU"
   },
@@ -681,11 +671,6 @@ const speechArray = {
     "title": "George the Poet - My City",
     "id": "b2mMX6vFc4s",
     "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
-  },
-  'J7GY1Xg6X20': {
-    "title": "Ellen Hovde & Co. on documentaries",
-    "id": "J7GY1Xg6X20",
-    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
   },
   'iqm-XEqpayc': {
     "title": "Sheryl Sandberg Berkley Speech",
@@ -826,6 +811,11 @@ const speechArray = {
     "title": "Viola Davis speaks at Women's March",
     "id": "mM5ONxQxQu8",
     "url": "https://www.youtube.com/watch?v=mM5ONxQxQu8"
+  },
+  '75WFTHpOw8Y': {
+    "title": "Björk talking about her TV",
+    "id": "75WFTHpOw8Y",
+    "url": "https://www.youtube.com/watch?v=75WFTHpOw8Y"
   }
 };
 
