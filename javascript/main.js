@@ -258,6 +258,151 @@ const beatArray = {
     "title": "ＳＰＡＣＥ　ＴＲＩＰ",
     "id": "wOMwO5T3yT4",
     "url": "https://www.youtube.com/watch?v=wOMwO5T3yT4"
+  },
+  '-FlxM_0S2lA': {
+    "title": "Lofi hip hop mix",
+    "id": "-FlxM_0S2lA",
+    "url": "https://www.youtube.com/watch?v=-FlxM_0S2lA"
+  },
+  'uHaZzrUVnmw': {
+    "title": "Hip-Hop Instrumentals Vol.2 - Aroto",
+    "id": "uHaZzrUVnmw",
+    "url": "https://www.youtube.com/watch?v=uHaZzrUVnmw"
+  },
+  'GGBm9gTY2NU': {
+    "title": "DownTown | Jazzy HipHop",
+    "id": "GGBm9gTY2NU",
+    "url": "https://www.youtube.com/watch?v=GGBm9gTY2NU"
+  },
+  'tXQzAApb4WM': {
+    "title": "Questlove - Goodbye Isaac",
+    "id": "tXQzAApb4WM",
+    "url": "https://www.youtube.com/watch?v=tXQzAApb4WM"
+  },
+  'Agl1TgVfls0': {
+    "title": "J Dilla - Life (Instrumental)",
+    "id": "Agl1TgVfls0",
+    "url": "https://www.youtube.com/watch?v=Agl1TgVfls0"
+  },
+  'rSibMLeJYaE': {
+    "title": "Hip Hop Jazz Chill - Need for Weekend",
+    "id": "rSibMLeJYaE",
+    "url": "https://www.youtube.com/watch?v=rSibMLeJYaE"
+  },
+  '9ka5bgHnHyg': {
+    "title": "Hip Hop Funk Jazz - Ours Samplus",
+    "id": "9ka5bgHnHyg",
+    "url": "https://www.youtube.com/watch?v=9ka5bgHnHyg"
+  },
+  'V93yBHhxHTM': {
+    "title": "Instrumental Hip Hop Buena Vista Chan Chan",
+    "id": "V93yBHhxHTM",
+    "url": "https://www.youtube.com/watch?v=V93yBHhxHTM"
+  },
+  'Au46lJu8icA': {
+    "title": "Old School Instrumental Hip Hop Session",
+    "id": "Au46lJu8icA",
+    "url": "https://www.youtube.com/watch?v=Au46lJu8icA"
+  },
+  '_Rd2vKI6Amk': {
+    "title": "Chill Instrumental Hiphop & JazzHop Mix",
+    "id": "_Rd2vKI6Amk",
+    "url": "https://www.youtube.com/watch?v=_Rd2vKI6Amk"
+  },
+  'UHffJ0qC9Ko': {
+    "title": "Gramatik Just Jammin",
+    "id": "UHffJ0qC9Ko",
+    "url": "https://www.youtube.com/watch?v=UHffJ0qC9Ko"
+  },
+  '7ZguAEoNpZw': {
+    "title": "L'indécis - Soulful",
+    "id": "7ZguAEoNpZw",
+    "url": "https://www.youtube.com/watch?v=7ZguAEoNpZw"
+  },
+  'KjQSSYOTXzk': {
+    "title": "Khruangbin - Friday Morning",
+    "id": "KjQSSYOTXzk",
+    "url": "https://www.youtube.com/watch?v=KjQSSYOTXzk"
+  },
+  'e05rLVZQKiU': {
+    "title": "Tommy Guerrero - No Mans Land ",
+    "id": "e05rLVZQKiU",
+    "url": "https://www.youtube.com/watch?v=e05rLVZQKiU"
+  },
+  'zdYzL6wkr0A': {
+    "title": "Time (Chillwave - Lofi - Electronic Mix)",
+    "id": "zdYzL6wkr0A",
+    "url": "https://www.youtube.com/watch?v=zdYzL6wkr0A"
+  },
+  'ksaWk4ng_yA': {
+    "title": "Hentzup - Out Of The Blue",
+    "id": "ksaWk4ng_yA",
+    "url": "https://www.youtube.com/watch?v=ksaWk4ng_yA"
+  },
+  'gS62leDULLY': {
+    "title": "Aso - Dreamer",
+    "id": "gS62leDULLY",
+    "url": "https://www.youtube.com/watch?v=gS62leDULLY"
+  },
+  '6Y1naR7xDY8': {
+    "title": "Saiko - In Space",
+    "id": "6Y1naR7xDY8",
+    "url": "https://www.youtube.com/watch?v=6Y1naR7xDY8"
+  },
+  'kO43brxekLI': {
+    "title": "Sounds Positive ☛ Jazz Oldschool HipHop",
+    "id": "kO43brxekLI",
+    "url": "https://www.youtube.com/watch?v=kO43brxekLI"
+  },
+  'lSU1eFxgr68': {
+    "title": "Vanilla - Origin (Full Album)",
+    "id": "lSU1eFxgr68",
+    "url": "https://www.youtube.com/watch?v=lSU1eFxgr68"
+  },
+  'IFS0Eo1eh6Y': {
+    "title": "Joey Bada$$ - Waves Instrumental",
+    "id": "IFS0Eo1eh6Y",
+    "url": "https://www.youtube.com/watch?v=IFS0Eo1eh6Y"
+  },
+  'XG5umW9LTfo': {
+    "title": "Flatbush ZOMBiES - Palm Trees",
+    "id": "XG5umW9LTfo",
+    "url": "https://www.youtube.com/watch?v=XG5umW9LTfo"
+  },
+  '9eBfa9nNzvk': {
+    "title": "DOOM & RZA - Books Of War",
+    "id": "9eBfa9nNzvk",
+    "url": "https://www.youtube.com/watch?v=9eBfa9nNzvk"
+  },
+  'GJ-rORq34js': {
+    "title": "J-Force - Pink Chicken '98",
+    "id": "GJ-rORq34js",
+    "url": "https://www.youtube.com/watch?v=GJ-rORq34js"
+  },
+  'SU6x6nWQWI0': {
+    "title": "Wio-K - We Nah Easy",
+    "id": "SU6x6nWQWI0",
+    "url": "https://www.youtube.com/watch?v=SU6x6nWQWI0"
+  },
+  '7t2PhJUddIk': {
+    "title": "Late June - You & I",
+    "id": "7t2PhJUddIk",
+    "url": "https://www.youtube.com/watch?v=7t2PhJUddIk"
+  },
+  '1N8jKsu1NCE': {
+    "title": "Julien Marchal - Insight XX",
+    "id": "1N8jKsu1NCE",
+    "url": "https://www.youtube.com/watch?v=1N8jKsu1NCE"
+  },
+  'mYntXSsNnDQ': {
+    "title": "Pete Rock - Lost Sessions",
+    "id": "mYntXSsNnDQ",
+    "url": "https://www.youtube.com/watch?v=mYntXSsNnDQ"
+  },
+  'isIj3tuQTDY': {
+    "title": "Glitch Mix",
+    "id": "isIj3tuQTDY",
+    "url": "https://www.youtube.com/watch?v=isIj3tuQTDY"
   }
 };
 
