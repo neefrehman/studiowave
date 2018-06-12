@@ -81,7 +81,7 @@ HTML{
 }
 
 #header{
-	padding-top: 20px;
+	padding-top: 10px;
 	text-align: center;
 }
 
@@ -125,7 +125,7 @@ HTML{
 #tagline{
 	font-size: 22px;
 	font-weight: 900;
-	margin-top: 5px;
+	margin-top: 25px;
 }
 
 #tagline p{
@@ -151,7 +151,7 @@ HTML{
 }
 
 #media{
-	padding-top: 35px;
+	padding-top: 25px;
 	font-size: 40px;
 	font-weight: 900;
 }
@@ -438,6 +438,10 @@ studiologo a{
 
 	#header{
 		padding-top: 0px;
+	}
+
+	#media{
+		padding-top: 35px;
 	}
 
 	#titles{

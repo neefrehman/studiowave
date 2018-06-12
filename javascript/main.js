@@ -407,151 +407,561 @@ const beatArray = {
 };
 
 const speechArray = {
-  'ccNkksrfls': {
-    "title": "Maradona 'Hand of God' 1986 World Cup",
-    "id": "ccNkksrfls",
-    "url": "https://www.youtube.com/watch?v=-ccNkksrfls"
+  'J7GY1Xg6X20': {
+    "title": "Charlie Chaplin - The Great Dictator",
+    "id": "J7GY1Xg6X20",
+    "url": "https://www.youtube.com/watch?v=J7GY1Xg6X20"
   },
-  '1QJ6P8Yxil4': {
-    "title": "Mario Götze Germany vs Argentina 2014",
-    "id": "1QJ6P8Yxil4",
-    "url": "https://www.youtube.com/watch?v=1QJ6P8Yxil4"
+  'Ga8tQrG4ZSw': {
+    "title": "T S Eliot reads his Four Quartets",
+    "id": "Ga8tQrG4ZSw",
+    "url": "https://www.youtube.com/watch?v=Ga8tQrG4ZSw"
   },
-  '3HG7lcKh3w4': {
-    "title": "Brazil Germany 7-1",
-    "id": "3HG7lcKh3w4",
-    "url": "https://www.youtube.com/watch?v=3HG7lcKh3w4"
+  'y8HTr-F-FVM': {
+    "title": "JFK - The Speech That Killed Him",
+    "id": "y8HTr-F-FVM",
+    "url": "https://www.youtube.com/watch?v=y8HTr-F-FVM"
   },
-  '3th82ZfFsUg': {
-    "title": "Brazil vs Italy 1982 World Cup - Classic match",
-    "id": "3th82ZfFsUg",
-    "url": "https://www.youtube.com/watch?v=3th82ZfFsUg"
+  'UF8uR6Z6KLc': {
+    "title": "Steve Jobs' 2005 Stanford Address",
+    "id": "UF8uR6Z6KLc",
+    "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc"
   },
-  'WeXLV_tu7fA': {
-    "title": "England 3-0 Poland (1989)",
-    "id": "WeXLV_tu7fA",
-    "url": "https://www.youtube.com/watch?v=WeXLV_tu7fA"
+  '9KvDvRUNw9k': {
+    "title": "Simon Sinek - How to Find Fulfillment",
+    "id": "9KvDvRUNw9k",
+    "url": "https://www.youtube.com/watch?v=9KvDvRUNw9k"
   },
-  'exZqMY1CUQ': {
-    "title": "1958 Pelé vs Sweden - WORLD CUP FINAL",
-    "id": "exZqMY1CUQ",
-    "url": "https://www.youtube.com/watch?v=-exZqMY1CUQ"
+  '3j3_iPskjxk': {
+    "title": "Full Metal Jacket Opening",
+    "id": "3j3_iPskjxk",
+    "url": "https://www.youtube.com/watch?v=3j3_iPskjxk"
   },
-  'z2PJnLgOPyo': {
-    "title": "World Cup Mexico 1970: Brazil - Italy 4-1 (Final)",
-    "id": "z2PJnLgOPyo",
-    "url": "https://www.youtube.com/watch?v=z2PJnLgOPyo"
+  '-pvxKdvuwIw': {
+    "title": "Pale Blue Dot",
+    "id": "-pvxKdvuwIw",
+    "url": "https://www.youtube.com/watch?v=-pvxKdvuwIw"
   },
-  '3HCA7Ei2KAQ': {
-    "title": "1962 Pelé vs Mexico - WORLD CUP",
-    "id": "3HCA7Ei2KAQ",
-    "url": "https://www.youtube.com/watch?v=3HCA7Ei2KAQ"
+  'pxBQLFLei70': {
+    "title": "Admiral McRaven University of Texas Address",
+    "id": "pxBQLFLei70",
+    "url": "https://www.youtube.com/watch?v=pxBQLFLei70"
   },
-  'XzzeGrU3vZg': {
-    "title": "FRANCE vs ITALIE - WORLD CUP 1998",
-    "id": "XzzeGrU3vZg",
-    "url": "https://www.youtube.com/watch?v=XzzeGrU3vZg"
+  'tY5It0jnD6M': {
+    "title": "Black Mirror - 15 Million Merits",
+    "id": "tY5It0jnD6M",
+    "url": "https://www.youtube.com/watch?v=tY5It0jnD6M"
   },
-  '3tZYvld1_2k': {
-    "title": "FRANCE vs PARAGUAY - WORLD CUP 1998",
-    "id": "3tZYvld1_2k",
-    "url": "https://www.youtube.com/watch?v=3tZYvld1_2k"
+  'DLLihqJ22Vo': {
+    "title": "Adaptation: Intro",
+    "id": "DLLihqJ22Vo",
+    "url": "https://www.youtube.com/watch?v=DLLihqJ22Vo"
   },
-  '0cHzpeOjosU': {
-    "title": "Argentina v Netherlands World Cup QF 1998",
-    "id": "0cHzpeOjosU",
-    "url": "https://www.youtube.com/watch?v=0cHzpeOjosU"
+  'xAhSc6akNPo': {
+    "title": "A Lesson by Robert McKee on dialogue",
+    "id": "xAhSc6akNPo",
+    "url": "https://www.youtube.com/watch?v=xAhSc6akNPo"
   },
-  'z6yZMIDoXPo': {
-    "title": "1994 FIFA World Cup First Goals",
-    "id": "z6yZMIDoXPo",
-    "url": "https://www.youtube.com/watch?v=z6yZMIDoXPo"
+  'PgU71nWCNeY': {
+    "title": "Fight Club Speech",
+    "id": "PgU71nWCNeY",
+    "url": "https://www.youtube.com/watch?v=PgU71nWCNeY"
   },
-  'O9cQJJ9M3cc': {
-    "title": "World Cup 1962: Brazil vs Mexico",
-    "id": "O9cQJJ9M3cc",
-    "url": "https://www.youtube.com/watch?v=O9cQJJ9M3cc"
+  'bivrs6stgHo': {
+    "title": "'More Was Never Enough'",
+    "id": "bivrs6stgHo",
+    "url": "https://www.youtube.com/watch?v=bivrs6stgHo"
   },
-  'AXQowsm_Fco': {
-    "title": "FRANCE - RFA - 1990",
-    "id": "AXQowsm_Fco",
-    "url": "https://www.youtube.com/watch?v=AXQowsm_Fco"
+  'Nb9yu6dljAU': {
+    "title": "There Will Be Blood - Milkshake",
+    "id": "Nb9yu6dljAU",
+    "url": "https://www.youtube.com/watch?v=Nb9yu6dljAU"
   },
-  'M5HbmeNKino': {
-    "title": "Carlos Alberto Goal 1970 World Cup Final",
-    "id": "M5HbmeNKino",
-    "url": "https://www.youtube.com/watch?v=M5HbmeNKino"
+  'FkJLTGweKl0': {
+    "title": "Rocky Balboa - speech to his son",
+    "id": "FkJLTGweKl0",
+    "url": "https://www.youtube.com/watch?v=FkJLTGweKl0"
   },
-  'RP6HzL_b1n4': {
-    "title": "1986 Diego Maradona vs England - World Cup",
-    "id": "RP6HzL_b1n4",
-    "url": "https://www.youtube.com/watch?v=RP6HzL_b1n4"
+  'WINDtlPXmmE': {
+    "title": "Network - Mad as Hell",
+    "id": "WINDtlPXmmE",
+    "url": "https://www.youtube.com/watch?v=WINDtlPXmmE"
   },
-  'I4qeDBad2Go': {
-    "title": "Michael Owen Goal",
-    "id": "I4qeDBad2Go",
-    "url": "https://www.youtube.com/watch?v=I4qeDBad2Go"
+  'hopNAI8Pefg': {
+    "title": "A Few Good Men",
+    "id": "hopNAI8Pefg",
+    "url": "https://www.youtube.com/watch?v=hopNAI8Pefg"
   },
-  'd1axsnMRbbo': {
-    "title": "Archie Gemmell",
-    "id": "d1axsnMRbbo",
-    "url": "https://www.youtube.com/watch?v=d1axsnMRbbo"
+  'r0pOE8JlJbI': {
+    "title": "Richard Dawkins - We are going to Die",
+    "id": "r0pOE8JlJbI",
+    "url": "https://www.youtube.com/watch?v=r0pOE8JlJbI"
   },
-  'F9FiNNnG22I': {
-    "title": "Nigeria Italy 94",
-    "id": "F9FiNNnG22I",
-    "url": "https://www.youtube.com/watch?v=F9FiNNnG22I"
+  '0R3yJA7TnSk': {
+    "title": "Sam Harris - Reality of your life is Now",
+    "id": "0R3yJA7TnSk",
+    "url": "https://www.youtube.com/watch?v=0R3yJA7TnSk"
   },
-  '0E9qCaoEgl8': {
-    "title": "Maradona 86",
-    "id": "0E9qCaoEgl8",
-    "url": "https://www.youtube.com/watch?v=0E9qCaoEgl8"
+  'cWXnT6Bwit4': {
+    "title": "What If? - Jon Jorgenson",
+    "id": "cWXnT6Bwit4",
+    "url": "https://www.youtube.com/watch?v=cWXnT6Bwit4"
   },
-  'Ck6swtUa1Ok': {
-    "title": "Socrates Italy 82",
-    "id": "Ck6swtUa1Ok",
-    "url": "https://www.youtube.com/watch?v=Ck6swtUa1Ok"
+  'rOX1ETA0eUo': {
+    "title": "No choices without chances - George the Poet",
+    "id": "rOX1ETA0eUo",
+    "url": "https://www.youtube.com/watch?v=rOX1ETA0eUo"
   },
-  'uh4p4MyfPMM': {
-    "title": "Spain vs France - 2006",
-    "id": "uh4p4MyfPMM",
-    "url": "https://www.youtube.com/watch?v=uh4p4MyfPMM"
+  'NZ4IoOXJiwQ': {
+    "title": "The Most Astounding Fact - Neil deGrasse Tyson",
+    "id": "NZ4IoOXJiwQ",
+    "url": "https://www.youtube.com/watch?v=NZ4IoOXJiwQ"
   },
-  'IHCqp7Xbjdg': {
-    "title": "England Argentina Full Highlights 1998",
-    "id": "IHCqp7Xbjdg",
-    "url": "https://www.youtube.com/watch?v=IHCqp7Xbjdg"
+  'WJtzOD3KbLM': {
+    "title": "Richard Burton - Under Milk Wood",
+    "id": "WJtzOD3KbLM",
+    "url": "https://www.youtube.com/watch?v=WJtzOD3KbLM"
   },
-  'pw-q9wVJmvQ': {
-    "title": "England vs Uruagay 2014",
-    "id": "pw-q9wVJmvQ",
-    "url": "https://www.youtube.com/watch?v=pw-q9wVJmvQ"
+  'sPVWmmVKVk0': {
+    "title": "Eleanor Roosevelt Speech Human Rights",
+    "id": "sPVWmmVKVk0",
+    "url": "https://www.youtube.com/watch?v=sPVWmmVKVk0"
   },
-  'wtjNU6sXtCI': {
-    "title": "Brazil vs France - 1986",
-    "id": "wtjNU6sXtCI",
-    "url": "https://www.youtube.com/watch?v=wtjNU6sXtCI"
+  'MkTw3_PmKtc': {
+    "title": "Winston S Churchill: Fight on the Beaches",
+    "id": "MkTw3_PmKtc",
+    "url": "https://www.youtube.com/watch?v=MkTw3_PmKtc"
   },
-  'X9jrLD_If1w': {
-    "title": "Scotland vs Brazil - 1998",
-    "id": "X9jrLD_If1w",
-    "url": "https://www.youtube.com/watch?v=X9jrLD_If1w"
+  '_SakitCoNYc': {
+    "title": "Mahatma Gandhi Speech",
+    "id": "_SakitCoNYc",
+    "url": "https://www.youtube.com/watch?v=_SakitCoNYc"
   },
-  'bkeaw6ooyz0': {
-    "title": "Zidane vs Brazil - 2006",
-    "id": "bkeaw6ooyz0",
-    "url": "https://www.youtube.com/watch?v=bkeaw6ooyz0"
+  'A26MnVnL8K4': {
+    "title": "Leonard Nimoy College of Fine Arts Address",
+    "id": "A26MnVnL8K4",
+    "url": "https://www.youtube.com/watch?v=A26MnVnL8K4"
   },
-  'BVSBPnEdeaE': {
-    "title": "Top 10 EPIC Goals in World Cup History",
-    "id": "BVSBPnEdeaE",
-    "url": "https://www.youtube.com/watch?v=BVSBPnEdeaE"
+  '0XeaN_j6tCc': {
+    "title": "The Lord of the Rings Audiobook",
+    "id": "0XeaN_j6tCc",
+    "url": "https://www.youtube.com/watch?v=0XeaN_j6tCc"
   },
-  'xzHvT_hlkak': {
-    "title": "10 Most Shocking Moments in World Cup History",
-    "id": "xzHvT_hlkak",
-    "url": "https://www.youtube.com/watch?v=xzHvT_hlkak"
-  }
+  '5ZBuWVvQMn8': {
+    "title": "Jim Rohn Learn To Master These Skills",
+    "id": "5ZBuWVvQMn8",
+    "url": "https://www.youtube.com/watch?v=5ZBuWVvQMn8"
+  },
+  '9OCOn3yKmwQ': {
+    "title": "The Watergate Interviews",
+    "id": "9OCOn3yKmwQ",
+    "url": "https://www.youtube.com/watch?v=9OCOn3yKmwQ"
+  },
+  'VnNBbR-JeDQ': {
+    "title": "Steve Jobs - The Major Thinkers",
+    "id": "VnNBbR-JeDQ",
+    "url": "https://www.youtube.com/watch?v=VnNBbR-JeDQ"
+  },
+  '_fMNIofUw2I': {
+    "title": "2004 Barack Obama Keynote Speech",
+    "id": "_fMNIofUw2I",
+    "url": "https://www.youtube.com/watch?v=_fMNIofUw2I"
+  },
+  'Bp8aP6pJB1Y': {
+    "title": "The Dean of Personal Development",
+    "id": "Bp8aP6pJB1Y",
+    "url": "https://www.youtube.com/watch?v=Bp8aP6pJB1Y"
+  },
+  'MOqIotJrFVM': {
+    "title": "Malala Yousafzai Nobel Peace Prize Speech",
+    "id": "MOqIotJrFVM",
+    "url": "https://www.youtube.com/watch?v=MOqIotJrFVM"
+  },
+  'oJJGuIZVfLM': {
+    "title": "Severn Cullis-Suzuki at Rio Summit",
+    "id": "oJJGuIZVfLM",
+    "url": "https://www.youtube.com/watch?v=oJJGuIZVfLM"
+  },
+  'Fg0mu32h5IY': {
+    "title": "Maya Angelou - On the Pulse of Morning",
+    "id": "Fg0mu32h5IY",
+    "url": "https://www.youtube.com/watch?v=Fg0mu32h5IY"
+  },
+  'ov4iyFoKcIs': {
+    "title": "Dr Maya Angelou Love Liberates",
+    "id": "ov4iyFoKcIs",
+    "url": "https://www.youtube.com/watch?v=ov4iyFoKcIs"
+  },
+  'keCwRdbwNQY': {
+    "title": "Steve Jobs - Think different",
+    "id": "keCwRdbwNQY",
+    "url": "https://www.youtube.com/watch?v=keCwRdbwNQY"
+  },
+  'UWzNsxRyvew': {
+    "title": "Warren Buffett - How to Stay Out of Debt",
+    "id": "UWzNsxRyvew",
+    "url": "https://www.youtube.com/watch?v=UWzNsxRyvew"
+  },
+  '5897dMWJiSM': {
+    "title": "Marcus Aurelius - Lecture on Stoicism",
+    "id": "5897dMWJiSM",
+    "url": "https://www.youtube.com/watch?v=5897dMWJiSM"
+  },
+  'UpiBUXXE8oU': {
+    "title": "Earl Nightingale - Why do you go to work?",
+    "id": "UpiBUXXE8oU",
+    "url": "https://www.youtube.com/watch?v=UpiBUXXE8oU"
+  },
+  '4IdEjAbH-LA': {
+    "title": "Earl Nightingale - Imagination Is Everything",
+    "id": "4IdEjAbH-LA",
+    "url": "https://www.youtube.com/watch?v=4IdEjAbH-LA"
+  },
+  '8PaAl51TV1o': {
+    "title": "30 day Challenge - Earl Nightingale",
+    "id": "8PaAl51TV1o",
+    "url": "https://www.youtube.com/watch?v=8PaAl51TV1o"
+  },
+  '_vmBQvYX8ig': {
+    "title": "The Key to Happiness - Earl Nightingale",
+    "id": "_vmBQvYX8ig",
+    "url": "https://www.youtube.com/watch?v=_vmBQvYX8ig"
+  },
+  'dFRpjk7seF8': {
+    "title": "Sadhguru at TED",
+    "id": "dFRpjk7seF8",
+    "url": "https://www.youtube.com/watch?v=dFRpjk7seF8"
+  },
+  'BkvEpoqFx6c': {
+    "title": "Henry Rollins: The One Decision",
+    "id": "BkvEpoqFx6c",
+    "url": "https://www.youtube.com/watch?v=BkvEpoqFx6c"
+  },
+  'fajfkO_X0l0': {
+    "title": "Sam Harris: The Self is an Illusion",
+    "id": "fajfkO_X0l0",
+    "url": "https://www.youtube.com/watch?v=fajfkO_X0l0"
+  },
+  'evM1NX3ebFE': {
+    "title": "Conquer Life's Challenges - Cornel West",
+    "id": "evM1NX3ebFE",
+    "url": "https://www.youtube.com/watch?v=evM1NX3ebFE"
+  },
+  '48wgDP9pc2E': {
+    "title": "Oprah Winfrey - Power of Belief",
+    "id": "48wgDP9pc2E",
+    "url": "https://www.youtube.com/watch?v=48wgDP9pc2E"
+  },
+  '7t_Uyi9bNS4': {
+    "title": "Sam Harris on the Illusion of Free Will",
+    "id": "7t_Uyi9bNS4",
+    "url": "https://www.youtube.com/watch?v=7t_Uyi9bNS4"
+  },
+  'ADeoLT0Dz2w': {
+    "title": "Pat Mullins - The Problem With Rolling",
+    "id": "ADeoLT0Dz2w",
+    "url": "https://www.youtube.com/watch?v=ADeoLT0Dz2w"
+  },
+  'GMWFieBGR7c': {
+    "title": "Oprah Winfrey - Harvard Commencement",
+    "id": "GMWFieBGR7c",
+    "url": "https://www.youtube.com/watch?v=GMWFieBGR7c"
+  },
+  'kn2Rp51Vpiw': {
+    "title": "Bryan Cranston's Career Advice",
+    "id": "kn2Rp51Vpiw",
+    "url": "https://www.youtube.com/watch?v=kn2Rp51Vpiw"
+  },
+  'gHbYJfwFgOU': {
+    "title": "Bill Nye: Creationism Isn't Appropriate For Children",
+    "id": "gHbYJfwFgOU",
+    "url": "https://www.youtube.com/watch?v=gHbYJfwFgOU"
+  },
+  'tfWll1Eb_dY': {
+    "title": "David Bowie talks about pain/happiness/life",
+    "id": "tfWll1Eb_dY",
+    "url": "https://www.youtube.com/watch?v=tfWll1Eb_dY"
+  },
+  '-ZRLe6jYu0s': {
+    "title": "'Happiness isn't about what the world gives you'",
+    "id": "-ZRLe6jYu0s",
+    "url": "https://www.youtube.com/watch?v=-ZRLe6jYu0s"
+  },
+  'Tc24RCmvlTU': {
+    "title": "The Truth About Happiness",
+    "id": "Tc24RCmvlTU",
+    "url": "https://www.youtube.com/watch?v=Tc24RCmvlTU"
+  },
+  'zWjuZ0OvtNU': {
+    "title": "How To Train Your Brain To Stay Focused",
+    "id": "zWjuZ0OvtNU",
+    "url": "https://www.youtube.com/watch?v=zWjuZ0OvtNU"
+  },
+  'CzSMC5rWvos': {
+    "title": "Neil deGrasse Tyson: Atheist or Agnostic",
+    "id": "CzSMC5rWvos",
+    "url": "https://www.youtube.com/watch?v=CzSMC5rWvos"
+  },
+  'ouRbkBAOGEw': {
+    "title": "JFK - We choose to go to the Moon",
+    "id": "ouRbkBAOGEw",
+    "url": "https://www.youtube.com/watch?v=ouRbkBAOGEw"
+  },
+  'IyArUh8eqJ0': {
+    "title": "JFK/Eisenhower during Cuban Missile Crisis",
+    "id": "IyArUh8eqJ0",
+    "url": "https://www.youtube.com/watch?v=IyArUh8eqJ0"
+  },
+  '0sV3miSCTG0': {
+    "title": "Amelia Earhart On Women In Flying",
+    "id": "0sV3miSCTG0",
+    "url": "https://www.youtube.com/watch?v=0sV3miSCTG0"
+  },
+  'aaiPkEhB0lY': {
+    "title": "Audrey Tatou interview",
+    "id": "aaiPkEhB0lY",
+    "url": "https://www.youtube.com/watch?v=aaiPkEhB0lY"
+  },
+  'bHOHi5ueo0A': {
+    "title": "The laughing heart",
+    "id": "bHOHi5ueo0A",
+    "url": "https://www.youtube.com/watch?v=bHOHi5ueo0A"
+  },
+  'MTPxWkBgW6U': {
+    "title": "Charles Bukowski on dying and how to write",
+    "id": "MTPxWkBgW6U",
+    "url": "https://www.youtube.com/watch?v=MTPxWkBgW6U"
+  },
+  'JqOqo50LSZ0': {
+    "title": "Maya Angelou - And Still I Rise",
+    "id": "JqOqo50LSZ0",
+    "url": "https://www.youtube.com/watch?v=JqOqo50LSZ0"
+  },
+  'CN9DN_PImy8': {
+    "title": "Maya Angelou - The Mask",
+    "id": "CN9DN_PImy8",
+    "url": "https://www.youtube.com/watch?v=CN9DN_PImy8"
+  },
+  'AlVQ7QffzjM': {
+    "title": "Dougal Wilson on making music videos",
+    "id": "AlVQ7QffzjM",
+    "url": "https://www.youtube.com/watch?v=AlVQ7QffzjM"
+  },
+  '5K_UAowTszU': {
+    "title": "Richard Linklater on being self-taught ",
+    "id": "5K_UAowTszU",
+    "url": "https://www.youtube.com/watch?v=5K_UAowTszU"
+  },
+  'T74EBhm5IFU': {
+    "title": "Ellen Hovde & co. on documentaries",
+    "id": "T74EBhm5IFU",
+    "url": "https://www.youtube.com/watch?v=T74EBhm5IFU"
+  },
+  '91uiHjHmEZc': {
+    "title": "Ridley Scott on filmmaking",
+    "id": "91uiHjHmEZc",
+    "url": "https://www.youtube.com/watch?v=91uiHjHmEZc"
+  },
+  'g9lBlD04sDs': {
+    "title": "Aaron Draplin on Working with Free Vectors",
+    "id": "g9lBlD04sDs",
+    "url": "https://www.youtube.com/watch?v=g9lBlD04sDs"
+  },
+  'v3vJ5Pvfbzk': {
+    "title": "Draw Blindfolded - Shantell Martin",
+    "id": "v3vJ5Pvfbzk",
+    "url": "https://www.youtube.com/watch?v=v3vJ5Pvfbzk"
+  },
+  'e80BbX05D7Y': {
+    "title": "How To Begin Your Presentation - Simon Sinek",
+    "id": "e80BbX05D7Y",
+    "url": "https://www.youtube.com/watch?v=e80BbX05D7Y"
+  },
+  'Ry94tFG4CIM': {
+    "title": "Do Not Think Too Much - Alan Watts",
+    "id": "Ry94tFG4CIM",
+    "url": "https://www.youtube.com/watch?v=Ry94tFG4CIM"
+  },
+  'kB5UCVW5zj4': {
+    "title": "Alan Watts - Stop Negative Thoughts",
+    "id": "kB5UCVW5zj4",
+    "url": "https://www.youtube.com/watch?v=kB5UCVW5zj4"
+  },
+  'kiSoxFHyjGY': {
+    "title": "Dan Rather's account of JFK assasination",
+    "id": "kiSoxFHyjGY",
+    "url": "https://www.youtube.com/watch?v=kiSoxFHyjGY"
+  },
+  '8-lLC4c_Mso': {
+    "title": "Dan Rather Final Goodbye",
+    "id": "8-lLC4c_Mso",
+    "url": "https://www.youtube.com/watch?v=8-lLC4c_Mso"
+  },
+  'PDv32Oo8PmE': {
+    "title": "Justin Trudeau speech at Edinburgh University",
+    "id": "PDv32Oo8PmE",
+    "url": "https://www.youtube.com/watch?v=PDv32Oo8PmE"
+  },
+  'xKCuDxpccYM': {
+    "title": "Elon Musk's Break Down on Climate Change",
+    "id": "xKCuDxpccYM",
+    "url": "https://www.youtube.com/watch?v=xKCuDxpccYM"
+  },
+  'MfXEnPO4R_s': {
+    "title": "Ludacris Breaks Down His Favorite Rap Lyrics",
+    "id": "MfXEnPO4R_s",
+    "url": "https://www.youtube.com/watch?v=MfXEnPO4R_s"
+  },
+  'b2mMX6vFc4s': {
+    "title": "George the Poet - My City",
+    "id": "b2mMX6vFc4s",
+    "url": "https://www.youtube.com/watch?v=b2mMX6vFc4s"
+  },
+  'iqm-XEqpayc': {
+    "title": "Sheryl Sandberg Berkley Speech",
+    "id": "iqm-XEqpayc",
+    "url": "https://www.youtube.com/watch?v=iqm-XEqpayc"
+  },
+  '1hlCEIUATzg': {
+    "title": "Ellen Page - Time to Thrive Conference",
+    "id": "1hlCEIUATzg",
+    "url": "https://www.youtube.com/watch?v=1hlCEIUATzg"
+  },
+  'c9SUAcNlVQ4': {
+    "title": "Emma Watson UN address: I'm a Feminist",
+    "id": "c9SUAcNlVQ4",
+    "url": "https://www.youtube.com/watch?v=c9SUAcNlVQ4"
+  },
+  'a7_49EXuLoQ': {
+    "title": "Mindy Kalin on Growing Up",
+    "id": "a7_49EXuLoQ",
+    "url": "https://www.youtube.com/watch?v=a7_49EXuLoQ"
+  },
+  'YlQzmwBiHdk': {
+    "title": "Angelina Jolie Honors Agnes Varga",
+    "id": "YlQzmwBiHdk",
+    "url": "https://www.youtube.com/watch?v=YlQzmwBiHdk"
+  },
+  'DVCfFBlKpN8': {
+    "title": "Nora Ephron - Wellesley College Commencement",
+    "id": "DVCfFBlKpN8",
+    "url": "https://www.youtube.com/watch?v=DVCfFBlKpN8"
+  },
+  'ZPCkfARH2eE': {
+    "title": "Lupita Nyong'o on self-acceptance",
+    "id": "ZPCkfARH2eE",
+    "url": "https://www.youtube.com/watch?v=ZPCkfARH2eE"
+  },
+  'xHHzHu289Ws': {
+    "title": "Sarah Key: Private Parts",
+    "id": "xHHzHu289Ws",
+    "url": "https://www.youtube.com/watch?v=xHHzHu289Ws"
+  },
+  'sXfrVdhmilI': {
+    "title": "Amy Cuddy's Amazing Story",
+    "id": "sXfrVdhmilI",
+    "url": "https://www.youtube.com/watch?v=sXfrVdhmilI"
+  },
+  '1RhbOPFSetE': {
+    "title": "Dame Stephanie Shirley",
+    "id": "1RhbOPFSetE",
+    "url": "https://www.youtube.com/watch?v=1RhbOPFSetE"
+  },
+  'EZpPgwaNaWI': {
+    "title": "Billie Jean King: Coming Out",
+    "id": "EZpPgwaNaWI",
+    "url": "https://www.youtube.com/watch?v=EZpPgwaNaWI"
+  },
+  'Vyn_xLrtZaY': {
+    "title": "Margaret Heffernan",
+    "id": "Vyn_xLrtZaY",
+    "url": "https://www.youtube.com/watch?v=Vyn_xLrtZaY"
+  },
+  'wpv1qtiwdHQ': {
+    "title": "Mellody Hobson Commencement SC 2015",
+    "id": "wpv1qtiwdHQ",
+    "url": "https://www.youtube.com/watch?v=wpv1qtiwdHQ"
+  },
+  'FDreaW2cEUI': {
+    "title": "Emilia Earhart on Woman's place in science",
+    "id": "FDreaW2cEUI",
+    "url": "https://www.youtube.com/watch?v=FDreaW2cEUI"
+  },
+  'FIN1F0TyadM': {
+    "title": "Michelle Obama speech - International Women's Day",
+    "id": "FIN1F0TyadM",
+    "url": "https://www.youtube.com/watch?v=FIN1F0TyadM"
+  },
+  'TIzVOwIuWvQ': {
+    "title": "Gloria Steinem",
+    "id": "TIzVOwIuWvQ",
+    "url": "https://www.youtube.com/watch?v=TIzVOwIuWvQ"
+  },
+  'xXM4E23Efvk': {
+    "title": "Hillary Clinton - Womens Rights Are Human Rights",
+    "id": "xXM4E23Efvk",
+    "url": "https://www.youtube.com/watch?v=xXM4E23Efvk"
+  },
+  'IDH4RKX428Y': {
+    "title": "Aint I A Woman - Sojourner Truth",
+    "id": "IDH4RKX428Y",
+    "url": "https://www.youtube.com/watch?v=IDH4RKX428Y"
+  },
+  'zcbY04JrMaU': {
+    "title": "Virginia Woolf - Craftsmanship",
+    "id": "zcbY04JrMaU",
+    "url": "https://www.youtube.com/watch?v=zcbY04JrMaU"
+  },
+  '8qEEqAZgULU': {
+    "title": "Reni Eddo-Lodge: ...Talking to White People About Race",
+    "id": "8qEEqAZgULU",
+    "url": "https://www.youtube.com/watch?v=8qEEqAZgULU"
+  },
+  'D9Ihs241zeg': {
+    "title": "Chimamanda Ngozi Adichie - The danger of a single story",
+    "id": "D9Ihs241zeg",
+    "url": "https://www.youtube.com/watch?v=D9Ihs241zeg"
+  },
+  'cbecKv2xR14': {
+    "title": "Maya Angelou: Love Liberates",
+    "id": "cbecKv2xR14",
+    "url": "https://www.youtube.com/watch?v=cbecKv2xR14"
+  },
+  'JMxG0reODQY': {
+    "title": "Emma Gonzalez on guns and the NRA",
+    "id": "JMxG0reODQY",
+    "url": "https://www.youtube.com/watch?v=JMxG0reODQY"
+  },
+  'IdJbJMUFzZA': {
+    "title": "Deborah Frances-White",
+    "id": "IdJbJMUFzZA",
+    "url": "https://www.youtube.com/watch?v=IdJbJMUFzZA"
+  },
+  'xAgawjzimjc': {
+    "title": "Ashley Graham - Plus-size? More Like My Size",
+    "id": "xAgawjzimjc",
+    "url": "https://www.youtube.com/watch?v=xAgawjzimjc"
+  },
+  'iauet4reDn4': {
+    "title": "My name is Truth: the life of Sojourner Truth",
+    "id": "iauet4reDn4",
+    "url": "https://www.youtube.com/watch?v=iauet4reDn4"
+  },
+  'z-sNlQJTBYA': {
+    "title": "Janet Mock - Trans people are who they say they are",
+    "id": "z-sNlQJTBYA",
+    "url": "https://www.youtube.com/watch?v=z-sNlQJTBYA"
+  },
+  'mM5ONxQxQu8': {
+    "title": "Viola Davis speaks at Women's March",
+    "id": "mM5ONxQxQu8",
+    "url": "https://www.youtube.com/watch?v=mM5ONxQxQu8"
+  },
+  '75WFTHpOw8Y': {
+    "title": "Björk talking about her TV",
+    "id": "75WFTHpOw8Y",
+    "url": "https://www.youtube.com/watch?v=75WFTHpOw8Y"
+  },
 };
 
 
