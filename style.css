@@ -107,13 +107,13 @@ HTML{
 
 .yellow{
 	transform-style: preserve-3d;
-	transform: translateZ(120px);
+	transform: translateZ(80px);
 	position: absolute;
 }
 
 .black{
 	transform-style: preserve-3d;
-	transform: translateZ(60px);
+	transform: translateZ(40px);
 	position: absolute;
 }
 
