@@ -93,7 +93,7 @@ HTML{
 }
 
 #logo_image{
-	max-width: 500px;
+	max-height: 164px;
 	vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
@@ -107,13 +107,13 @@ HTML{
 
 .yellow{
 	transform-style: preserve-3d;
-	transform: translateZ(80px);
+	transform: translateZ(120px);
 	position: absolute;
 }
 
 .black{
 	transform-style: preserve-3d;
-	transform: translateZ(40px);
+	transform: translateZ(60px);
 	position: absolute;
 }
 
