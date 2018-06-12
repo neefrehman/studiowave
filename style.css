@@ -363,7 +363,6 @@ studiologo a{
 	padding-top: 30px;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 7px;
 	font-size: 14px;
 }
 
@@ -461,11 +460,19 @@ studiologo a{
 	}
 
 	#endline{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	#footer{
 		padding-top: 30px;
+	}
+
+	#logo_image{
+		max-width: 400px;
+	}
+
+	#logo_image.purple{
+		max-width: 402px;
 	}
 
 }
@@ -487,14 +494,6 @@ studiologo a{
 
 	#tagline{
 		font-size: 18px;
-	}
-
-	#logo_image{
-		max-width: 400px;
-	}
-
-	#logo_image.purple{
-		max-width: 402px;
 	}
 
 	#media{
