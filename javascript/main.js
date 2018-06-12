@@ -407,16 +407,151 @@ const beatArray = {
 };
 
 const speechArray = {
+  '-ccNkksrfls': {
+    "title": "Maradona 'Hand of God' 1986 World Cup",
+    "id": "-ccNkksrfls",
+    "url": "https://www.youtube.com/watch?v=-ccNkksrfls"
+  },
   '1QJ6P8Yxil4': {
     "title": "Mario Götze Germany vs Argentina 2014",
     "id": "1QJ6P8Yxil4",
     "url": "https://www.youtube.com/watch?v=1QJ6P8Yxil4"
   },
-  '-ccNkksrfls': {
-    "title": "Maradona 'Hand of God' 1986 World Cup",
-    "id": "ccNkksrfls",
-    "url": "https://www.youtube.com/watch?v=-ccNkksrfls"
+  '3HG7lcKh3w4': {
+    "title": "Brazil Germany 7-1",
+    "id": "3HG7lcKh3w4",
+    "url": "https://www.youtube.com/watch?v=3HG7lcKh3w4"
   },
+  '3th82ZfFsUg': {
+    "title": "Brazil vs Italy 1982 World Cup - Classic match",
+    "id": "3th82ZfFsUg",
+    "url": "https://www.youtube.com/watch?v=3th82ZfFsUg"
+  },
+  'WeXLV_tu7fA': {
+    "title": "England 3-0 Poland (1989)",
+    "id": "WeXLV_tu7fA",
+    "url": "https://www.youtube.com/watch?v=WeXLV_tu7fA"
+  },
+  '-exZqMY1CUQ': {
+    "title": "1958 Pelé vs Sweden - WORLD CUP FINAL",
+    "id": "-exZqMY1CUQ",
+    "url": "https://www.youtube.com/watch?v=-exZqMY1CUQ"
+  },
+  'z2PJnLgOPyo': {
+    "title": "World Cup Mexico 1970: Brazil - Italy 4-1 (Final)",
+    "id": "z2PJnLgOPyo",
+    "url": "https://www.youtube.com/watch?v=z2PJnLgOPyo"
+  },
+  '3HCA7Ei2KAQ': {
+    "title": "1962 Pelé vs Mexico - WORLD CUP",
+    "id": "3HCA7Ei2KAQ",
+    "url": "https://www.youtube.com/watch?v=3HCA7Ei2KAQ"
+  },
+  'XzzeGrU3vZg': {
+    "title": "FRANCE vs ITALIE - WORLD CUP 1998",
+    "id": "XzzeGrU3vZg",
+    "url": "https://www.youtube.com/watch?v=XzzeGrU3vZg"
+  },
+  '3tZYvld1_2k': {
+    "title": "FRANCE vs PARAGUAY - WORLD CUP 1998",
+    "id": "3tZYvld1_2k",
+    "url": "https://www.youtube.com/watch?v=3tZYvld1_2k"
+  },
+  '0cHzpeOjosU': {
+    "title": "Argentina v Netherlands World Cup QF 1998",
+    "id": "0cHzpeOjosU",
+    "url": "https://www.youtube.com/watch?v=0cHzpeOjosU"
+  },
+  'z6yZMIDoXPo': {
+    "title": "1994 FIFA World Cup First Goals",
+    "id": "z6yZMIDoXPo",
+    "url": "https://www.youtube.com/watch?v=z6yZMIDoXPo"
+  },
+  'O9cQJJ9M3cc': {
+    "title": "World Cup 1962: Brazil vs Mexico",
+    "id": "O9cQJJ9M3cc",
+    "url": "https://www.youtube.com/watch?v=O9cQJJ9M3cc"
+  },
+  'AXQowsm_Fco': {
+    "title": "FRANCE - RFA - 1990",
+    "id": "AXQowsm_Fco",
+    "url": "https://www.youtube.com/watch?v=AXQowsm_Fco"
+  },
+  'M5HbmeNKino': {
+    "title": "Carlos Alberto Goal 1970 World Cup Final",
+    "id": "M5HbmeNKino",
+    "url": "https://www.youtube.com/watch?v=M5HbmeNKino"
+  },
+  'RP6HzL_b1n4': {
+    "title": "1986 Diego Maradona vs England - World Cup",
+    "id": "RP6HzL_b1n4",
+    "url": "https://www.youtube.com/watch?v=RP6HzL_b1n4"
+  },
+  'I4qeDBad2Go': {
+    "title": "Michael Owen Goal",
+    "id": "I4qeDBad2Go",
+    "url": "https://www.youtube.com/watch?v=I4qeDBad2Go"
+  },
+  'd1axsnMRbbo': {
+    "title": "Archie Gemmell",
+    "id": "d1axsnMRbbo",
+    "url": "https://www.youtube.com/watch?v=d1axsnMRbbo"
+  },
+  'F9FiNNnG22I': {
+    "title": "Nigeria Italy 94",
+    "id": "F9FiNNnG22I",
+    "url": "https://www.youtube.com/watch?v=F9FiNNnG22I"
+  },
+  '0E9qCaoEgl8': {
+    "title": "Maradona 86",
+    "id": "0E9qCaoEgl8",
+    "url": "https://www.youtube.com/watch?v=0E9qCaoEgl8"
+  },
+  'Ck6swtUa1Ok': {
+    "title": "Socrates Italy 82",
+    "id": "Ck6swtUa1Ok",
+    "url": "https://www.youtube.com/watch?v=Ck6swtUa1Ok"
+  },
+  'uh4p4MyfPMM': {
+    "title": "Spain vs France - 2006",
+    "id": "uh4p4MyfPMM",
+    "url": "https://www.youtube.com/watch?v=uh4p4MyfPMM"
+  },
+  'IHCqp7Xbjdg': {
+    "title": "England Argentina Full Highlights 1998",
+    "id": "IHCqp7Xbjdg",
+    "url": "https://www.youtube.com/watch?v=IHCqp7Xbjdg"
+  },
+  'pw-q9wVJmvQ': {
+    "title": "England vs Uruagay 2014",
+    "id": "pw-q9wVJmvQ",
+    "url": "https://www.youtube.com/watch?v=pw-q9wVJmvQ"
+  },
+  'wtjNU6sXtCI': {
+    "title": "Brazil vs France - 1986",
+    "id": "wtjNU6sXtCI",
+    "url": "https://www.youtube.com/watch?v=wtjNU6sXtCI"
+  },
+  'X9jrLD_If1w': {
+    "title": "Scotland vs Brazil - 1998",
+    "id": "X9jrLD_If1w",
+    "url": "https://www.youtube.com/watch?v=X9jrLD_If1w"
+  },
+  'bkeaw6ooyz0': {
+    "title": "Zidane vs Brazil - 2006",
+    "id": "bkeaw6ooyz0",
+    "url": "https://www.youtube.com/watch?v=bkeaw6ooyz0"
+  },
+  'BVSBPnEdeaE': {
+    "title": "Top 10 EPIC Goals in World Cup History",
+    "id": "BVSBPnEdeaE",
+    "url": "https://www.youtube.com/watch?v=BVSBPnEdeaE"
+  },
+  'xzHvT_hlkak': {
+    "title": "10 Most Shocking Moments in World Cup History",
+    "id": "xzHvT_hlkak",
+    "url": "https://www.youtube.com/watch?v=xzHvT_hlkak"
+  }
 };
 
 
