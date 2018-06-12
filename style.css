@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%) no-repeat;
+	background: linear-gradient() no-repeat;
 	background-attachment: fixed;
 	background-size: 180% 180%;
 	-webkit-animation: Gradient 6s ease infinite;
@@ -55,7 +55,7 @@ a {
 }
 
 p{
-	color: #FFFFFF;
+	color: #FF5050;
 	letter-spacing: +1px;
 	margin-top: 0;
 }
@@ -93,7 +93,7 @@ HTML{
 }
 
 #logo_image{
-	max-width: 600px;
+	max-width: 500px;
 	vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
@@ -123,9 +123,13 @@ HTML{
 }
 
 #tagline{
-	font-size: 26px;
-	font-weight: 100;
+	font-size: 22px;
+	font-weight: 900;
 	margin-top: 5px;
+}
+
+#tagline p{
+	letter-spacing: +2px;
 }
 
 .icon{
@@ -177,7 +181,7 @@ HTML{
 	vertical-align: top;
 	font-weight: 500;
 	font-size: 18px;
-	color: #FFE180;
+	color: #278FFF;
 }
 
 .title:hover {
@@ -351,7 +355,6 @@ studiologo a{
 	width: 24%;
 	vertical-align: middle;
 	text-align: center;
-	opacity: 0.75;
 }
 
 #endline{
@@ -360,7 +363,12 @@ studiologo a{
 	padding-top: 30px;
 	text-align: center;
 	vertical-align: middle;
-	opacity: 0.3;
+	line-height: 7px;
+	font-size: 14px;
+}
+
+#endline p{
+		letter-spacing: +0px;
 }
 
 #SSlogo{
@@ -375,7 +383,7 @@ studiologo a{
 	padding-top: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 
 .mobile.mobile_device{
@@ -421,7 +429,7 @@ studiologo a{
 	}
 
 	#tagline{
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	.wrapper{
