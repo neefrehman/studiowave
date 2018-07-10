@@ -283,16 +283,16 @@ HTML{
 }
 
 #speechvideo{
-	display: block;
+	display: none;
 	position: absolute;
-	visibility: hidden;
+	/* visibility: hidden; */
 	z-index: 0;
 }
 
 #beatvideo{
-	display: block;
+	display: none;
 	position: absolute;
-	visibility: hidden;
+	/* visibility: hidden; */
 	z-index: 0;
 }
 
