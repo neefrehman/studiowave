@@ -970,7 +970,7 @@ const speechArray = {
 $(document).ready(function(){
   $('input[type="range"]').rangeslider({polyfill: false});
   $('input[type="range"]').rangeslider('update', true);
-
+});
 
 // YouTube Volume
 
@@ -1011,7 +1011,6 @@ $('#playpausebutton img').on('click', function () {
       speechPlayer.playVideo();
     };
 
-});
 });
 
 
