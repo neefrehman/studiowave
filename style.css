@@ -336,7 +336,9 @@ HTML{
 	max-width: 120px;
 }
 
-#footer{
+footer{
+	display: flex;
+	justify-content: space-between;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
@@ -348,7 +350,7 @@ studiologo a{
 
 #USTWOlogo{
 	display: inline-block;
-	width: 24%;
+	padding-top: 10px;
 	vertical-align: middle;
 	text-align: center;
 	opacity: 0.75;
@@ -356,7 +358,6 @@ studiologo a{
 
 #endline{
 	display: inline-block;
-	width: 49%;
 	padding-top: 30px;
 	text-align: center;
 	vertical-align: middle;
@@ -366,15 +367,12 @@ studiologo a{
 #SSlogo{
 	display: inline-block;
 	text-align: center;
-	width: 24%;
 	vertical-align: middle;
 }
 
 .studiologo img{
 	max-width: 120px;
-	padding-top: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 15px 10px 0 10px;
 	opacity: 0.3;
 }
 
@@ -452,7 +450,7 @@ studiologo a{
 		font-size: 14px;
 	}
 
-	#footer{
+	footer{
 		padding-top: 30px;
 	}
 
@@ -579,21 +577,13 @@ studiologo a{
 		display: none;
 	}
 
-	#footer{
+	footer{
 		text-align: center;
 		padding-top: 40px;
 	}
 
-	#USTWOlogo{
-		width: 49%;
-	}
-
 	#endline{
 		display: none;
-	}
-
-	#SSlogo{
-		width: 49%;
 	}
 
 }
