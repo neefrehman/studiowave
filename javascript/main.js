@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 // YouTube Player Logic
 
 var beatPlayer;
@@ -19,7 +20,7 @@ $.urlParam = function(name) {
   console.log(name);
   console.log(results);
   return results [1] || 0;
-}
+};
 
 
 // Share Clipboard
@@ -28,7 +29,7 @@ $(document).ready(function(){
   new Clipboard('.sharebutton');
   speechKey = $.urlParam('speech');
   beatKey = $.urlParam('beat');
-})
+});
 
 function linkBuilder() {
   var link = 'www.studiowave.fm/' + '?beat=' + currentBeatId + '&speech=' + currentSpeechId;
@@ -38,7 +39,7 @@ function linkBuilder() {
 var clipboard = new Clipboard('.sharebutton');
 clipboard.on('success', function(e) {
     console.info('Text:', e.text);
-  })
+  });
 
 
 // Tooltip
@@ -47,7 +48,7 @@ $('.sharebutton').on('click', function () {
     var $this = $('#tooltip').toggleClass("override");
     setTimeout(function () {
         $this.toggleClass("override");
-    }, 1000)
+    }, 1000);
   });
 
 
@@ -98,11 +99,6 @@ const beatArray = {
     "title": "Vessels - Dilate",
     "id": "nT6NWc3J0-o",
     "url": "https://www.youtube.com/watch?v=nT6NWc3J0-o"
-  },
-  "3ZdSDUyxFmc": {
-    "title": "Lifted (Chillwave/Retrowave Mix)",
-    "id": "3ZdSDUyxFmc",
-    "url": "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
   },
   "QGpgAz__uXs": {
     "title": "Lounge Instrumental Chillout music",
@@ -253,11 +249,6 @@ const beatArray = {
     "title": "Vaporwave~Hiphop~Vibes",
     "id": "T0nodan87dM",
     "url": "https://www.youtube.com/watch?v=T0nodan87dM"
-  },
-  "wOMwO5T3yT4": {
-    "title": "ＳＰＡＣＥ　ＴＲＩＰ",
-    "id": "wOMwO5T3yT4",
-    "url": "https://www.youtube.com/watch?v=wOMwO5T3yT4"
   },
   '-FlxM_0S2lA': {
     "title": "Lofi hip hop mix",
@@ -1009,7 +1000,7 @@ $('#playpausebutton img').on('click', function () {
     } else {
       beatPlayer.playVideo();
       speechPlayer.playVideo();
-    };
+    }
 
 });
 
@@ -1018,21 +1009,21 @@ $('#playpausebutton img').on('click', function () {
 
 $('#beatreset img').on('click', function () {
   if (beatOrder[beatOrder.length - 1] === currentBeatId) {
-    beatPlayer.playVideoAt(0)
+    beatPlayer.playVideoAt(0);
   } else {
-    beatPlayer.nextVideo()
+    beatPlayer.nextVideo();
   }
-    if (!isPlaying) {
-      beatPlayer.pauseVideo();
-      speechPlayer.pauseVideo();
-    }
+  if (!isPlaying) {
+    beatPlayer.pauseVideo();
+    speechPlayer.pauseVideo();
+  }
 });
 
 $('#speechreset img').on('click', function () {
     if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
-      speechPlayer.playVideoAt(0)
+      speechPlayer.playVideoAt(0);
     } else {
-      speechPlayer.nextVideo()
+      speechPlayer.nextVideo();
     }
     if (!isPlaying) {
       speechPlayer.pauseVideo();
@@ -1084,7 +1075,7 @@ function onBeatStateChange() {
   var BeatTitle = document.getElementById("BeatTitle");
   BeatTitle.innerHTML = object.title;
   BeatTitle.href = object.url;
-  linkBuilder()
+  linkBuilder();
 }
 
 function onSpeechStateChange() {
@@ -1098,7 +1089,7 @@ function onSpeechStateChange() {
   var SpeechTitle = document.getElementById("SpeechTitle");
   SpeechTitle.innerHTML = object.title;
   SpeechTitle.href = object.url;
-  linkBuilder()
+  linkBuilder();
 }
 
 // Generate YouTube Players and jump to shared pair logic
