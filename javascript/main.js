@@ -13,10 +13,9 @@ var beatKey;
 
 
 // URL jump to shared pair
-
 $.urlParam = function(name) {
   var results = new RegExp('[/?&]' + name + '=([^&#]*)')
-                  .exec(window.location.href);
+                .exec(window.location.href);
   console.log(name);
   console.log(results);
   return results [1] || 0;
@@ -24,7 +23,6 @@ $.urlParam = function(name) {
 
 
 // Share Clipboard
-
 $(document).ready(function(){
   new Clipboard('.sharebutton');
   speechKey = $.urlParam('speech');
@@ -38,22 +36,20 @@ function linkBuilder() {
 
 var clipboard = new Clipboard('.sharebutton');
 clipboard.on('success', function(e) {
-    console.info('Text:', e.text);
-  });
+  console.info('Text:', e.text);
+});
 
 
 // Tooltip
-
 $('.sharebutton').on('click', function () {
-    var $this = $('#tooltip').toggleClass("override");
-    setTimeout(function () {
-        $this.toggleClass("override");
-    }, 1000);
-  });
+  var $this = $('#tooltip').toggleClass("override");
+  setTimeout(function () {
+    $this.toggleClass("override");
+  }, 1000);
+});
 
 
 // MODEL
-
 const beatArray = {
   "3ZdSDUyxFmc": {
     "title": "Lifted (Chillwave/Retrowave Mix)",
@@ -957,14 +953,12 @@ const speechArray = {
 
 
 // RangeSlider
-
 $(document).ready(function(){
   $('input[type="range"]').rangeslider({polyfill: false});
   $('input[type="range"]').rangeslider('update', true);
 });
 
 // YouTube Volume
-
 $('#beatslider').on('change', function () {
     beatPlayer.setVolume($(this).val());
 });
@@ -975,38 +969,31 @@ $('#speechslider').on('change', function () {
 
 
 // Play & Pause
-
 $('#playpausebutton img').on('click', function () {
-    var beatPlayerState = beatPlayer.getPlayerState();
-    var speechPlayerState = speechPlayer.getPlayerState();
-    var button = document.getElementById("buttonicon");
+  var beatPlayerState = beatPlayer.getPlayerState();
+  var speechPlayerState = speechPlayer.getPlayerState();
+  var button = document.getElementById("buttonicon");
 
-    isPlaying = !isPlaying;
+  isPlaying = !isPlaying;
 
-    if (isPlaying == true) {
+  if (isPlaying == true) {
+    button.src = "images/pause.png";
+  }
+  else {
+    button.src = "images/play.png";
+  }
 
-      button.src = "images/pause.png";
-
-    }
-    else {
-
-      button.src = "images/play.png";
-
-    }
-
-    if(beatPlayerState == 1){
-      beatPlayer.pauseVideo();
-      speechPlayer.pauseVideo();
-    } else {
-      beatPlayer.playVideo();
-      speechPlayer.playVideo();
-    }
-
+  if (beatPlayerState == 1) {
+    beatPlayer.pauseVideo();
+    speechPlayer.pauseVideo();
+  } else {
+    beatPlayer.playVideo();
+    speechPlayer.playVideo();
+  }
 });
 
 
 // Next video
-
 $('#beatreset img').on('click', function () {
   if (beatOrder[beatOrder.length - 1] === currentBeatId) {
     beatPlayer.playVideoAt(0);
@@ -1033,22 +1020,17 @@ $('#speechreset img').on('click', function () {
 
 
 // if it is a agent detected mobile hideClass small_screen and show mobile_device
-
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- // some code..
   $('.mobile_device').css('display', 'block');
   $('.small_screen').css('display', 'none');
 }
 
 
 // Shuffle
-
 function shuffle(array) {
   var m = array.length, t, i;
-
   // While there remain elements to shuffle…
   while (m) {
-
     // Pick a remaining element…
     i = Math.floor(Math.random() * m--);
 
@@ -1063,7 +1045,6 @@ function shuffle(array) {
 
 
 // titles and links
-
 function onBeatStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
       event.target.setPlaybackQuality('small');
@@ -1093,7 +1074,6 @@ function onSpeechStateChange() {
 }
 
 // Generate YouTube Players and jump to shared pair logic
-
 function onYouTubeIframeAPIReady() {
 
     if (beatKey && beatArray[beatKey]) {
