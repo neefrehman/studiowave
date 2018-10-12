@@ -1076,49 +1076,50 @@ function onSpeechStateChange() {
 // Generate YouTube Players and jump to shared pair logic
 function onYouTubeIframeAPIReady() {
 
-    if (beatKey && beatArray[beatKey]) {
-      let beatArrayCopy = Object.assign({}, beatArray);
-      delete beatArrayCopy[beatKey];
-      beatOrder = [beatKey].concat(shuffle(Object.keys(beatArrayCopy)));
-    }
-    else {
-      beatOrder = shuffle(Object.keys(beatArray));
-    }
-    if (speechKey && speechArray[speechKey]) {
-      let speechArrayCopy = Object.assign({}, speechArray);
-      delete speechArrayCopy[speechKey];
-      speechOrder = [speechKey].concat(shuffle(Object.keys(speechArrayCopy)));
-    }
-    else {
-      speechOrder = shuffle(Object.keys(speechArray));
-    }
+  if (beatKey && beatArray[beatKey]) {
+    let beatArrayCopy = Object.assign({}, beatArray);
+    delete beatArrayCopy[beatKey];
+    beatOrder = [beatKey].concat(shuffle(Object.keys(beatArrayCopy)));
+  }
+  else {
+    beatOrder = shuffle(Object.keys(beatArray));
+  }
+  if (speechKey && speechArray[speechKey]) {
+    let speechArrayCopy = Object.assign({}, speechArray);
+    delete speechArrayCopy[speechKey];
+    speechOrder = [speechKey].concat(shuffle(Object.keys(speechArrayCopy)));
+  }
+  else {
+    speechOrder = shuffle(Object.keys(speechArray));
+  }
 
-    beatPlayer = new YT.Player('beatvideo', {
-        width: 30,
-        height: 20,
-        playerVars: {
-            color: 'white',
-            playlist: beatOrder.join(',')
-        },
-        events: {
-            onReady: beatInitialized,
-            onStateChange: onBeatStateChange
-        }
-    });
-    speechPlayer = new YT.Player('speechvideo', {
-        width: 30,
-        height: 20,
-        playerVars: {
-            color: 'white',
-            playlist: speechOrder.join(',')
-        },
-        events: {
-            onReady: speechInitialized,
-            onStateChange: onSpeechStateChange
-        }
-    });
+  beatPlayer = new YT.Player('beatvideo', {
+    width: 30,
+    height: 20,
+    playerVars: {
+      color: 'white',
+      playlist: beatOrder.join(',')
+    },
+    events: {
+      onReady: beatInitialized,
+      onStateChange: onBeatStateChange
+    }
+  });
+  
+  speechPlayer = new YT.Player('speechvideo', {
+    width: 30,
+    height: 20,
+    playerVars: {
+      color: 'white',
+      playlist: speechOrder.join(',')
+    },
+    events: {
+      onReady: speechInitialized,
+      onStateChange: onSpeechStateChange
+    }
+  });
 
-    history.replaceState( {} , 'Studiowave', '/' );
+  history.replaceState( {} , 'Studiowave', '/' );
 
 }
 
