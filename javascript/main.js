@@ -529,11 +529,6 @@ const speechArray = {
     "id": "A26MnVnL8K4",
     "url": "https://www.youtube.com/watch?v=A26MnVnL8K4"
   },
-  '0XeaN_j6tCc': {
-    "title": "The Lord of the Rings Audiobook",
-    "id": "0XeaN_j6tCc",
-    "url": "https://www.youtube.com/watch?v=0XeaN_j6tCc"
-  },
   '5ZBuWVvQMn8': {
     "title": "Jim Rohn Learn To Master These Skills",
     "id": "5ZBuWVvQMn8",
@@ -1105,7 +1100,7 @@ function onYouTubeIframeAPIReady() {
       onStateChange: onBeatStateChange
     }
   });
-  
+
   speechPlayer = new YT.Player('speechvideo', {
     width: 30,
     height: 20,
