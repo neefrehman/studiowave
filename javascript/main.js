@@ -18,7 +18,7 @@ $.urlParam = function(name) {
                 .exec(window.location.href);
   console.log(name);
   console.log(results);
-  return results [1] || 0;
+  return (results) ? results[1] : 0;
 };
 
 
@@ -965,6 +965,7 @@ $('#speechslider').on('change', function () {
 
 // Play & Pause
 $('#playpausebutton img').on('click', function () {
+  if (!beatPlayer) return;
   var beatPlayerState = beatPlayer.getPlayerState();
   var speechPlayerState = speechPlayer.getPlayerState();
   var button = document.getElementById("buttonicon");
@@ -990,6 +991,7 @@ $('#playpausebutton img').on('click', function () {
 
 // Next video
 $('#beatreset img').on('click', function () {
+  if (!beatPlayer) return;
   if (beatOrder[beatOrder.length - 1] === currentBeatId) {
     beatPlayer.playVideoAt(0);
   } else {
@@ -1002,6 +1004,7 @@ $('#beatreset img').on('click', function () {
 });
 
 $('#speechreset img').on('click', function () {
+  if (!speechPlayer) return;
     if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
       speechPlayer.playVideoAt(0);
     } else {
@@ -1045,12 +1048,15 @@ function onBeatStateChange() {
       event.target.setPlaybackQuality('small');
   }
   const index = beatPlayer.getPlaylistIndex();
+  console.log('Beat playlist index: ', index);
   const key = beatOrder[index];
   const object = beatArray[key];
   currentBeatId = key;
-  var BeatTitle = document.getElementById("BeatTitle");
-  BeatTitle.innerHTML = object.title;
-  BeatTitle.href = object.url;
+  if (object) {
+    var BeatTitle = document.getElementById("BeatTitle");
+    BeatTitle.innerHTML = object.title;
+    BeatTitle.href = object.url;
+  }
   linkBuilder();
 }
 
@@ -1059,12 +1065,15 @@ function onSpeechStateChange() {
       event.target.setPlaybackQuality('small');
   }
   const index = speechPlayer.getPlaylistIndex();
+  console.log('Speech playlist index: ', index);
   const key = speechOrder[index];
   const object = speechArray[key];
   currentSpeechId = key;
-  var SpeechTitle = document.getElementById("SpeechTitle");
-  SpeechTitle.innerHTML = object.title;
-  SpeechTitle.href = object.url;
+  if (object) {
+    var SpeechTitle = document.getElementById("SpeechTitle");
+    SpeechTitle.innerHTML = object.title;
+    SpeechTitle.href = object.url;
+  }
   linkBuilder();
 }
 
