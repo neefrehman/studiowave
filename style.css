@@ -283,16 +283,10 @@ HTML{
 }
 
 #speechvideo{
-	display: none;
-	position: absolute;
-	/* visibility: hidden; */
 	z-index: 0;
 }
 
 #beatvideo{
-	display: none;
-	position: absolute;
-	visibility: hidden;
 	z-index: 0;
 }
 
@@ -618,4 +612,15 @@ studiologo a{
 			max-width: 231px;
 		}
 
+}
+
+.visually-hidden {
+	border: 0; 
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	position: absolute; 
+	width: 1px; 
+  clip: rect(0 0 0 0); 
+  overflow: hidden; 
 }
