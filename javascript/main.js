@@ -621,11 +621,6 @@ const speechArray = {
     id: "gHbYJfwFgOU",
     url: "https://www.youtube.com/watch?v=gHbYJfwFgOU"
   },
-  'tfWll1Eb_dY': {
-    title: "David Bowie talks about pain/happiness/life",
-    id: "tfWll1Eb_dY",
-    url: "https://www.youtube.com/watch?v=tfWll1Eb_dY"
-  },
   '-ZRLe6jYu0s': {
     title: "'Happiness isn't about what the world gives you'",
     id: "-ZRLe6jYu0s",
