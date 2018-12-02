@@ -13,197 +13,197 @@ var beatKey;
 
 // MODEL
 const beatArray = {
-  "3ZdSDUyxFmc": {
+  '3ZdSDUyxFmc': {
     title: "Lifted (Chillwave/Retrowave Mix)",
     id: "3ZdSDUyxFmc",
     url: "https://www.youtube.com/watch?v=3ZdSDUyxFmc"
   },
-  "6rReMbO42uE": {
+  '6rReMbO42uE': {
     title: "24/7 lofi hip hop",
     id: "6rReMbO42uE",
     url: "https://www.youtube.com/watch?v=6rReMbO42uE"
   },
-  "Z6ih1aKeETk": {
+  'Z6ih1aKeETk': {
     title: "Tycho - Dive",
     id: "Z6ih1aKeETk",
     url: "https://www.youtube.com/watch?v=Z6ih1aKeETk"
   },
-  "fQ5cb7A1mjA": {
+  'fQ5cb7A1mjA': {
     title: "Turquoise Memories - Glowing Dreams",
     id: "fQ5cb7A1mjA",
     url: "https://www.youtube.com/watch?v=fQ5cb7A1mjA"
   },
-  "prHFVUaL_bU": {
+  'prHFVUaL_bU': {
     title: "Future Vision",
     id: "prHFVUaL_bU",
     url: "https://www.youtube.com/watch?v=prHFVUaL_bU"
   },
-  "AQBh9soLSkI": {
+  'AQBh9soLSkI': {
     title: "Lofi HipHop Radio 24/7",
     id: "AQBh9soLSkI",
     url: "https://www.youtube.com/watch?v=AQBh9soLSkI"
   },
-  "gJOfuGj-n9M": {
+  'gJOfuGj-n9M': {
     title: "Home - Odyssey",
     id: "gJOfuGj-n9M",
     url: "https://www.youtube.com/watch?v=gJOfuGj-n9M"
   },
-  "Q04ILDXe3QE": {
+  'Q04ILDXe3QE': {
     title: "Jon Hopkins - Open Eye Signal",
     id: "Q04ILDXe3QE",
     url: "https://www.youtube.com/watch?v=Q04ILDXe3QE"
   },
-  "nT6NWc3J0-o": {
+  'nT6NWc3J0-o': {
     title: "Vessels - Dilate",
     id: "nT6NWc3J0-o",
     url: "https://www.youtube.com/watch?v=nT6NWc3J0-o"
   },
-  "QGpgAz__uXs": {
+  'QGpgAz__uXs': {
     title: "Lounge Instrumental Chillout music",
     id: "QGpgAz__uXs",
     url: "https://www.youtube.com/watch?v=QGpgAz__uXs"
   },
-  "kPChs1S6s1E": {
+  'kPChs1S6s1E': {
     title: "Lifted (Weekend Relaxation)",
     id: "kPChs1S6s1E",
     url: "https://www.youtube.com/watch?v=kPChs1S6s1E"
   },
-  "JSyOjpiL2AY": {
+  'JSyOjpiL2AY': {
     title: "Voyage (Chillwave/Retrowave/Synthwave Mix)",
     id: "JSyOjpiL2AY",
     url: "https://www.youtube.com/watch?v=JSyOjpiL2AY"
   },
-  "jLFd6k1BHDk": {
+  'jLFd6k1BHDk': {
     title: "Lifted (Mogwai - Auto Rock)",
     id: "jLFd6k1BHDk",
     url: "https://www.youtube.com/watch?v=jLFd6k1BHDk"
   },
-  "JzIK5FaC38w": {
+  'JzIK5FaC38w': {
     title: "Lifted (Explosions In The Sky - Your Hand In Mine)",
     id: "JzIK5FaC38w",
     url: "https://www.youtube.com/watch?v=JzIK5FaC38w"
   },
-  "sQKdl_0cpJc": {
+  'sQKdl_0cpJc': {
     title: "Indecence - Next In Life",
     id: "sQKdl_0cpJc",
     url: "https://www.youtube.com/watch?v=sQKdl_0cpJc"
   },
-  "u5IR7nBU3C4": {
+  'u5IR7nBU3C4': {
     title: "Vessels - 4AM",
     id: "u5IR7nBU3C4",
     url: "https://www.youtube.com/watch?v=u5IR7nBU3C4"
   },
-  "wPjN5GNpCTI": {
+  'wPjN5GNpCTI': {
     title: "Vessels - Elliptic",
     id: "wPjN5GNpCTI",
     url: "https://www.youtube.com/watch?v=wPjN5GNpCTI"
   },
-  "mGBK8-u5h20": {
+  'mGBK8-u5h20': {
     title: "Ulrich Schnauss - Far away trains passing by",
     id: "mGBK8-u5h20",
     url: "https://www.youtube.com/watch?v=mGBK8-u5h20"
   },
-  "F9L4q-0Pi4E": {
+  'F9L4q-0Pi4E': {
     title: "２８１４ - 新しい日の誕生/Birth of a New Day",
     id: "F9L4q-0Pi4E",
     url: "https://www.youtube.com/watch?v=F9L4q-0Pi4E"
   },
-  "kFafKvgpIRo": {
+  'kFafKvgpIRo': {
     title: "Lazerhawk - Visitors",
     id: "kFafKvgpIRo",
     url: "https://www.youtube.com/watch?v=kFafKvgpIRo"
   },
-  "kg9gjQnSCAw": {
+  'kg9gjQnSCAw': {
     title: "Tycho - Epoch",
     id: "kg9gjQnSCAw",
     url: "https://www.youtube.com/watch?v=kg9gjQnSCAw"
   },
-  "bR9-2As-XMk": {
+  'bR9-2As-XMk': {
     title: "Kiasmos - Burn",
     id: "bR9-2As-XMk",
     url: "https://www.youtube.com/watch?v=bR9-2As-XMk"
   },
-  "cr4bsdoZKxQ": {
+  'cr4bsdoZKxQ': {
     title: "Kiasmos - Thrown",
     id: "cr4bsdoZKxQ",
     url: "https://www.youtube.com/watch?v=cr4bsdoZKxQ"
   },
-  "3ycP6FvxYFo": {
+  '3ycP6FvxYFo': {
     title: "Kiasmos - Looped",
     id: "3ycP6FvxYFo",
     url: "https://www.youtube.com/watch?v=3ycP6FvxYFo"
   },
-  "WfYOMuX-tH8": {
+  'WfYOMuX-tH8': {
     title: "Stranger Things Soundtrack",
     id: "WfYOMuX-tH8",
     url: "https://www.youtube.com/watch?v=WfYOMuX-tH8"
   },
-  "ZPfNgIj2eNU": {
+  'ZPfNgIj2eNU': {
     title: "Best of Tycho",
     id: "ZPfNgIj2eNU",
     url: "https://www.youtube.com/watch?v=ZPfNgIj2eNU"
   },
-  "u9TJ1L9VpZU": {
+  'u9TJ1L9VpZU': {
     title: "Vessels - Attica",
     id: "u9TJ1L9VpZU",
     url: "https://www.youtube.com/watch?v=u9TJ1L9VpZU"
   },
-  "fi0KOScfBys": {
+  'fi0KOScfBys': {
     title: "Tycho - Sunrise Projector",
     id: "fi0KOScfBys",
     url: "https://www.youtube.com/watch?v=fi0KOScfBys"
   },
-  "Kr-xTnrxMq8": {
+  'Kr-xTnrxMq8': {
     title: "Bing & Ruth - Tomorrow Was the Golden Age",
     id: "Kr-xTnrxMq8",
     url: "https://www.youtube.com/watch?v=Kr-xTnrxMq8"
   },
-  "vNwYtllyt3Q": {
+  'vNwYtllyt3Q': {
     title: "Brian Eno - Ambient 1: Music for Airports",
     id: "vNwYtllyt3Q",
     url: "https://www.youtube.com/watch?v=vNwYtllyt3Q"
   },
-  "7Cc-0beyRXE": {
+  '7Cc-0beyRXE': {
     title: "Huerco S. - Those Of You Who Have Never",
     id: "7Cc-0beyRXE",
     url: "https://www.youtube.com/watch?v=7Cc-0beyRXE"
   },
-  "_JxiJ9GX1yA": {
+  '_JxiJ9GX1yA': {
     title: "Vessels - Mobilise",
     id: "_JxiJ9GX1yA",
     url: "https://www.youtube.com/watch?v=_JxiJ9GX1yA"
   },
-  "ggLh9P9x24Q": {
+  'ggLh9P9x24Q': {
     title: "Vessels - The Sky Was Pink",
     id: "ggLh9P9x24Q",
     url: "https://www.youtube.com/watch?v=ggLh9P9x24Q"
   },
-  "wOMwO5T3yT4": {
+  'wOMwO5T3yT4': {
     title: "ＳＰＡＣＥ ＴＲＩＰ - Retrowave Mix",
     id: "wOMwO5T3yT4",
     url: "https://www.youtube.com/watch?v=wOMwO5T3yT4"
   },
-  "Jmv5pTyz--I": {
+  'Jmv5pTyz--I': {
     title: "Stranger Things Theme Song (C418 REMIX)",
     id: "Jmv5pTyz--I",
     url: "https://www.youtube.com/watch?v=Jmv5pTyz--I"
   },
-  "WI4-HUn8dFc": {
+  'WI4-HUn8dFc': {
     title: "ＳＰＡＣＥ ＴＲＩＰ no. II - Retrowave Mix",
     id: "WI4-HUn8dFc",
     url: "https://www.youtube.com/watch?v=WI4-HUn8dFc"
   },
-  "1LHNmGe8HWk": {
+  '1LHNmGe8HWk': {
     title: "Perfect Day Legend Of Zelda Mix | Lo fi Hip Hop",
     id: "1LHNmGe8HWk",
     url: "https://www.youtube.com/watch?v=1LHNmGe8HWk"
   },
-  "YV9gP5xp7OE": {
+  'YV9gP5xp7OE': {
     title: "Night on Mountain | lofi hip hop |",
     id: "YV9gP5xp7OE",
     url: "https://www.youtube.com/watch?v=YV9gP5xp7OE"
   },
-  "T0nodan87dM": {
+  'T0nodan87dM': {
     title: "Vaporwave~Hiphop~Vibes",
     id: "T0nodan87dM",
     url: "https://www.youtube.com/watch?v=T0nodan87dM"
