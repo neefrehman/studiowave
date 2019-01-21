@@ -378,6 +378,16 @@ studiologo a{
 }
 
 
+@media (min-height: 960px) {
+	.wrapper {
+		display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  height: 97vh;
+	}
+}
+
+
 @media (max-width: 1000px){
 
 	#media{
@@ -615,12 +625,12 @@ studiologo a{
 }
 
 .visually-hidden {
-	border: 0; 
+	border: 0;
 	height: 1px;
 	margin: -1px;
 	padding: 0;
-	position: absolute; 
-	width: 1px; 
-  clip: rect(0 0 0 0); 
-  overflow: hidden; 
+	position: absolute;
+	width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
