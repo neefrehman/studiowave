@@ -1,4 +1,4 @@
-body{
+body {
 	background: linear-gradient(-165deg, #FA846E 0%, #FB905F 30%, #FDAB3D 100%) no-repeat;
 	background-attachment: fixed;
 	background-size: 180% 180%;
@@ -54,24 +54,24 @@ a {
 	outline: none;
 }
 
-p{
+p {
 	color: #FFFFFF;
 	letter-spacing: +1px;
 	margin-top: 0;
 }
 
-HTML{
+HTML {
 	height: 100%;
 }
 
-.wrapper{
+.wrapper {
 	max-width: 1100px;
 	margin: auto;
 	padding: 0 40px;
 	position: relative;
 }
 
-#social{
+#social {
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
@@ -80,19 +80,19 @@ HTML{
 	text-align: right;
 }
 
-#header{
+#header {
 	padding-top: 20px;
 	text-align: center;
 }
 
-#logo{
+#logo {
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0 0 0 0;
 	transform-style: preserve-3d;
 }
 
-#logo_image{
+#logo_image {
 	max-width: 600px;
 	vertical-align: middle;
   margin-left: auto;
@@ -101,44 +101,44 @@ HTML{
 	overflow: visible;
 }
 
-#logo_image.purple{
+#logo_image.purple {
 	max-width: 604px;
 }
 
-.yellow{
+.yellow {
 	transform-style: preserve-3d;
 	transform: translateZ(80px);
 	position: absolute;
 }
 
-.black{
+.black {
 	transform-style: preserve-3d;
 	transform: translateZ(40px);
 	position: absolute;
 }
 
-.black{
+.black {
 	transform-style: preserve-3d;
 	position: absolute;
 }
 
-#tagline{
+#tagline {
 	font-size: 26px;
 	font-weight: 100;
 	margin-top: 5px;
 }
 
-.icon{
+.icon {
 	padding: 10px;
 	vertical-align: middle;
 }
 
-.icon img{
+.icon img {
 	vertical-align: middle;
 	max-height: 30px;
 }
 
-.mobile{
+.mobile {
 	display: none;
 }
 
@@ -146,32 +146,32 @@ HTML{
 	display: none;
 }
 
-#media{
+#media {
 	padding-top: 35px;
 	font-size: 40px;
 	font-weight: 900;
 }
 
-#beat{
+#beat {
 	display: inline-block;
 	width: 49%;
 	vertical-align: top;
 	text-align: center;
 }
 
-#speech{
+#speech {
 	display: inline-block;
 	width: 49%;
 	vertical-align: top;
 	text-align: center;
 }
 
-.type{
+.type {
 	margin-bottom: 0px;
 	font-style: italic;
 }
 
-.title{
+.title {
 	padding-top: 0px;
 	display: inline-block;
 	vertical-align: top;
@@ -184,14 +184,14 @@ HTML{
 	text-decoration: underline;
 }
 
-#player{
+#player {
 	padding-top: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-#beatplayer{
+#beatplayer {
 	width: 39%;
 	display: inline-block;
 	text-align: center;
@@ -199,7 +199,7 @@ HTML{
 	align-items: center;
 }
 
-#speechplayer{
+#speechplayer {
 	width: 39%;
 	display: inline-block;
 	text-align: center;
@@ -207,12 +207,12 @@ HTML{
 	align-items: center;
 }
 
-#beatreset{
+#beatreset {
 	width: 49%;
 	display: inline-block;
 }
 
-#beatvolume{
+#beatvolume {
 	width: 49%;
 	display: flex;
   justify-content: center;
@@ -222,12 +222,12 @@ HTML{
 	display: block;
 }
 
-#speechreset{
+#speechreset {
 	width: 49%;
 	display: inline-block;
 }
 
-#speechvolume{
+#speechvolume {
 	width: 49%;
 	display: flex;
   justify-content: center;
@@ -237,100 +237,100 @@ HTML{
 	display: block;
 }
 
-#playpausebutton{
+#playpausebutton {
 	width: 20%;
 	display: inline-block;
 	text-align: center;
 	line-height: 0;
 }
 
-.btn{
+.btn {
 	transition: all 0.25s ease;
 }
 
-#playpausebutton img:hover{
+#playpausebutton img:hover {
 	transform: scale(1.1) perspective(1px);
 }
 
-#playpausebutton img:active{
+#playpausebutton img:active {
 	transform: scale(1) perspective(1px);
 }
 
-#buttonicon{
+#buttonicon {
 	cursor: pointer;
 	border-radius: 50%;
 }
 
-.reset{
+.reset {
 	cursor: pointer;
 	border-radius: 50%;
 }
 
-#beatreset img:hover{
+#beatreset img:hover {
 	transform: scale(1.1) perspective(1px);
 }
 
-#speechreset img:hover{
+#speechreset img:hover {
 	transform: scale(1.1) perspective(1px);
 }
 
-#beatreset img:active{
+#beatreset img:active {
 	transform: scale(1) perspective(1px);
 }
 
-#speechreset img:active{
+#speechreset img:active {
 	transform: scale(1) perspective(1px);
 }
 
-#speechvideo{
+#speechvideo {
 	z-index: 0;
 }
 
-#beatvideo{
+#beatvideo {
 	z-index: 0;
 }
 
-.playpause{
+.playpause {
 	max-width: 100px;
 }
 
-.reset{
+.reset {
 	max-width: 80px;
 }
 
-#tooltip{
+#tooltip {
 	font-size: 20px;
 	font-weight: 900;
 	margin-bottom: 10px;
 	visibility: hidden;
 }
 
-#tooltip.override{
+#tooltip.override {
 	visibility: visible;
 }
 
-#share{
+#share {
 	padding-top: 40px;
 	text-align: center;
 }
 
-#share img{
+#share img {
 	cursor: pointer;
 }
 
-#share img:hover{
+#share img:hover {
 	transform: scale(1.1) perspective(1px);
 }
 
-#share img:active{
+#share img:active {
 	transform: scale(1) perspective(1px);
 }
 
-.sharebutton{
+.sharebutton {
 	max-width: 120px;
 }
 
-footer{
+footer {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
@@ -338,11 +338,11 @@ footer{
 	text-align: center;
 }
 
-studiologo a{
+studiologo a {
 	display: inline-block;
 }
 
-#USTWOlogo{
+#USTWOlogo {
 	display: inline-block;
 	padding-top: 10px;
 	vertical-align: middle;
@@ -350,7 +350,7 @@ studiologo a{
 	opacity: 0.75;
 }
 
-#endline{
+#endline {
 	display: inline-block;
 	padding-top: 30px;
 	text-align: center;
@@ -358,19 +358,19 @@ studiologo a{
 	opacity: 0.3;
 }
 
-#SSlogo{
+#SSlogo {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.studiologo img{
+.studiologo img {
 	max-width: 120px;
 	padding: 15px 10px 0 10px;
 	opacity: 0.3;
 }
 
-.mobile.mobile_device{
+.mobile.mobile_device {
 	display: none;
 	text-align: center;
 	padding-top: 30px;
@@ -388,237 +388,237 @@ studiologo a{
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
 
-	#media{
+	#media {
 		font-size: 30px;
 	}
 
-	.title{
+	.title {
 		font-size: 16px;
 	}
 
-	#logo{
+	#logo {
 		padding-top: 10px;
 	}
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-	.icon img{
+	.icon img {
 		max-height: 30px;
 	}
 
-	#logo_image{
+	#logo_image {
 		max-width: 500px;
 	}
 
-	#logo_image.purple{
+	#logo_image.purple {
 		max-width: 503px;
 	}
 
-	#logo{
+	#logo {
 		padding-top: 40px;
 	}
 
-	#tagline{
+	#tagline {
 		font-size: 22px;
 	}
 
-	.wrapper{
+	.wrapper {
 		margin: auto;
 	}
 
-	#header{
+	#header {
 		padding-top: 0px;
 	}
 
-	#titles{
+	#titles {
 		padding-bottom: 10px;
 	}
 
-	.playpause{
+	.playpause {
 		max-width: 80px;
 	}
 
-	.reset{
+	.reset {
 		max-width: 60px;
 	}
 
-	.studiologo img{
+	.studiologo img {
 		max-width: 110px;
 	}
 
-	#endline{
+	#endline {
 		font-size: 14px;
 	}
 
-	footer{
+	footer {
 		padding-top: 30px;
 	}
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
-	#social{
+	#social {
 		text-align: center;
 	}
 
-	.icon img{
+	.icon img {
 		padding-left: 2px;
 		padding-right: 2px;
 	}
 
-	#header{
+	#header {
 		padding-top: 10px;
 	}
 
-	#tagline{
+	#tagline {
 		font-size: 18px;
 	}
 
-	#logo_image{
+	#logo_image {
 		max-width: 400px;
 	}
 
-	#logo_image.purple{
+	#logo_image.purple {
 		max-width: 402px;
 	}
 
-	#media{
+	#media {
 		font-size: 25px;
 	}
 
-	#player{
+	#player {
 		padding-top: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
-	.playpause{
+	.playpause {
 		max-width: 70px;
 	}
 
-	.reset{
+	.reset {
 		max-width: 50px;
 	}
 
-	.sharebutton{
+	.sharebutton {
 		max-width: 100px;
 	}
 
-	.wrapper{
+	.wrapper {
 		margin: auto;
 	}
 
-	#header{
+	#header {
 		padding-top: 0px;
 	}
 
-	.studiologo img{
+	.studiologo img {
 		max-width: 100px;
 	}
 
-	#endline{
+	#endline {
 		padding-top: 20px;
 	}
 
-	.title{
+	.title {
 		font-size: 14px;
 	}
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
-	#logo_image{
+	#logo_image {
 		max-width: 350px;
 	}
 
-	#logo_image.purple{
+	#logo_image.purple {
 		max-width: 352px;
 	}
 
-	.studiologo img{
+	.studiologo img {
 		max-width: 70px;
 	}
 
-	#media{
+	#media {
 		font-size: 23px;
 	}
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
 
-	#social{
+	#social {
 		padding-top: 25px;
 	}
 
-	#logo_image{
+	#logo_image {
 		max-width: 320px;
 	}
 
-	#logo_image.purple{
+	#logo_image.purple {
 		max-width: 322px;
 	}
 
-	#tagline{
+	#tagline {
 		font-size: 16px;
 	}
 
-	.mobile.small_screen{
+	.mobile.small_screen {
 		display: block;
 		text-align: center;
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
 
-	.desktop{
+	.desktop {
 		display: none;
 	}
 
-	footer{
+	footer {
 		text-align: center;
 		padding-top: 40px;
 	}
 
-	#endline{
+	#endline {
 		display: none;
 	}
 
 }
 
-@media (max-width: 390px){
+@media (max-width: 390px) {
 
-	#logo_image{
+	#logo_image {
 		max-width: 280px;
 	}
 
-	#logo_image.purple{
+	#logo_image.purple {
 		max-width: 281px;
 	}
 
-	#tagline{
+	#tagline {
 		font-size: 13px;
 	}
 
-	.icon img{
+	.icon img {
 		max-height: 30px;
 	}
 
 }
 
-	@media (max-width: 370px){
+	@media (max-width: 370px) {
 
-		#logo_image{
+		#logo_image {
 			max-width: 230px;
 		}
 
-		#logo_image.purple{
+		#logo_image.purple {
 			max-width: 231px;
 		}
 

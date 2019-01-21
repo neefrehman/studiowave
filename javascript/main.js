@@ -1,5 +1,4 @@
 /* jshint esversion: 6 */
-
 var beatPlayer;
 var speechPlayer;
 var isPlaying = false;
@@ -911,16 +910,15 @@ function onYouTubeIframeAPIReady() {
     let beatArrayCopy = Object.assign({}, beatArray);
     delete beatArrayCopy[beatKey];
     beatOrder = [beatKey].concat(shuffle(Object.keys(beatArrayCopy)));
-  }
-  else {
+  } else {
     beatOrder = shuffle(Object.keys(beatArray));
   }
+
   if (speechKey && speechArray[speechKey]) {
     let speechArrayCopy = Object.assign({}, speechArray);
     delete speechArrayCopy[speechKey];
     speechOrder = [speechKey].concat(shuffle(Object.keys(speechArrayCopy)));
-  }
-  else {
+  } else {
     speechOrder = shuffle(Object.keys(speechArray));
   }
 
@@ -950,15 +948,15 @@ function onYouTubeIframeAPIReady() {
     }
   });
 
-  history.replaceState( {} , 'Studiowave', '/' );
+  history.replaceState({} , 'Studiowave', '/' );
 
 }
 
-function speechInitialized(event) {
-  event.target.setPlaybackQuality('small');
+function speechInitialized(e) {
+  e.target.setPlaybackQuality('small');
 }
-function beatInitialized(event) {
-  event.target.setPlaybackQuality('small');
+function beatInitialized(e) {
+  e.target.setPlaybackQuality('small');
 }
 
 
@@ -969,13 +967,11 @@ function shuffle(array) {
   while (m) {
     // Pick a remaining element…
     i = Math.floor(Math.random() * m--);
-
     // And swap it with the current element.
     t = array[m];
     array[m] = array[i];
     array[i] = t;
   }
-
   return array;
 }
 
@@ -983,7 +979,7 @@ function shuffle(array) {
 // titles and links
 function onBeatStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
-      event.target.setPlaybackQuality('small');
+    event.target.setPlaybackQuality('small');
   }
   const index = beatPlayer.getPlaylistIndex();
   console.log('Beat playlist index: ', index);
@@ -1000,7 +996,7 @@ function onBeatStateChange() {
 
 function onSpeechStateChange() {
   if (event.data == YT.PlayerState.BUFFERING) {
-      event.target.setPlaybackQuality('small');
+    event.target.setPlaybackQuality('small');
   }
   const index = speechPlayer.getPlaylistIndex();
   console.log('Speech playlist index: ', index);
@@ -1062,11 +1058,11 @@ $(document).ready(function(){
 
 // YouTube Volume
 $('#beatslider').on('change', function () {
-    beatPlayer.setVolume($(this).val());
+  beatPlayer.setVolume($(this).val());
 });
 
 $('#speechslider').on('change', function () {
-    speechPlayer.setVolume($(this).val());
+  speechPlayer.setVolume($(this).val());
 });
 
 
