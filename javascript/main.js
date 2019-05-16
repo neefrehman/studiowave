@@ -927,11 +927,13 @@ function onYouTubeIframeAPIReady() {
     height: 20,
     playerVars: {
       color: 'white',
-      playlist: beatOrder.join(',')
+      playlist: beatOrder.join(','),
+      origin:'https://studiowave.fm'
     },
     events: {
       onReady: beatInitialized,
-      onStateChange: onBeatStateChange
+      onStateChange: onBeatStateChange,
+      origin:'https://studiowave.fm'
     }
   });
 
@@ -1121,7 +1123,7 @@ $('#speechreset img').on('click', function () {
 
 
 // if agent detected mobile: hideClass small_screen and show mobile_device
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+if( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) {
   $('.mobile_device').css('display', 'block');
   $('.small_screen').css('display', 'none');
 }
