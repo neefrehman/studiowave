@@ -932,8 +932,7 @@ function onYouTubeIframeAPIReady() {
     },
     events: {
       onReady: beatInitialized,
-      onStateChange: onBeatStateChange,
-      origin:'https://studiowave.fm'
+      onStateChange: onBeatStateChange
     }
   });
 
@@ -942,7 +941,8 @@ function onYouTubeIframeAPIReady() {
     height: 20,
     playerVars: {
       color: 'white',
-      playlist: speechOrder.join(',')
+      playlist: speechOrder.join(','),
+      origin:'https://studiowave.fm'
     },
     events: {
       onReady: speechInitialized,
