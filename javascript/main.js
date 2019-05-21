@@ -1010,7 +1010,7 @@ const onSpeechStateChange = () => {
 
 // URL jump to shared pair
 const urlParam = name => {
-    const results = new RegExp('[/?&]' + name + '=([^&#]*)').exec(window.location.href);
+    const results = new RegExp(`[/?&]${name}=([^&#]*)`).exec(window.location.href);
     // console.log(name);
     // console.log(results);
     return (results) ? results[1] : 0;
@@ -1024,66 +1024,66 @@ document.addEventListener("DOMContentLoaded", () => {
     beatKey = urlParam('beat');
 });
 
-function linkBuilder() {
-  var link = 'www.studiowave.fm/' + '?beat=' + currentBeatId + '&speech=' + currentSpeechId;
-  $('.sharebutton').attr('data-clipboard-text', link);
-}
+const linkBuilder = () => {
+    var link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
+    $('.sharebutton').attr('data-clipboard-text', link);
+};
 
-var clipboard = new Clipboard('.sharebutton');
-clipboard.on('success', function(e) {
-  console.info('Text:', e.text);
+const clipboard = new Clipboard('.sharebutton');
+clipboard.on('success', e => {
+    console.info('Text:', e.text);
 });
 
 
 // Tooltip
-$('.sharebutton').on('click', function () {
-  var $this = $('#tooltip').toggleClass("override");
-  setTimeout(function () {
-    $this.toggleClass("override");
-  }, 1000);
+$('.sharebutton').on('click', () => {
+    $('#tooltip').toggleClass("override");
+    setTimeout(() => {
+        $('#tooltip').toggleClass("override");
+    }, 1000);
 });
 
 
 // RangeSlider
-$(document).ready(function(){
-  $('input[type="range"]').rangeslider({polyfill: false});
-  $('input[type="range"]').rangeslider('update', true);
+document.addEventListener("DOMContentLoaded", () => {
+    $('input[type="range"]').rangeslider({polyfill: false});
+    $('input[type="range"]').rangeslider('update', true);
 });
 
 
 // YouTube Volume
-$('#beatslider').on('change', function () {
-  beatPlayer.setVolume($(this).val());
+$('#beatslider').on('change', function() {
+    beatPlayer.setVolume($(this).val());
 });
 
-$('#speechslider').on('change', function () {
-  speechPlayer.setVolume($(this).val());
+$('#speechslider').on('change', function() {
+    speechPlayer.setVolume($(this).val());
 });
 
 
 // Play & Pause
-$('#playpausebutton img').on('click', function () {
-  if (!beatPlayer) return;
-  var beatPlayerState = beatPlayer.getPlayerState();
-  var speechPlayerState = speechPlayer.getPlayerState();
-  var button = document.getElementById("buttonicon");
+$('#playpausebutton img').on('click', () => {
+    if (!beatPlayer) return;
+    const beatPlayerState = beatPlayer.getPlayerState();
+    const speechPlayerState = speechPlayer.getPlayerState();
+    const button = document.getElementById("buttonicon");
 
-  isPlaying = !isPlaying;
+    isPlaying = !isPlaying;
 
-  if (isPlaying == true) {
-    button.src = "images/pause.png";
-  }
-  else {
-    button.src = "images/play.png";
-  }
+    if (isPlaying == true) {
+        button.src = "images/pause.png";
+    }
+    else if (isPlaying == false) {
+        button.src = "images/play.png";
+    }
 
-  if (beatPlayerState == 1) {
-    beatPlayer.pauseVideo();
-    speechPlayer.pauseVideo();
-  } else {
-    beatPlayer.playVideo();
-    speechPlayer.playVideo();
-  }
+    if (beatPlayerState == 1) {
+        beatPlayer.pauseVideo();
+        speechPlayer.pauseVideo();
+    } else {
+        beatPlayer.playVideo();
+        speechPlayer.playVideo();
+    }
 });
 
 
