@@ -1088,35 +1088,37 @@ $('#playpausebutton img').on('click', () => {
 
 
 // Next video
-$('#beatreset img').on('click', function () {
-  if (!beatPlayer) return;
-  if (beatOrder[beatOrder.length - 1] === currentBeatId) {
-    beatPlayer.playVideoAt(0);
-  } else {
-    beatPlayer.nextVideo();
-  }
-  if (!isPlaying) {
-    beatPlayer.pauseVideo();
-    speechPlayer.pauseVideo();
-  }
-});
+$('#beatreset img').on('click', () => {
+    if (!beatPlayer) return;
 
-$('#speechreset img').on('click', function () {
-  if (!speechPlayer) return;
-    if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
-      speechPlayer.playVideoAt(0);
+    if (beatOrder[beatOrder.length - 1] === currentBeatId) {
+        beatPlayer.playVideoAt(0);
     } else {
-      speechPlayer.nextVideo();
+        beatPlayer.nextVideo();
     }
     if (!isPlaying) {
-      speechPlayer.pauseVideo();
-      beatPlayer.pauseVideo();
+        beatPlayer.pauseVideo();
+        speechPlayer.pauseVideo();
+    }
+});
+
+$('#speechreset img').on('click', () => {
+    if (!speechPlayer) return;
+
+    if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
+        speechPlayer.playVideoAt(0);
+    } else {
+        speechPlayer.nextVideo();
+    }
+    if (!isPlaying) {
+        speechPlayer.pauseVideo();
+        beatPlayer.pauseVideo();
     }
 });
 
 
 // if agent detected mobile: hideClass small_screen and show mobile_device
-if( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) {
-  $('.mobile_device').css('display', 'block');
-  $('.small_screen').css('display', 'none');
+if ( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) {
+    $('.mobile_device').css('display', 'block');
+    $('.small_screen').css('display', 'none');
 }
