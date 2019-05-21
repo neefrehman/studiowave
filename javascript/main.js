@@ -1018,6 +1018,7 @@ const urlParam = name => {
 
 
 // Share Clipboard
+const shareButton = document.querySelector(".sharebutton");
 document.addEventListener("DOMContentLoaded", () => {
     new Clipboard('.sharebutton');
     speechKey = urlParam('speech');
@@ -1025,8 +1026,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const linkBuilder = () => {
-    var link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
-    $('.sharebutton').attr('data-clipboard-text', link);
+    const link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
+    shareButton.setAttribute('data-clipboard-text', link);
 };
 
 const clipboard = new Clipboard('.sharebutton');
@@ -1036,33 +1037,26 @@ clipboard.on('success', e => {
 
 
 // Tooltip
-$('.sharebutton').on('click', () => {
-    $('#tooltip').toggleClass("override");
+const tooltip = document.querySelector("#tooltip");
+shareButton.addEventListener('click', () => {
+    tooltip.classList.toggle("override");
     setTimeout(() => {
-        $('#tooltip').toggleClass("override");
+        tooltip.classList.toggle("override");
     }, 1000);
 });
 
 
-// RangeSlider
-document.addEventListener("DOMContentLoaded", () => {
-    $('input[type="range"]').rangeslider({polyfill: false});
-    $('input[type="range"]').rangeslider('update', true);
-});
-
-
 // YouTube Volume
-$('#beatslider').on('change', function() {
-    beatPlayer.setVolume($(this).val());
-});
+const beatSlider = document.querySelector("#beatslider");
+const speechSlider = document.querySelector("#speechslider");
 
-$('#speechslider').on('change', function() {
-    speechPlayer.setVolume($(this).val());
-});
+beatSlider.onchange = () => beatPlayer.setVolume(beatSlider.value);
+speechSlider.onchange = () => speechPlayer.setVolume(speechSlider.value);
 
 
 // Play & Pause
-$('#playpausebutton img').on('click', () => {
+const playPauseButton = document.querySelector('#playpausebutton img');
+playPauseButton.addEventListener('click', () => {
     if (!beatPlayer) return;
     const beatPlayerState = beatPlayer.getPlayerState();
     const speechPlayerState = speechPlayer.getPlayerState();
@@ -1088,7 +1082,8 @@ $('#playpausebutton img').on('click', () => {
 
 
 // Next video
-$('#beatreset img').on('click', () => {
+const beatResetImage = document.querySelector('#beatreset img');
+beatResetImage.addEventListener('click', () => {
     if (!beatPlayer) return;
 
     if (beatOrder[beatOrder.length - 1] === currentBeatId) {
@@ -1102,7 +1097,8 @@ $('#beatreset img').on('click', () => {
     }
 });
 
-$('#speechreset img').on('click', () => {
+const speechResetImage = document.querySelector('#speechreset img');
+speechResetImage.addEventListener('click', () => {
     if (!speechPlayer) return;
 
     if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
@@ -1118,7 +1114,9 @@ $('#speechreset img').on('click', () => {
 
 
 // if agent detected mobile: hideClass small_screen and show mobile_device
+const mobileMessage = document.querySelectorAll('.mobile_device');
+const narrowMessage = document.querySelectorAll('.small_screen');
 if ( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) {
-    $('.mobile_device').css('display', 'block');
-    $('.small_screen').css('display', 'none');
+    mobileMessage.forEach(p => p.style.display = 'block');
+    narrowMessage.forEach(p => p.style.display = 'none');
 }
