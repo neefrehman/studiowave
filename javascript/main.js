@@ -911,6 +911,7 @@ let currentSpeechId;
 let currentBeatId;
 let speechKey;
 let beatKey;
+let shareLink = window.location.origin;
 
 
 // Generate YouTube Players and jump to shared pair logic
@@ -1011,14 +1012,16 @@ const shareButton = document.querySelector(".sharebutton");
 const tooltip = document.querySelector("#tooltip");
 
 shareButton.addEventListener('click', () => {
-    const link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
-    navigator.clipboard.writeText(link).then(() => {
-        console.log('Copying to clipboard was successful!');
+    if (currentBeatId && currentSpeechId) {
+        shareLink = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
+    }
+
+    navigator.clipboard.writeText(shareLink).then(() => {
+        console.log('Copied to clipboard');
     }, err => {
         console.error('Could not copy text: ', err);
     });
 
-    // Tooltip
     tooltip.classList.toggle("override");
     setTimeout(() => {
         tooltip.classList.toggle("override");
