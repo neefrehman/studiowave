@@ -1016,11 +1016,12 @@ shareButton.addEventListener('click', () => {
         shareLink = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
     }
 
-    navigator.clipboard.writeText(shareLink).then(() => {
-        console.log('Copied to clipboard');
-    }, err => {
-        console.error('Could not copy text: ', err);
-    });
+    navigator.clipboard.writeText(shareLink)
+        .then(() => {
+            console.log('Copied to clipboard');
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
 
     tooltip.classList.toggle("override");
     setTimeout(() => {
