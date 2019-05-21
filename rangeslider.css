@@ -26,6 +26,10 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -12px;
 }
 
+input[type=range]:hover::-webkit-slider-thumb {
+  background: #e7c867;
+}
+
 input[type=range]:active::-webkit-slider-thumb {
   background: #d0b767;
 }
@@ -44,6 +48,10 @@ input[type=range]::-moz-range-thumb {
   border-radius: 4px;
   background: #ffe180;
   cursor: pointer;
+}
+
+input[type=range]:hover::-moz-range-thumb {
+  background: #e7c867;
 }
 
 input[type=range]:active::-moz-range-thumb {
