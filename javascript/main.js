@@ -973,6 +973,7 @@ const beatInitialized = e => {
 
 
 // titles and links
+const beatTitle = document.querySelector("#BeatTitle");
 const onBeatStateChange = () => {
     if (event.data == YT.PlayerState.BUFFERING) {
         event.target.setPlaybackQuality('small');
@@ -983,13 +984,12 @@ const onBeatStateChange = () => {
     const object = beatArray[key];
     currentBeatId = key;
     if (object) {
-        const beatTitle = document.querySelector("#BeatTitle");
         beatTitle.innerHTML = object.title;
         beatTitle.href = object.url;
     }
-    linkBuilder();
 };
 
+const speechTitle = document.querySelector("#SpeechTitle");
 const onSpeechStateChange = () => {
     if (event.data == YT.PlayerState.BUFFERING) {
         event.target.setPlaybackQuality('small');
@@ -1000,49 +1000,42 @@ const onSpeechStateChange = () => {
     const object = speechArray[key];
     currentSpeechId = key;
     if (object) {
-        const speechTitle = document.querySelector("#SpeechTitle");
         speechTitle.innerHTML = object.title;
         speechTitle.href = object.url;
     }
-    linkBuilder();
-};
-
-
-// URL jump to shared pair
-const urlParam = name => {
-    const results = new RegExp(`[/?&]${name}=([^&#]*)`).exec(window.location.href);
-    // console.log(name);
-    // console.log(results);
-    return (results) ? results[1] : 0;
 };
 
 
 // Share Clipboard
 const shareButton = document.querySelector(".sharebutton");
-document.addEventListener("DOMContentLoaded", () => {
-    new Clipboard('.sharebutton');
-    speechKey = urlParam('speech');
-    beatKey = urlParam('beat');
-});
-
-const linkBuilder = () => {
-    const link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
-    shareButton.setAttribute('data-clipboard-text', link);
-};
-
-const clipboard = new Clipboard('.sharebutton');
-clipboard.on('success', e => {
-    console.info('Text:', e.text);
-});
-
-
-// Tooltip
 const tooltip = document.querySelector("#tooltip");
+
 shareButton.addEventListener('click', () => {
+    const link = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
+    navigator.clipboard.writeText(link).then(() => {
+        console.log('Copying to clipboard was successful!');
+    }, err => {
+        console.error('Could not copy text: ', err);
+    });
+
+    // Tooltip
     tooltip.classList.toggle("override");
     setTimeout(() => {
         tooltip.classList.toggle("override");
     }, 1000);
+});
+
+
+// URL jump to shared pair
+const urlParam = name => {
+    const results = new RegExp(`[/?&]${name}=([^&#]*)`).exec(window.location.href);
+    // console.log("name: "name, "results: "results);
+    return (results) ? results[1] : 0;
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    speechKey = urlParam('speech');
+    beatKey = urlParam('beat');
 });
 
 
