@@ -92,16 +92,16 @@ HTML {
 	transform-style: preserve-3d;
 }
 
-#logo_image {
+.logo_image {
 	max-width: 600px;
 	vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	overflow: visible;
 }
 
-#logo_image.purple {
+.logo_image.purple {
 	max-width: 604px;
 }
 
@@ -215,7 +215,7 @@ HTML {
 #beatvolume {
 	width: 49%;
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 }
 
 #beatvolume input {
@@ -410,11 +410,11 @@ studiologo a {
 		max-height: 30px;
 	}
 
-	#logo_image {
+	.logo_image {
 		max-width: 500px;
 	}
 
-	#logo_image.purple {
+	.logo_image.purple {
 		max-width: 503px;
 	}
 
@@ -479,11 +479,11 @@ studiologo a {
 		font-size: 18px;
 	}
 
-	#logo_image {
+	.logo_image {
 		max-width: 400px;
 	}
 
-	#logo_image.purple {
+	.logo_image.purple {
 		max-width: 402px;
 	}
 
@@ -534,11 +534,11 @@ studiologo a {
 
 @media (max-width: 500px) {
 
-	#logo_image {
+	.logo_image {
 		max-width: 350px;
 	}
 
-	#logo_image.purple {
+	.logo_image.purple {
 		max-width: 352px;
 	}
 
@@ -558,11 +558,11 @@ studiologo a {
 		padding-top: 25px;
 	}
 
-	#logo_image {
+	.logo_image {
 		max-width: 320px;
 	}
 
-	#logo_image.purple {
+	.logo_image.purple {
 		max-width: 322px;
 	}
 
@@ -594,11 +594,11 @@ studiologo a {
 
 @media (max-width: 390px) {
 
-	#logo_image {
+	.logo_image {
 		max-width: 280px;
 	}
 
-	#logo_image.purple {
+	.logo_image.purple {
 		max-width: 281px;
 	}
 
@@ -614,11 +614,11 @@ studiologo a {
 
 	@media (max-width: 370px) {
 
-		#logo_image {
+		.logo_image {
 			max-width: 230px;
 		}
 
-		#logo_image.purple {
+		.logo_image.purple {
 			max-width: 231px;
 		}
 
