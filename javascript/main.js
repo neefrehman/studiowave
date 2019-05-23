@@ -1,539 +1,185 @@
 // YT video arrays
 const beatArray = {
-    '3ZdSDUyxFmc': {
-        title: "Lifted (Chillwave/Retrowave Mix)",
-    },
-    '6rReMbO42uE': {
-        title: "24/7 lofi hip hop",
-    },
-    'Z6ih1aKeETk': {
-        title: "Tycho - Dive",
-    },
-    'fQ5cb7A1mjA': {
-        title: "Turquoise Memories - Glowing Dreams",
-    },
-    'prHFVUaL_bU': {
-        title: "Future Vision",
-    },
-    'AQBh9soLSkI': {
-        title: "Lofi HipHop Radio 24/7",
-    },
-    'gJOfuGj-n9M': {
-        title: "Home - Odyssey",
-    },
-    'Q04ILDXe3QE': {
-        title: "Jon Hopkins - Open Eye Signal",
-    },
-    'nT6NWc3J0-o': {
-        title: "Vessels - Dilate",
-    },
-    'QGpgAz__uXs': {
-        title: "Lounge Instrumental Chillout music",
-    },
-    'kPChs1S6s1E': {
-        title: "Lifted (Weekend Relaxation)",
-    },
-    'JSyOjpiL2AY': {
-        title: "Voyage (Chillwave/Retrowave/Synthwave Mix)",
-    },
-    'jLFd6k1BHDk': {
-        title: "Lifted (Mogwai - Auto Rock)",
-    },
-    'JzIK5FaC38w': {
-        title: "Lifted (Explosions In The Sky - Your Hand In Mine)",
-    },
-    'sQKdl_0cpJc': {
-        title: "Indecence - Next In Life",
-    },
-    'u5IR7nBU3C4': {
-        title: "Vessels - 4AM",
-    },
-    'wPjN5GNpCTI': {
-        title: "Vessels - Elliptic",
-    },
-    'mGBK8-u5h20': {
-        title: "Ulrich Schnauss - Far away trains passing by",
-    },
-    'F9L4q-0Pi4E': {
-        title: "２８１４ - 新しい日の誕生/Birth of a New Day",
-    },
-    'kFafKvgpIRo': {
-        title: "Lazerhawk - Visitors",
-    },
-    'kg9gjQnSCAw': {
-        title: "Tycho - Epoch",
-    },
-    'bR9-2As-XMk': {
-        title: "Kiasmos - Burn",
-    },
-    'cr4bsdoZKxQ': {
-        title: "Kiasmos - Thrown",
-    },
-    '3ycP6FvxYFo': {
-        title: "Kiasmos - Looped",
-    },
-    'WfYOMuX-tH8': {
-        title: "Stranger Things Soundtrack",
-    },
-    'ZPfNgIj2eNU': {
-        title: "Best of Tycho",
-    },
-    'u9TJ1L9VpZU': {
-        title: "Vessels - Attica",
-    },
-    'fi0KOScfBys': {
-        title: "Tycho - Sunrise Projector",
-    },
-    'Kr-xTnrxMq8': {
-        title: "Bing & Ruth - Tomorrow Was the Golden Age",
-    },
-    'vNwYtllyt3Q': {
-        title: "Brian Eno - Ambient 1: Music for Airports",
-    },
-    '7Cc-0beyRXE': {
-        title: "Huerco S. - Those Of You Who Have Never",
-    },
-    '_JxiJ9GX1yA': {
-        title: "Vessels - Mobilise",
-    },
-    'ggLh9P9x24Q': {
-        title: "Vessels - The Sky Was Pink",
-    },
-    'wOMwO5T3yT4': {
-        title: "ＳＰＡＣＥ ＴＲＩＰ - Retrowave Mix",
-    },
-    'Jmv5pTyz--I': {
-        title: "Stranger Things Theme Song (C418 REMIX)",
-    },
-    'WI4-HUn8dFc': {
-        title: "ＳＰＡＣＥ ＴＲＩＰ no. II - Retrowave Mix",
-    },
-    '1LHNmGe8HWk': {
-        title: "Perfect Day Legend Of Zelda Mix | Lo fi Hip Hop",
-    },
-    'YV9gP5xp7OE': {
-        title: "Night on Mountain | lofi hip hop |",
-    },
-    'T0nodan87dM': {
-        title: "Vaporwave~Hiphop~Vibes",
-    },
-    '-FlxM_0S2lA': {
-        title: "Lofi hip hop mix",
-    },
-    'uHaZzrUVnmw': {
-        title: "Hip-Hop Instrumentals Vol.2 - Aroto",
-    },
-    'GGBm9gTY2NU': {
-        title: "DownTown | Jazzy HipHop",
-    },
-    'tXQzAApb4WM': {
-        title: "Questlove - Goodbye Isaac",
-    },
-    'Agl1TgVfls0': {
-        title: "J Dilla - Life (Instrumental)",
-    },
-    'rSibMLeJYaE': {
-        title: "Hip Hop Jazz Chill - Need for Weekend",
-    },
-    '9ka5bgHnHyg': {
-        title: "Hip Hop Funk Jazz - Ours Samplus",
-    },
-    'V93yBHhxHTM': {
-        title: "Instrumental Hip Hop Buena Vista Chan Chan",
-    },
-    'Au46lJu8icA': {
-        title: "Old School Instrumental Hip Hop Session",
-    },
-    '_Rd2vKI6Amk': {
-        title: "Chill Instrumental Hiphop & JazzHop Mix",
-    },
-    'UHffJ0qC9Ko': {
-        title: "Gramatik Just Jammin",
-    },
-    '7ZguAEoNpZw': {
-        title: "L'indécis - Soulful",
-    },
-    'KjQSSYOTXzk': {
-        title: "Khruangbin - Friday Morning",
-    },
-    'e05rLVZQKiU': {
-        title: "Tommy Guerrero - No Mans Land ",
-    },
-    'zdYzL6wkr0A': {
-        title: "Time (Chillwave - Lofi - Electronic Mix)",
-    },
-    'ksaWk4ng_yA': {
-        title: "Hentzup - Out Of The Blue",
-    },
-    'gS62leDULLY': {
-        title: "Aso - Dreamer",
-    },
-    '6Y1naR7xDY8': {
-        title: "Saiko - In Space",
-    },
-    'kO43brxekLI': {
-        title: "Sounds Positive ☛ Jazz Oldschool HipHop",
-    },
-    'lSU1eFxgr68': {
-        title: "Vanilla - Origin (Full Album)",
-    },
-    'IFS0Eo1eh6Y': {
-        title: "Joey Bada$$ - Waves Instrumental",
-    },
-    'XG5umW9LTfo': {
-        title: "Flatbush ZOMBiES - Palm Trees",
-    },
-    '9eBfa9nNzvk': {
-        title: "DOOM & RZA - Books Of War",
-    },
-    'GJ-rORq34js': {
-        title: "J-Force - Pink Chicken '98",
-    },
-    'SU6x6nWQWI0': {
-        title: "Wio-K - We Nah Easy",
-    },
-    '7t2PhJUddIk': {
-        title: "Late June - You & I",
-    },
-    '1N8jKsu1NCE': {
-        title: "Julien Marchal - Insight XX",
-    },
-    'mYntXSsNnDQ': {
-        title: "Pete Rock - Lost Sessions",
-    },
-    'isIj3tuQTDY': {
-        title: "Glitch Mix",
-    }
+    "3ZdSDUyxFmc": "Lifted (Chillwave/Retrowave Mix)",
+    "6rReMbO42uE": "24/7 lofi hip hop",
+    "Z6ih1aKeETk": "Tycho - Dive",
+    "fQ5cb7A1mjA": "Turquoise Memories - Glowing Dreams",
+    "prHFVUaL_bU": "Future Vision",
+    "AQBh9soLSkI": "Lofi HipHop Radio 24/7",
+    "gJOfuGj-n9M": "Home - Odyssey",
+    "Q04ILDXe3QE": "Jon Hopkins - Open Eye Signal",
+    "nT6NWc3J0-o": "Vessels - Dilate",
+    "QGpgAz__uXs": "Lounge Instrumental Chillout music",
+    "kPChs1S6s1E": "Lifted (Weekend Relaxation)",
+    "JSyOjpiL2AY": "Voyage (Chillwave/Retrowave/Synthwave Mix)",
+    "jLFd6k1BHDk": "Lifted (Mogwai - Auto Rock)",
+    "JzIK5FaC38w": "Lifted (Explosions In The Sky - Your Hand In Mine)",
+    "sQKdl_0cpJc": "Indecence - Next In Life",
+    "u5IR7nBU3C4": "Vessels - 4AM",
+    "wPjN5GNpCTI": "Vessels - Elliptic",
+    "mGBK8-u5h20": "Ulrich Schnauss - Far away trains passing by",
+    "F9L4q-0Pi4E": "２８１４ - 新しい日の誕生/Birth of a New Day",
+    "kFafKvgpIRo": "Lazerhawk - Visitors",
+    "kg9gjQnSCAw": "Tycho - Epoch",
+    "bR9-2As-XMk": "Kiasmos - Burn",
+    "cr4bsdoZKxQ": "Kiasmos - Thrown",
+    "3ycP6FvxYFo": "Kiasmos - Looped",
+    "WfYOMuX-tH8": "Stranger Things Soundtrack",
+    "ZPfNgIj2eNU": "Best of Tycho",
+    "u9TJ1L9VpZU": "Vessels - Attica",
+    "fi0KOScfBys": "Tycho - Sunrise Projector",
+    "Kr-xTnrxMq8": "Bing & Ruth - Tomorrow Was the Golden Age",
+    "vNwYtllyt3Q": "Brian Eno - Ambient 1: Music for Airports",
+    "7Cc-0beyRXE": "Huerco S. - Those Of You Who Have Never",
+    "_JxiJ9GX1yA": "Vessels - Mobilise",
+    "ggLh9P9x24Q": "Vessels - The Sky Was Pink",
+    "wOMwO5T3yT4": "ＳＰＡＣＥ ＴＲＩＰ - Retrowave Mix",
+    "Jmv5pTyz--I": "Stranger Things Theme Song (C418 REMIX)",
+    "WI4-HUn8dFc": "ＳＰＡＣＥ ＴＲＩＰ no. II - Retrowave Mix",
+    "1LHNmGe8HWk": "Perfect Day Legend Of Zelda Mix | Lo fi Hip Hop",
+    "YV9gP5xp7OE": "Night on Mountain | lofi hip hop |",
+    "T0nodan87dM": "Vaporwave~Hiphop~Vibes",
+    "-FlxM_0S2lA": "Lofi hip hop mix",
+    "uHaZzrUVnmw": "Hip-Hop Instrumentals Vol.2 - Aroto",
+    "GGBm9gTY2NU": "DownTown | Jazzy HipHop",
+    "tXQzAApb4WM": "Questlove - Goodbye Isaac",
+    "Agl1TgVfls0": "J Dilla - Life (Instrumental)",
+    "rSibMLeJYaE": "Hip Hop Jazz Chill - Need for Weekend",
+    "9ka5bgHnHyg": "Hip Hop Funk Jazz - Ours Samplus",
+    "V93yBHhxHTM": "Instrumental Hip Hop Buena Vista Chan Chan",
+    "Au46lJu8icA": "Old School Instrumental Hip Hop Session",
+    "_Rd2vKI6Amk": "Chill Instrumental Hiphop & JazzHop Mix",
+    "UHffJ0qC9Ko": "Gramatik Just Jammin",
+    "7ZguAEoNpZw": "L'indécis - Soulful",
+    "KjQSSYOTXzk": "Khruangbin - Friday Morning",
+    "e05rLVZQKiU": "Tommy Guerrero - No Mans Land ",
+    "zdYzL6wkr0A": "Time (Chillwave - Lofi - Electronic Mix)",
+    "ksaWk4ng_yA": "Hentzup - Out Of The Blue",
+    "gS62leDULLY": "Aso - Dreamer",
+    "6Y1naR7xDY8": "Saiko - In Space",
+    "kO43brxekLI": "Sounds Positive ☛ Jazz Oldschool HipHop",
+    "lSU1eFxgr68": "Vanilla - Origin (Full Album)",
+    "IFS0Eo1eh6Y": "Joey Bada$$ - Waves Instrumental",
+    "XG5umW9LTfo": "Flatbush ZOMBiES - Palm Trees",
+    "9eBfa9nNzvk": "DOOM & RZA - Books Of War",
+    "GJ-rORq34js": "J-Force - Pink Chicken '98",
+    "SU6x6nWQWI0": "Wio-K - We Nah Easy",
+    "7t2PhJUddIk": "Late June - You & I",
+    "1N8jKsu1NCE": "Julien Marchal - Insight XX",
+    "mYntXSsNnDQ": "Pete Rock - Lost Sessions",
+    "isIj3tuQTDY": "Glitch Mix"
 };
 
 const speechArray = {
-    'J7GY1Xg6X20': {
-        title: "Charlie Chaplin - The Great Dictator",
-    },
-    'Ga8tQrG4ZSw': {
-        title: "T S Eliot reads his Four Quartets",
-    },
-    'y8HTr-F-FVM': {
-        title: "JFK - The Speech That Killed Him",
-    },
-    'UF8uR6Z6KLc': {
-        title: "Steve Jobs' 2005 Stanford Address",
-    },
-    '9KvDvRUNw9k': {
-        title: "Simon Sinek - How to Find Fulfillment",
-    },
-    '3j3_iPskjxk': {
-        title: "Full Metal Jacket Opening",
-    },
-    '-pvxKdvuwIw': {
-        title: "Pale Blue Dot",
-    },
-    'pxBQLFLei70': {
-        title: "Admiral McRaven University of Texas Address",
-    },
-    'tY5It0jnD6M': {
-        title: "Black Mirror - 15 Million Merits",
-    },
-    'DLLihqJ22Vo': {
-        title: "Adaptation: Intro",
-    },
-    'xAhSc6akNPo': {
-        title: "A Lesson by Robert McKee on dialogue",
-    },
-    'PgU71nWCNeY': {
-        title: "Fight Club Speech",
-    },
-    'bivrs6stgHo': {
-        title: "'More Was Never Enough'",
-    },
-    'Nb9yu6dljAU': {
-        title: "There Will Be Blood - Milkshake",
-    },
-    'FkJLTGweKl0': {
-        title: "Rocky Balboa - speech to his son",
-    },
-    'WINDtlPXmmE': {
-        title: "Network - Mad as Hell",
-    },
-    'hopNAI8Pefg': {
-        title: "A Few Good Men",
-    },
-    'r0pOE8JlJbI': {
-        title: "Richard Dawkins - We are going to Die",
-    },
-    '0R3yJA7TnSk': {
-        title: "Sam Harris - Reality of your life is Now",
-    },
-    'cWXnT6Bwit4': {
-        title: "What If? - Jon Jorgenson",
-    },
-    'rOX1ETA0eUo': {
-        title: "No choices without chances - George the Poet",
-    },
-    'NZ4IoOXJiwQ': {
-        title: "The Most Astounding Fact - Neil deGrasse Tyson",
-    },
-    'WJtzOD3KbLM': {
-        title: "Richard Burton - Under Milk Wood",
-    },
-    'sPVWmmVKVk0': {
-        title: "Eleanor Roosevelt Speech Human Rights",
-    },
-    'MkTw3_PmKtc': {
-        title: "Winston S Churchill: Fight on the Beaches",
-    },
-    '_SakitCoNYc': {
-        title: "Mahatma Gandhi Speech",
-    },
-    'A26MnVnL8K4': {
-        title: "Leonard Nimoy College of Fine Arts Address",
-    },
-    '5ZBuWVvQMn8': {
-        title: "Jim Rohn Learn To Master These Skills",
-    },
-    '9OCOn3yKmwQ': {
-        title: "The Watergate Interviews",
-    },
-    'VnNBbR-JeDQ': {
-        title: "Steve Jobs - The Major Thinkers",
-    },
-    '_fMNIofUw2I': {
-        title: "2004 Barack Obama Keynote Speech",
-    },
-    'Bp8aP6pJB1Y': {
-        title: "The Dean of Personal Development",
-    },
-    'MOqIotJrFVM': {
-        title: "Malala Yousafzai Nobel Peace Prize Speech",
-    },
-    'oJJGuIZVfLM': {
-        title: "Severn Cullis-Suzuki at Rio Summit",
-    },
-    'Fg0mu32h5IY': {
-        title: "Maya Angelou - On the Pulse of Morning",
-    },
-    'ov4iyFoKcIs': {
-        title: "Dr Maya Angelou Love Liberates",
-    },
-    'keCwRdbwNQY': {
-        title: "Steve Jobs - Think different",
-    },
-    'UWzNsxRyvew': {
-        title: "Warren Buffett - How to Stay Out of Debt",
-    },
-    '5897dMWJiSM': {
-        title: "Marcus Aurelius - Lecture on Stoicism",
-    },
-    'UpiBUXXE8oU': {
-        title: "Earl Nightingale - Why do you go to work?",
-    },
-    '4IdEjAbH-LA': {
-        title: "Earl Nightingale - Imagination Is Everything",
-    },
-    '8PaAl51TV1o': {
-        title: "30 day Challenge - Earl Nightingale",
-    },
-    '_vmBQvYX8ig': {
-        title: "The Key to Happiness - Earl Nightingale",
-    },
-    'dFRpjk7seF8': {
-        title: "Sadhguru at TED",
-    },
-    'BkvEpoqFx6c': {
-        title: "Henry Rollins: The One Decision",
-    },
-    'fajfkO_X0l0': {
-        title: "Sam Harris: The Self is an Illusion",
-    },
-    'evM1NX3ebFE': {
-        title: "Conquer Life's Challenges - Cornel West",
-    },
-    '48wgDP9pc2E': {
-        title: "Oprah Winfrey - Power of Belief",
-    },
-    '7t_Uyi9bNS4': {
-        title: "Sam Harris on the Illusion of Free Will",
-    },
-    'ADeoLT0Dz2w': {
-        title: "Pat Mullins - The Problem With Rolling",
-    },
-    'GMWFieBGR7c': {
-        title: "Oprah Winfrey - Harvard Commencement",
-    },
-    'kn2Rp51Vpiw': {
-        title: "Bryan Cranston's Career Advice",
-    },
-    'gHbYJfwFgOU': {
-        title: "Bill Nye: Creationism Isn't Appropriate For Children",
-    },
-    '-ZRLe6jYu0s': {
-        title: "'Happiness isn't about what the world gives you'",
-    },
-    'Tc24RCmvlTU': {
-        title: "The Truth About Happiness",
-    },
-    'zWjuZ0OvtNU': {
-        title: "How To Train Your Brain To Stay Focused",
-    },
-    'CzSMC5rWvos': {
-        title: "Neil deGrasse Tyson: Atheist or Agnostic",
-    },
-    'ouRbkBAOGEw': {
-        title: "JFK - We choose to go to the Moon",
-    },
-    'IyArUh8eqJ0': {
-        title: "JFK/Eisenhower during Cuban Missile Crisis",
-    },
-    '0sV3miSCTG0': {
-        title: "Amelia Earhart On Women In Flying",
-    },
-    'aaiPkEhB0lY': {
-        title: "Audrey Tatou interview",
-    },
-    'bHOHi5ueo0A': {
-        title: "The laughing heart",
-    },
-    'MTPxWkBgW6U': {
-        title: "Charles Bukowski on dying and how to write",
-    },
-    'JqOqo50LSZ0': {
-        title: "Maya Angelou - And Still I Rise",
-    },
-    'CN9DN_PImy8': {
-        title: "Maya Angelou - The Mask",
-    },
-    'AlVQ7QffzjM': {
-        title: "Dougal Wilson on making music videos",
-    },
-    '5K_UAowTszU': {
-        title: "Richard Linklater on being self-taught ",
-    },
-    'T74EBhm5IFU': {
-        title: "Ellen Hovde & co. on documentaries",
-    },
-    '91uiHjHmEZc': {
-        title: "Ridley Scott on filmmaking",
-    },
-    'g9lBlD04sDs': {
-        title: "Aaron Draplin on Working with Free Vectors",
-    },
-    'v3vJ5Pvfbzk': {
-        title: "Draw Blindfolded - Shantell Martin",
-    },
-    'e80BbX05D7Y': {
-        title: "How To Begin Your Presentation - Simon Sinek",
-    },
-    'Ry94tFG4CIM': {
-        title: "Do Not Think Too Much - Alan Watts",
-    },
-    'kB5UCVW5zj4': {
-        title: "Alan Watts - Stop Negative Thoughts",
-    },
-    'kiSoxFHyjGY': {
-        title: "Dan Rather's account of JFK assasination",
-    },
-    '8-lLC4c_Mso': {
-        title: "Dan Rather Final Goodbye",
-    },
-    'PDv32Oo8PmE': {
-        title: "Justin Trudeau speech at Edinburgh University",
-    },
-    'xKCuDxpccYM': {
-        title: "Elon Musk's Break Down on Climate Change",
-    },
-    'MfXEnPO4R_s': {
-        title: "Ludacris Breaks Down His Favorite Rap Lyrics",
-    },
-    'b2mMX6vFc4s': {
-        title: "George the Poet - My City",
-    },
-    'iqm-XEqpayc': {
-        title: "Sheryl Sandberg Berkley Speech",
-    },
-    '1hlCEIUATzg': {
-        title: "Ellen Page - Time to Thrive Conference",
-    },
-    'c9SUAcNlVQ4': {
-        title: "Emma Watson UN address: I'm a Feminist",
-    },
-    'a7_49EXuLoQ': {
-        title: "Mindy Kalin on Growing Up",
-    },
-    'YlQzmwBiHdk': {
-        title: "Angelina Jolie Honors Agnes Varga",
-    },
-    'DVCfFBlKpN8': {
-        title: "Nora Ephron - Wellesley College Commencement",
-    },
-    'ZPCkfARH2eE': {
-        title: "Lupita Nyong'o on self-acceptance",
-    },
-    'xHHzHu289Ws': {
-        title: "Sarah Key: Private Parts",
-    },
-    'sXfrVdhmilI': {
-        title: "Amy Cuddy's Amazing Story",
-    },
-    '1RhbOPFSetE': {
-        title: "Dame Stephanie Shirley",
-    },
-    'EZpPgwaNaWI': {
-        title: "Billie Jean King: Coming Out",
-    },
-    'Vyn_xLrtZaY': {
-        title: "Margaret Heffernan",
-    },
-    'wpv1qtiwdHQ': {
-        title: "Mellody Hobson Commencement SC 2015",
-    },
-    'FDreaW2cEUI': {
-        title: "Emilia Earhart on Woman's place in science",
-    },
-    'FIN1F0TyadM': {
-        title: "Michelle Obama speech - International Women's Day",
-    },
-    'TIzVOwIuWvQ': {
-        title: "Gloria Steinem",
-    },
-    'xXM4E23Efvk': {
-        title: "Hillary Clinton - Womens Rights Are Human Rights",
-    },
-    'IDH4RKX428Y': {
-        title: "Aint I A Woman - Sojourner Truth",
-    },
-    'zcbY04JrMaU': {
-        title: "Virginia Woolf - Craftsmanship",
-    },
-    '8qEEqAZgULU': {
-        title: "Reni Eddo-Lodge: ...Talking to White People About Race",
-    },
-    'D9Ihs241zeg': {
-        title: "Chimamanda Ngozi Adichie - The danger of a single story",
-    },
-    'cbecKv2xR14': {
-        title: "Maya Angelou: Love Liberates",
-    },
-    'JMxG0reODQY': {
-        title: "Emma Gonzalez on guns and the NRA",
-    },
-    'IdJbJMUFzZA': {
-        title: "Deborah Frances-White",
-    },
-    'xAgawjzimjc': {
-        title: "Ashley Graham - Plus-size? More Like My Size",
-    },
-    'iauet4reDn4': {
-        title: "My name is Truth: the life of Sojourner Truth",
-    },
-    'z-sNlQJTBYA': {
-        title: "Janet Mock - Trans people are who they say they are",
-    },
-    'mM5ONxQxQu8': {
-        title: "Viola Davis speaks at Women's March",
-    },
-    '75WFTHpOw8Y': {
-        title: "Björk talking about her TV",
-    }
+    "J7GY1Xg6X20": "Charlie Chaplin - The Great Dictator",
+    "Ga8tQrG4ZSw": "T S Eliot reads his Four Quartets",
+    "y8HTr-F-FVM": "JFK - The Speech That Killed Him",
+    "UF8uR6Z6KLc": "Steve Jobs' 2005 Stanford Address",
+    "9KvDvRUNw9k": "Simon Sinek - How to Find Fulfillment",
+    "3j3_iPskjxk": "Full Metal Jacket Opening",
+    "-pvxKdvuwIw": "Pale Blue Dot",
+    "pxBQLFLei70": "Admiral McRaven University of Texas Address",
+    "tY5It0jnD6M": "Black Mirror - 15 Million Merits",
+    "DLLihqJ22Vo": "Adaptation: Intro",
+    "xAhSc6akNPo": "A Lesson by Robert McKee on dialogue",
+    "PgU71nWCNeY": "Fight Club Speech",
+    "bivrs6stgHo": "'More Was Never Enough'",
+    "Nb9yu6dljAU": "There Will Be Blood - Milkshake",
+    "FkJLTGweKl0": "Rocky Balboa - speech to his son",
+    "WINDtlPXmmE": "Network - Mad as Hell",
+    "hopNAI8Pefg": "A Few Good Men",
+    "r0pOE8JlJbI": "Richard Dawkins - We are going to Die",
+    "0R3yJA7TnSk": "Sam Harris - Reality of your life is Now",
+    "cWXnT6Bwit4": "What If? - Jon Jorgenson",
+    "rOX1ETA0eUo": "No choices without chances - George the Poet",
+    "NZ4IoOXJiwQ": "The Most Astounding Fact - Neil deGrasse Tyson",
+    "WJtzOD3KbLM": "Richard Burton - Under Milk Wood",
+    "sPVWmmVKVk0": "Eleanor Roosevelt Speech Human Rights",
+    "MkTw3_PmKtc": "Winston S Churchill: Fight on the Beaches",
+    "_SakitCoNYc": "Mahatma Gandhi Speech",
+    "A26MnVnL8K4": "Leonard Nimoy College of Fine Arts Address",
+    "5ZBuWVvQMn8": "Jim Rohn Learn To Master These Skills",
+    "9OCOn3yKmwQ": "The Watergate Interviews",
+    "VnNBbR-JeDQ": "Steve Jobs - The Major Thinkers",
+    "_fMNIofUw2I": "2004 Barack Obama Keynote Speech",
+    "Bp8aP6pJB1Y": "The Dean of Personal Development",
+    "MOqIotJrFVM": "Malala Yousafzai Nobel Peace Prize Speech",
+    "oJJGuIZVfLM": "Severn Cullis-Suzuki at Rio Summit",
+    "Fg0mu32h5IY": "Maya Angelou - On the Pulse of Morning",
+    "ov4iyFoKcIs": "Dr Maya Angelou Love Liberates",
+    "keCwRdbwNQY": "Steve Jobs - Think different",
+    "UWzNsxRyvew": "Warren Buffett - How to Stay Out of Debt",
+    "5897dMWJiSM": "Marcus Aurelius - Lecture on Stoicism",
+    "UpiBUXXE8oU": "Earl Nightingale - Why do you go to work?",
+    "4IdEjAbH-LA": "Earl Nightingale - Imagination Is Everything",
+    "8PaAl51TV1o": "30 day Challenge - Earl Nightingale",
+    "_vmBQvYX8ig": "The Key to Happiness - Earl Nightingale",
+    "dFRpjk7seF8": "Sadhguru at TED",
+    "BkvEpoqFx6c": "Henry Rollins: The One Decision",
+    "fajfkO_X0l0": "Sam Harris: The Self is an Illusion",
+    "evM1NX3ebFE": "Conquer Life's Challenges - Cornel West",
+    "48wgDP9pc2E": "Oprah Winfrey - Power of Belief",
+    "7t_Uyi9bNS4": "Sam Harris on the Illusion of Free Will",
+    "ADeoLT0Dz2w": "Pat Mullins - The Problem With Rolling",
+    "GMWFieBGR7c": "Oprah Winfrey - Harvard Commencement",
+    "kn2Rp51Vpiw": "Bryan Cranston's Career Advice",
+    "gHbYJfwFgOU": "Bill Nye: Creationism Isn't Appropriate For Children",
+    "-ZRLe6jYu0s": "'Happiness isn't about what the world gives you'",
+    "Tc24RCmvlTU": "The Truth About Happiness",
+    "zWjuZ0OvtNU": "How To Train Your Brain To Stay Focused",
+    "CzSMC5rWvos": "Neil deGrasse Tyson: Atheist or Agnostic",
+    "ouRbkBAOGEw": "JFK - We choose to go to the Moon",
+    "IyArUh8eqJ0": "JFK/Eisenhower during Cuban Missile Crisis",
+    "0sV3miSCTG0": "Amelia Earhart On Women In Flying",
+    "aaiPkEhB0lY": "Audrey Tatou interview",
+    "bHOHi5ueo0A": "The laughing heart",
+    "MTPxWkBgW6U": "Charles Bukowski on dying and how to write",
+    "JqOqo50LSZ0": "Maya Angelou - And Still I Rise",
+    "CN9DN_PImy8": "Maya Angelou - The Mask",
+    "AlVQ7QffzjM": "Dougal Wilson on making music videos",
+    "5K_UAowTszU": "Richard Linklater on being self-taught ",
+    "T74EBhm5IFU": "Ellen Hovde & co. on documentaries",
+    "91uiHjHmEZc": "Ridley Scott on filmmaking",
+    "g9lBlD04sDs": "Aaron Draplin on Working with Free Vectors",
+    "v3vJ5Pvfbzk": "Draw Blindfolded - Shantell Martin",
+    "e80BbX05D7Y": "How To Begin Your Presentation - Simon Sinek",
+    "Ry94tFG4CIM": "Do Not Think Too Much - Alan Watts",
+    "kB5UCVW5zj4": "Alan Watts - Stop Negative Thoughts",
+    "kiSoxFHyjGY": "Dan Rather's account of JFK assasination",
+    "8-lLC4c_Mso": "Dan Rather Final Goodbye",
+    "PDv32Oo8PmE": "Justin Trudeau speech at Edinburgh University",
+    "xKCuDxpccYM": "Elon Musk's Break Down on Climate Change",
+    "MfXEnPO4R_s": "Ludacris Breaks Down His Favorite Rap Lyrics",
+    "b2mMX6vFc4s": "George the Poet - My City",
+    "iqm-XEqpayc": "Sheryl Sandberg Berkley Speech",
+    "1hlCEIUATzg": "Ellen Page - Time to Thrive Conference",
+    "c9SUAcNlVQ4": "Emma Watson UN address: I'm a Feminist",
+    "a7_49EXuLoQ": "Mindy Kalin on Growing Up",
+    "YlQzmwBiHdk": "Angelina Jolie Honors Agnes Varga",
+    "DVCfFBlKpN8": "Nora Ephron - Wellesley College Commencement",
+    "ZPCkfARH2eE": "Lupita Nyong'o on self-acceptance",
+    "xHHzHu289Ws": "Sarah Key: Private Parts",
+    "sXfrVdhmilI": "Amy Cuddy's Amazing Story",
+    "1RhbOPFSetE": "Dame Stephanie Shirley",
+    "EZpPgwaNaWI": "Billie Jean King: Coming Out",
+    "Vyn_xLrtZaY": "Margaret Heffernan",
+    "wpv1qtiwdHQ": "Mellody Hobson Commencement SC 2015",
+    "FDreaW2cEUI": "Emilia Earhart on Woman's place in science",
+    "FIN1F0TyadM": "Michelle Obama speech - International Women's Day",
+    "TIzVOwIuWvQ": "Gloria Steinem",
+    "xXM4E23Efvk": "Hillary Clinton - Womens Rights Are Human Rights",
+    "IDH4RKX428Y": "Aint I A Woman - Sojourner Truth",
+    "zcbY04JrMaU": "Virginia Woolf - Craftsmanship",
+    "8qEEqAZgULU": "Reni Eddo-Lodge: ...Talking to White People About Race",
+    "D9Ihs241zeg": "Chimamanda Ngozi Adichie - The danger of a single story",
+    "cbecKv2xR14": "Maya Angelou: Love Liberates",
+    "JMxG0reODQY": "Emma Gonzalez on guns and the NRA",
+    "IdJbJMUFzZA": "Deborah Frances-White",
+    "xAgawjzimjc": "Ashley Graham - Plus-size? More Like My Size",
+    "iauet4reDn4": "My name is Truth: the life of Sojourner Truth",
+    "z-sNlQJTBYA": "Janet Mock - Trans people are who they say they are",
+    "mM5ONxQxQu8": "Viola Davis speaks at Women's March",
+    "75WFTHpOw8Y": "Björk talking about her TV"
 };
 
 
@@ -579,12 +225,12 @@ onYouTubeIframeAPIReady = () => {
         speechOrder = shuffle(Object.keys(speechArray));
     }
 
-    beatPlayer = new YT.Player('beatvideo', {
+    beatPlayer = new YT.Player("beatvideo", {
         width: 30,
         height: 20,
         playerVars: {
-            color: 'white',
-            playlist: beatOrder.join(','),
+            color: "white",
+            playlist: beatOrder.join(","),
             origin: window.location.origin
         },
         events: {
@@ -593,12 +239,12 @@ onYouTubeIframeAPIReady = () => {
         }
     });
 
-    speechPlayer = new YT.Player('speechvideo', {
+    speechPlayer = new YT.Player("speechvideo", {
         width: 30,
         height: 20,
         playerVars: {
-            color: 'white',
-            playlist: speechOrder.join(','),
+            color: "white",
+            playlist: speechOrder.join(","),
             origin: window.location.origin
         },
         events: {
@@ -607,15 +253,15 @@ onYouTubeIframeAPIReady = () => {
         }
     });
 
-    history.replaceState({}, 'Studiowave', '/' );
+    history.replaceState({}, "Studiowave", "/" );
 
 };
 
 const speechInitialized = e => {
-    e.target.setPlaybackQuality('small');
+    e.target.setPlaybackQuality("small");
 };
 const beatInitialized = e => {
-    e.target.setPlaybackQuality('small');
+    e.target.setPlaybackQuality("small");
 };
 
 
@@ -623,15 +269,15 @@ const beatInitialized = e => {
 const beatTitle = document.querySelector("#BeatTitle");
 const onBeatStateChange = () => {
     if (event.data == YT.PlayerState.BUFFERING) {
-        event.target.setPlaybackQuality('small');
+        event.target.setPlaybackQuality("small");
     }
     const index = beatPlayer.getPlaylistIndex();
-    // console.log('Beat playlist index: ', index);
+    // console.log("Beat playlist index: ", index);
     const key = beatOrder[index];
     const object = beatArray[key];
     currentBeatId = key;
     if (object) {
-        beatTitle.innerHTML = object.title;
+        beatTitle.textContent = object;
         beatTitle.href = "https://www.youtube.com/watch?v=" + currentBeatId;
     }
 };
@@ -639,15 +285,15 @@ const onBeatStateChange = () => {
 const speechTitle = document.querySelector("#SpeechTitle");
 const onSpeechStateChange = () => {
     if (event.data == YT.PlayerState.BUFFERING) {
-        event.target.setPlaybackQuality('small');
+        event.target.setPlaybackQuality("small");
     }
     const index = speechPlayer.getPlaylistIndex();
-    // console.log('Speech playlist index: ', index);
+    // console.log("Speech playlist index: ", index);
     const key = speechOrder[index];
     const object = speechArray[key];
     currentSpeechId = key;
     if (object) {
-        speechTitle.innerHTML = object.title;
+        speechTitle.textContent = object;
         speechTitle.href = "https://www.youtube.com/watch?v=" + currentBeatId;
     }
 };
@@ -657,16 +303,16 @@ const onSpeechStateChange = () => {
 const shareButton = document.querySelector(".sharebutton");
 const tooltip = document.querySelector("#tooltip");
 
-shareButton.addEventListener('click', () => {
+shareButton.addEventListener("click", () => {
     if (currentBeatId && currentSpeechId) {
         shareLink = window.location.origin + `?beat=${currentBeatId}&speech=${currentSpeechId}`;
     }
 
     navigator.clipboard.writeText(shareLink)
         .then(() => {
-            console.log('Copied to clipboard');
+            console.log("Copied to clipboard");
         }).catch(err => {
-            console.error('Could not copy text: ', err);
+            console.error("Could not copy text: ", err);
         });
 
     tooltip.classList.toggle("override");
@@ -684,8 +330,8 @@ const urlParam = name => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    speechKey = urlParam('speech');
-    beatKey = urlParam('beat');
+    speechKey = urlParam("speech");
+    beatKey = urlParam("beat");
 });
 
 
@@ -698,8 +344,8 @@ speechSlider.onchange = () => speechPlayer.setVolume(speechSlider.value);
 
 
 // Play & Pause
-const playPauseButton = document.querySelector('#playpausebutton img');
-playPauseButton.addEventListener('click', () => {
+const playPauseButton = document.querySelector("#playpausebutton img");
+playPauseButton.addEventListener("click", () => {
     if (!beatPlayer) return;
     const beatPlayerState = beatPlayer.getPlayerState();
     const speechPlayerState = speechPlayer.getPlayerState();
@@ -725,8 +371,8 @@ playPauseButton.addEventListener('click', () => {
 
 
 // Next video
-const beatResetImage = document.querySelector('#beatreset img');
-beatResetImage.addEventListener('click', () => {
+const beatResetImage = document.querySelector("#beatreset img");
+beatResetImage.addEventListener("click", () => {
     if (!beatPlayer) return;
 
     if (beatOrder[beatOrder.length - 1] === currentBeatId) {
@@ -740,8 +386,8 @@ beatResetImage.addEventListener('click', () => {
     }
 });
 
-const speechResetImage = document.querySelector('#speechreset img');
-speechResetImage.addEventListener('click', () => {
+const speechResetImage = document.querySelector("#speechreset img");
+speechResetImage.addEventListener("click", () => {
     if (!speechPlayer) return;
 
     if (speechOrder[speechOrder.length - 1] === currentSpeechId) {
@@ -757,9 +403,9 @@ speechResetImage.addEventListener('click', () => {
 
 
 // if agent detected mobile: hideClass small_screen and show mobile_device
-const mobileMessage = document.querySelectorAll('.mobile_device');
-const narrowMessage = document.querySelectorAll('.small_screen');
+const mobileMessage = document.querySelectorAll(".mobile_device");
+const narrowMessage = document.querySelectorAll(".small_screen");
 if ( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) {
-    mobileMessage.forEach(p => p.style.display = 'block');
-    narrowMessage.forEach(p => p.style.display = 'none');
+    mobileMessage.forEach(p => p.style.display = "block");
+    narrowMessage.forEach(p => p.style.display = "none");
 }
