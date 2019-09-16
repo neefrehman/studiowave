@@ -53,16 +53,12 @@ main {
 }
 
 #logo {
-	display: inline-block;
-	vertical-align: middle;
-	padding: 0 0 0 0;
 	transform-style: preserve-3d;
+	margin-bottom: 2vh;
 }
 
 .logo_image {
 	max-width: 85vw;
-	margin-left: auto;
-	margin-right: auto;
 	display: block;
 	overflow: visible;
 }
