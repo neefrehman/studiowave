@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
 
     <title>Studiowave | Chillout tunes and inspiration</title>
@@ -33,13 +32,10 @@
     <link rel="stylesheet" href="rangeslider.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,900,900i">
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
-
 </head>
 
 <body>
-
     <div class="wrapper">
-
         <div id="social">
             <a href="https://twitter.com/s0methingsays" target="_blank" class="icon"><img src="images/icon_twitter.png"/></a>
             <a href="https://www.facebook.com/wearestudiosomething/" target="_blank" class="icon"><img src="images/icon_facebook.png"/></a>
@@ -47,7 +43,6 @@
         </div>
 
         <div id="header">
-
             <div id="logo" data-tilt data-tilt-scale="1.1" data-tilt-speed="2500">
                 <img src="images/logo_yellow.svg" class="logo_image yellow"/>
                 <img src="images/logo_black.svg" class="logo_image black"/>
@@ -57,24 +52,19 @@
             <div id="tagline">
                 <p>chillout tunes and inspiration</p>
             </div>
-
         </div>
 
         <div id="alerts">
-
             <p class="mobile small_screen">This webapp isn't optimised for screens this tight.</p>
             <p class="mobile small_screen">Broaden your horizons :)</p>
 
             <p class="mobile mobile_device">This webapp is incompatible with media players on mobile devices.</p>
             <p class="mobile mobile_device">¯\_(ツ)_/¯</p>
             <p class="mobile mobile_device">It's great on desktop, though. Promise!</p>
-
         </div>
 
         <div id="media" class="desktop">
-
             <div id="titles">
-
                 <div id=beat>
                     <p class="type">BEAT</p>
                     <a class="title" id="BeatTitle" href="" target="_blank">loading...</a>
@@ -84,13 +74,10 @@
                     <p class="type">SPEECH</p>
                     <a class="title" id="SpeechTitle" href="" target="_blank">loading...</a>
                 </div>
-
             </div>
 
             <div id="player">
-
                 <div id="beatplayer">
-
                     <div id="beatreset"> <img src="images/reset.png" class="reset btn"/> </div>
 
                     <div class="visually-hidden"> <div id="beatvideo"></div> </div>
@@ -98,35 +85,32 @@
                     <div id="beatvolume">
                         <input id="beatslider"
                           type="range"
-                          min="0"                    // default 0
-                          max="80"                  // default 100
-                          step="1"                   // default 1
-                          value="40"                 // default min + (max-min)/2
-                          data-orientation="horizontal" // default horizontal
+                          min="0"
+                          max="80"
+                          step="1"
+                          value="40"
+                          data-orientation="horizontal"
                         >
                     </div>
-
                 </div>
 
                 <div id="playpausebutton"> <img src="images/play.png" id="buttonicon" class="playpause btn"/> </div>
 
                 <div id="speechplayer">
-
                     <div class="visually-hidden"> <div id="speechvideo"></div> </div>
 
                     <div id="speechvolume">
                         <input id="speechslider"
                           type="range"
-                          min="0"                    // default 0
-                          max="100"                  // default 100
-                          step="1"                   // default 1
-                          value="90"                 // default min + (max-min)/2
-                          data-orientation="horizontal" // default horizontal
+                          min="0"
+                          max="100"
+                          step="1"
+                          value="90"
+                          data-orientation="horizontal"
                         >
                     </div>
 
                     <div id="speechreset"> <img src="images/reset.png" class="reset btn"/> </div>
-
                 </div>
 
             </div>
@@ -139,7 +123,6 @@
         </div>
 
         <footer>
-
             <div id="USTWOlogo">
                 <a href="https://ustwo.com" target="_blank" class="studiologo"><img src="images/USTWO_logo.png"/></a>
             </div>
@@ -151,17 +134,13 @@
             <div id="SSlogo">
                 <a href="https://studiosomething.co" target="_blank" class="studiologo"><img src="images/SS_logo.png"/></a>
             </div>
-
         </footer>
-
-
     </div>
 
     <!-- Scripts-->
     <script src="javascript/vanilla-tilt/vanilla-tilt.min.js"></script>
     <script src="javascript/main.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
-
 </body>
 
 </html>
