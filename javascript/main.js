@@ -7,7 +7,7 @@ const shuffle = a => {
     return a;
 };
 
-const createUrlParam = name => {
+const getUrlParam = name => {
     const results = new RegExp(`[/?&]${name}=([^&#]*)`).exec(window.location.href);
     // console.log("name: "name, "results: "results);
     return results ? results[1] : 0;
@@ -28,8 +28,8 @@ const youtubeVideoExists = id => {
             videoExists = true;
         }
     });
-    // .catch(response => {
-    //     console.log(response.status);
+    // .catch(error => {
+    //     console.log(error.code);
     // });
     return videoExists;
 };
@@ -40,8 +40,6 @@ const googleSheetUrl =
 
 let beatArray = [],
     speechArray = [];
-const beatIDArray = [];
-const speechIDArray = [];
 
 fetch(googleSheetUrl)
     .then(response => response.json())
@@ -59,14 +57,11 @@ fetch(googleSheetUrl)
 
         beatArray = beatArray.filter(video => video.id !== "");
         speechArray = speechArray.filter(video => video.id !== "");
-
-        beatArray.forEach(beat => beatIDArray.push(beat.id));
-        speechArray.forEach(speech => speechIDArray.push(speech.id));
     })
     .then(() => startVideos())
     .catch(error => console.log(error));
 
-// Global declarations
+// Global vars for YT
 let beatPlayer, speechPlayer;
 let isPlaying = false;
 let speechOrder = [],
@@ -75,28 +70,26 @@ let currentSpeechId, currentBeatId;
 let speechKey, beatKey;
 let shareLink = window.location.origin;
 
-document.addEventListener("DOMContentLoaded", () => {
-    speechKey = createUrlParam("speech");
-    beatKey = createUrlParam("beat");
-});
-
+// Create playlists
 const startVideos = () => {
-    // Create playlists
+    const beatIDArray = beatArray.map(beat => beat.id);
+    const speechIDArray = speechArray.map(speech => speech.id);
+
     // If url params and associated videos exist, then make those videos first
-    if (beatKey && beatArray.some(beat => beat.id === beatKey)) {
-        const beatArrayWithoutDuplicate = beatIDArray.filter(
+    if (beatKey) {
+        const beatIDsWithoutDuplicate = beatIDArray.filter(
             beatID => beatID !== beatKey
         );
-        beatOrder = [beatKey].concat(shuffle(beatArrayWithoutDuplicate));
+        beatOrder = [beatKey].concat(shuffle(beatIDsWithoutDuplicate));
     } else {
         beatOrder = shuffle(beatIDArray);
     }
 
-    if (speechKey && speechArray.some(speech => speech.id === speechKey)) {
-        const speechArrayWithoutDuplicate = speechIDArray.filter(
+    if (speechKey) {
+        const speechIDsWithoutDuplicate = speechIDArray.filter(
             speechID => speechID !== speechKey
         );
-        speechOrder = [speechKey].concat(shuffle(speechArrayWithoutDuplicate));
+        speechOrder = [speechKey].concat(shuffle(speechIDsWithoutDuplicate));
     } else {
         speechOrder = shuffle(speechIDArray);
     }
@@ -132,6 +125,11 @@ const startVideos = () => {
 
     history.replaceState({}, "Studiowave", "/");
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+    speechKey = getUrlParam("speech");
+    beatKey = getUrlParam("beat");
+});
 
 const speechInitialized = e => e.target.setPlaybackQuality("small");
 const beatInitialized = e => e.target.setPlaybackQuality("small");
