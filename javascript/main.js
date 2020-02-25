@@ -16,11 +16,13 @@ const getUrlParam = name => {
 // TODO: get working and use to filter out missing videos
 const youtubeVideoExists = id => {
     let videoExists;
-    const thumbnailUrl = "https://img.youtube.com/vi/" + id + "/mqdefault.jpg";
-    fetch(thumbnailUrl, {
-        mode: "no-cors"
-    }).then(response => {
-        console.log(response.status);
+    const thumbnailUrlWithCorsProxy =
+        "https://cors-anywhere.herokuapp.com/" +
+        "https://img.youtube.com/vi/" +
+        id +
+        "/mqdefault.jpg";
+
+    fetch(thumbnailUrlWithCorsProxy).then(response => {
         if (response.status === 404) {
             videoExists = false;
             console.log(`Video not found: ${id}`);
@@ -28,9 +30,7 @@ const youtubeVideoExists = id => {
             videoExists = true;
         }
     });
-    // .catch(error => {
-    //     console.log(error.code);
-    // });
+
     return videoExists;
 };
 
@@ -44,8 +44,8 @@ let beatArray = [],
 fetch(googleSheetUrl)
     .then(response => response.json())
     .then(data => {
-        const shetData = data.feed.entry;
-        shetData.forEach(sheetRow => {
+        const sheetData = data.feed.entry;
+        sheetData.forEach(sheetRow => {
             const beatId = sheetRow.gsx$beatid.$t;
             const beatTitle = sheetRow.gsx$beattitle.$t;
             beatArray.push({ id: beatId, title: beatTitle });
