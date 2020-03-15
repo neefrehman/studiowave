@@ -7,31 +7,16 @@ const shuffle = a => {
     return a;
 };
 
+const shuffleAndRemoveDuplicate = (duplicateKey, keyArray) => {
+    const arrayWithoutDuplicate = [...new Set(keyArray)];
+    const shuffledArrayWithoutDuplicates = shuffle(arrayWithoutDuplicate);
+    return [duplicateKey].concat(shuffledArrayWithoutDuplicates);
+};
+
 const getUrlParam = name => {
     const results = new RegExp(`[/?&]${name}=([^&#]*)`).exec(window.location.href);
     // console.log("name: "name, "results: "results);
     return results ? results[1] : 0;
-};
-
-// TODO: get working and use to filter out missing videos
-const youtubeVideoExists = id => {
-    let videoExists;
-    const thumbnailUrlWithCorsProxy =
-        "https://cors-anywhere.herokuapp.com/" +
-        "https://img.youtube.com/vi/" +
-        id +
-        "/mqdefault.jpg";
-
-    fetch(thumbnailUrlWithCorsProxy).then(response => {
-        if (response.status === 404) {
-            videoExists = false;
-            console.log(`Video not found: ${id}`);
-        } else {
-            videoExists = true;
-        }
-    });
-
-    return videoExists;
 };
 
 // Google Sheet data fetching
@@ -62,12 +47,12 @@ fetch(googleSheetUrl)
     .catch(error => console.log(error));
 
 // Global vars for YT
-let beatPlayer, speechPlayer;
 let isPlaying = false;
-let speechOrder = [],
-    beatOrder = [];
-let currentSpeechId, currentBeatId;
-let speechKey, beatKey;
+let beatPlayer, speechPlayer;
+let beatOrder = [],
+    speechOrder = [];
+let currentBeatId, currentSpeechId;
+let beatKey, speechKey;
 let shareLink = window.location.origin;
 
 // Create playlists
@@ -75,24 +60,14 @@ const startVideos = () => {
     const beatIDArray = beatArray.map(beat => beat.id);
     const speechIDArray = speechArray.map(speech => speech.id);
 
-    // If url params and associated videos exist, then make those videos first
-    if (beatKey) {
-        const beatIDsWithoutDuplicate = beatIDArray.filter(
-            beatID => beatID !== beatKey
-        );
-        beatOrder = [beatKey].concat(shuffle(beatIDsWithoutDuplicate));
-    } else {
-        beatOrder = shuffle(beatIDArray);
-    }
+    // If url params and associated videos exist, then make those videos first and remove duplicate
+    beatOrder = beatKey
+        ? shuffleAndRemoveDuplicate(beatKey, beatIDArray)
+        : shuffle(beatIDArray);
 
-    if (speechKey) {
-        const speechIDsWithoutDuplicate = speechIDArray.filter(
-            speechID => speechID !== speechKey
-        );
-        speechOrder = [speechKey].concat(shuffle(speechIDsWithoutDuplicate));
-    } else {
-        speechOrder = shuffle(speechIDArray);
-    }
+    speechOrder = speechKey
+        ? shuffleAndRemoveDuplicate(speechKey, speechIDArray)
+        : shuffle(speechIDArray);
 
     // Initialize YT players
     beatPlayer = new YT.Player("beatvideo", {
@@ -104,7 +79,7 @@ const startVideos = () => {
             origin: window.location.origin
         },
         events: {
-            onReady: beatInitialized,
+            onReady: e => e.target.setPlaybackQuality("small"),
             onStateChange: onBeatStateChange
         }
     });
@@ -118,7 +93,7 @@ const startVideos = () => {
             origin: window.location.origin
         },
         events: {
-            onReady: speechInitialized,
+            onReady: e => e.target.setPlaybackQuality("small"),
             onStateChange: onSpeechStateChange
         }
     });
@@ -130,9 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
     speechKey = getUrlParam("speech");
     beatKey = getUrlParam("beat");
 });
-
-const speechInitialized = e => e.target.setPlaybackQuality("small");
-const beatInitialized = e => e.target.setPlaybackQuality("small");
 
 // titles and links
 const beatTitle = document.querySelector("#BeatTitle");
@@ -175,9 +147,7 @@ const tooltip = document.querySelector("#tooltip");
 
 shareButton.addEventListener("click", () => {
     if (currentBeatId && currentSpeechId) {
-        shareLink =
-            window.location.origin +
-            `?beat=${currentBeatId}&speech=${currentSpeechId}`;
+        shareLink = `${window.location.origin}?beat=${currentBeatId}&speech=${currentSpeechId}`;
     }
 
     navigator.clipboard
@@ -269,3 +239,9 @@ if (
     mobileMessage.forEach(p => (p.style.display = "block"));
     narrowMessage.forEach(p => (p.style.display = "none"));
 }
+
+const youtubeVideoExists = id =>
+    fetch(`https://img.youtube.com/vi/${id}/mqdefault.jpg`, { mode: "no-cors" });
+
+const checkBeatVideos = () => beatOrder.forEach(ID => youtubeVideoExists(ID));
+const checkSpeechVideos = () => speechOrder.forEach(ID => youtubeVideoExists(ID));
