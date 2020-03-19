@@ -10,7 +10,7 @@ const shuffle = a => {
 const shuffleAndRemoveDuplicate = (duplicateKey, keyArray) => {
     const arrayWithoutDuplicate = [...new Set(keyArray)];
     const shuffledArrayWithoutDuplicates = shuffle(arrayWithoutDuplicate);
-    return [duplicateKey].concat(shuffledArrayWithoutDuplicates);
+    return [duplicateKey, ...shuffledArrayWithoutDuplicates];
 };
 
 const getUrlParam = name => {
